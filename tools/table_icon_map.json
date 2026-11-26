@@ -3402,11 +3402,11 @@
         "table": 0,
         "row": 2,
         "col": 2,
-        "sha256": "56bd42883c0de6fb5239455ebfa9b41ef7b9596ba088aaa017481b9fe6784eba",
+        "sha256": "03b89a86b2667f4eafb26b48962b0d7cb35ba560eef1a0ee4a8636c327e6f0f5",
         "matches": [
           {
-            "start": 29,
-            "end": 35,
+            "start": 22,
+            "end": 28,
             "text": "mặt nạ",
             "icon": "mask",
             "key": null,
@@ -3743,7 +3743,7 @@
         "table": 2,
         "row": 0,
         "col": 0,
-        "sha256": "8da44b53b6efb87f041b20582ca2f57716b51859ca88300b9b42dafb22e461e8",
+        "sha256": "099a761343343e25e03e811403ed0ef8f0cd77d77c4bcc84ccf61b6f1b29bc9c",
         "matches": [
           {
             "start": 0,
@@ -4081,7 +4081,7 @@
         "table": 1,
         "row": 4,
         "col": 0,
-        "sha256": "2bfe98abff547f48fc288701d040b3d2a24240ddd58673070bdc85550ad484b2",
+        "sha256": "28fb83509a7a6cc510802d8a105ff3a0e04b0fa0ac6461d67d4fe2de262c1303",
         "matches": [
           {
             "start": 0,
@@ -4145,7 +4145,7 @@
         "table": 1,
         "row": 9,
         "col": 0,
-        "sha256": "f3f5b799c285a2fd15a974e642897efad39bcaeb34315338bc0b32c13bd573f7",
+        "sha256": "f701d8be3ddabf97cc46f3fbd649d67559dae08052088d670e5e1b7ff039f7c4",
         "matches": [
           {
             "start": 0,
@@ -5003,7 +5003,7 @@
         "table": 1,
         "row": 4,
         "col": 0,
-        "sha256": "782783948038296439d1899636846329db93a54964610e7e91c300f11683a3bf",
+        "sha256": "18de652bb7351c6db688161e248b61523ed111152f27f8c745d9c902bb970082",
         "matches": [
           {
             "start": 0,
@@ -8417,7 +8417,7 @@
         "table": 1,
         "row": 2,
         "col": 0,
-        "sha256": "8ce55550261b4d4120a2c2207cd2c8934e635381d7d4697174bed40772a58cea",
+        "sha256": "d4bb1d37f0eb6a17b34a1441870011773fe850c9df5f8bf6d87772f66b237eed",
         "matches": [
           {
             "start": 0,
@@ -13714,7 +13714,7 @@
         "table": 0,
         "row": 2,
         "col": 1,
-        "sha256": "feae89a3a5b292e8dcb702e8d1705f03dd48c9142e1901c2f3c0b8996af05f5d",
+        "sha256": "f675eee5455ea2a863d5536f571d93e0f74900a7f04a9c47904a4268a1d7f3f3",
         "matches": [
           {
             "start": 16,

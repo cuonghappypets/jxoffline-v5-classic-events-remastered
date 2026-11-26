@@ -12,4 +12,6 @@
 
 ## Cẩm nang trực tuyến
 
-Tiếp tục biên tập lời hướng dẫn dễ đọc, giữ bảng công thức/phần thưởng và tư liệu đối chiếu; bổ sung biểu tượng minh họa vật phẩm. Cập nhật cẩm nang không đồng nghĩa với thay đổi thể lệ trong addon.
+Đã biên tập lời hướng dẫn, giữ bảng công thức, phần thưởng và tư liệu đối chiếu; bổ sung biểu tượng minh họa vật phẩm. Lượt biên tập cuối tập trung vào ngôn ngữ dành cho người chơi, thuật ngữ, tiêu đề và tham chiếu tài liệu. Cập nhật cẩm nang không đồng nghĩa với thay đổi thể lệ trong addon.
+
+Kết thúc đợt phát triển beta đầu tiên. Tạm dừng mở rộng nội dung, tiếp nhận góp ý và kết quả chơi thử của cộng đồng. Chỉ mở lại khi có đủ phản hồi thực tế hoặc phát hiện lỗi nghiêm trọng.
