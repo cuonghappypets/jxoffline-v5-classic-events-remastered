@@ -52,6 +52,10 @@ Có sự kiện còn tương đối đầy đủ dữ liệu, nhưng cũng có s
 
 Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là cả 61 sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta vẫn đang được hoàn thiện. Về nền tảng, nhóm phát triển xác nhận addon tương thích với JxOffline V5, V5.1 và V5.2 của ACE và Mel. Bản beta đầu tiên cho phép mở 60 sự kiện; Thép Tinh Luyện tạm khóa để kiểm tra rủi ro nhận thưởng.
 
+## Cộng đồng Voze Truyền Kỳ Vui Vẻ
+
+Anh em có thể tham gia [Discord Voze Truyền Kỳ Vui Vẻ](https://discord.gg/B7WEFRDwT) để tải bản JxV5 gốc, trao đổi kinh nghiệm cài đặt và thảo luận cùng Mel, ACE và cộng đồng người chơi.
+
 ## Cài đặt và đồng bộ addon
 
 **[Tải CGPT Community Beta 1.1.0 — bản chép trực tiếp](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1_Full.zip)** — tải asset `CGPT_1.1.0-beta.1_Full.zip`, không phải Source code ZIP.
