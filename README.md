@@ -54,15 +54,15 @@ Có sự kiện còn tương đối đầy đủ dữ liệu, nhưng cũng có s
 
 Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là cả 61 sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta vẫn đang được hoàn thiện. Về nền tảng, nhóm phát triển xác nhận addon tương thích với JxOffline V5, V5.1 và V5.2 của ACE và Mel. Bản beta đầu tiên cho phép mở 60 sự kiện; Thép Tinh Luyện tạm khóa để kiểm tra rủi ro nhận thưởng.
 
-## Cộng đồng Voze Truyền Kỳ Vui Vẻ
+## Cộng đồng Vozer Truyền Kỳ Vui Vẻ
 
-Anh em có thể tham gia [Discord Voze Truyền Kỳ Vui Vẻ](https://discord.gg/B7WEFRDwT) để tải bản JxV5 gốc, trao đổi kinh nghiệm cài đặt và thảo luận cùng Mel, ACE và cộng đồng người chơi.
+Anh em có thể tham gia [Discord Vozer Truyền Kỳ Vui Vẻ](https://discord.gg/B7WEFRDwT) để tải bản JxV5 gốc, trao đổi kinh nghiệm cài đặt và thảo luận cùng Mel, ACE và cộng đồng người chơi.
 
 ## Cài JxV5 bằng bộ cài WSL2 của VDK
 
 Nếu anh em chưa có game chạy được trên Windows, có thể sử dụng bộ cài WSL2 do bác **Võ Duy Khánh (VDK)** chia sẻ.
 
-1. Tải [bộ cài WSL2 của bác Võ Duy Khánh](https://drive.google.com/file/d/1DAgjb3Ari2zednom28EDCt2Biu0xkLqK/view?usp=drive_link). Chuẩn bị bộ Server (`.tgz`) và Client JxV5 từ cộng đồng Voze Truyền Kỳ Vui Vẻ ở trên.
+1. Tải [bộ cài WSL2 của bác Võ Duy Khánh](https://drive.google.com/file/d/1DAgjb3Ari2zednom28EDCt2Biu0xkLqK/view?usp=drive_link). Chuẩn bị bộ Server (`.tgz`) và Client JxV5 từ cộng đồng Vozer Truyền Kỳ Vui Vẻ ở trên.
 2. Chạy `VLTK-Server.exe` để khởi tạo lần đầu. Sang tab **Quản lý file**, tải lên file Server `.tgz` rồi giải nén tại chỗ.
 3. Trở lại tab **Bảng điều khiển**, chọn `jxser` ở cạnh nút **Khởi động**, rồi bấm **Khởi động** để chạy Server.
 4. Khi Server đã khởi động, chạy `Game.exe` trong thư mục Client để vào game.
