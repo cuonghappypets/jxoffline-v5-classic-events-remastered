@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Wood element crystal">
+<title>Wood element crystal</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#ecf5fe" stroke="#7aadc9" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#7aadc9" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M32 8 49 26 43 51 21 51 15 26Z" fill="#a4d48a" stroke="#477e58" stroke-width="3"/>
+<path d="M32 49V19m0 19L23 28m9 1 10-10" stroke="#367a47" stroke-width="3.7" fill="none"/>
+<path d="M23 27q-9-12 2-14 10 0 7 13M42 21q0-13-9-13-6 6-1 13" fill="#6cb06a" stroke="#477e58" stroke-width="2"/>
+</g>
+</svg>

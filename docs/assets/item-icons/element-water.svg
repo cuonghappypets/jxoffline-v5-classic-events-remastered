@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Water element crystal">
+<title>Water element crystal</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#ecf5fe" stroke="#7aadc9" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#7aadc9" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M32 8C28 20 14 29 14 39a18 18 0 0 0 36 0C50 29 36 20 32 8Z" fill="#79c6e8" stroke="#317cac" stroke-width="3"/>
+<path d="M18 39c6-6 12-6 18 0s10 5 14 0M22 47c6-5 12-5 19 0" stroke="#d5f5ff" stroke-width="3" fill="none"/>
+<circle cx="36" cy="29" r="3" fill="#e8fdff"/>
+</g>
+</svg>

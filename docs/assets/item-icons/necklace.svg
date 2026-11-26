@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="An Bang necklace">
+<title>An Bang necklace</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#fff1e5" stroke="#cb9b71" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#cb9b71" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M16 13c-4 15 2 26 16 34 14-8 20-19 16-34" fill="none" stroke="#c58d44" stroke-width="5"/>
+<path d="M21 16c-2 9 2 17 11 23 9-6 13-14 11-23" fill="none" stroke="#f4cd7d" stroke-width="2.4"/>
+<path d="M32 36 43 45 32 57 21 45Z" fill="#5b9fbe" stroke="#477a95" stroke-width="2.7"/>
+<path d="m32 36 0 21m-11-12h22" stroke="#dbf5ff" stroke-width="2"/>
+</g>
+</svg>

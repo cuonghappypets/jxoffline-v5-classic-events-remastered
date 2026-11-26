@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Butterfly lantern">
+<title>Butterfly lantern</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#fff0dd" stroke="#d89a72" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#d89a72" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M31 8v10M31 48v9" stroke="#9d6850" stroke-width="3"/>
+<path d="M31 30C15 8 7 18 13 30 2 43 17 54 31 40c14 14 29 3 18-10 6-12-2-22-18 0Z" fill="#ec9f69" stroke="#a65550" stroke-width="3"/>
+<path d="M31 30v12M14 31l11 6m23-6-11 6" stroke="#f5d99a" stroke-width="3"/>
+<circle cx="20" cy="25" r="4" fill="#f8ce78"/><circle cx="42" cy="25" r="4" fill="#f8ce78"/>
+</g>
+</svg>

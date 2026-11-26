@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Dinh Quoc belt">
+<title>Dinh Quoc belt</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#eaf1f9" stroke="#839eb8" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#839eb8" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M7 23q25-8 50 0v19q-25 9-50 0Z" fill="#6f8a9b" stroke="#355b77" stroke-width="3"/>
+<rect x="22" y="20" width="21" height="26" rx="4" fill="#e0bf79" stroke="#9e7a43" stroke-width="3"/>
+<rect x="28" y="27" width="9" height="12" rx="2" fill="#6a91a8" stroke="#9e7a43" stroke-width="2"/>
+<path d="M12 27v11M52 27v11" stroke="#c8dbe1" stroke-width="2.6"/>
+</g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Silk cloth">
+<title>Silk cloth</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#f0f2dd" stroke="#aab085" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#aab085" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M12 20c10-7 19-8 31-4l9 7-6 31c-10-8-20-6-29 2Z" fill="#a583b9" stroke="#795f94" stroke-width="3"/>
+<path d="M12 20c7 5 13 7 19 6 7-1 13-3 21-3M17 56c9-16 17-15 29-2" stroke="#e1c3ea" stroke-width="3" fill="none"/>
+<path d="M30 28q-5 10-3 22" fill="none" stroke="#c9a9d5" stroke-width="3"/>
+</g>
+</svg>

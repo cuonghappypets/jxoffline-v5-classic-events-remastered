@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Sung figs">
+<title>Sung figs</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#fff3d9" stroke="#c98f5b" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#c98f5b" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M32 11v12M32 18 20 27M32 18l11 9" fill="none" stroke="#56824c" stroke-width="3.4"/>
+<path d="M21 26c-8 2-10 11-8 17 2 7 12 8 17 4 6-5 3-16-9-21Z" fill="#79a856" stroke="#407a42" stroke-width="2.8"/>
+<path d="M43 24c-8 1-12 11-9 17 4 8 15 8 19 0 3-7-2-15-10-17Z" fill="#9cba60" stroke="#407a42" stroke-width="2.8"/>
+<path d="M31 37c-8 1-12 9-10 15 4 6 14 7 19 1 5-6 0-14-9-16Z" fill="#b1c66a" stroke="#407a42" stroke-width="2.8"/>
+<path d="m19 32 3 5m23-5-3 5M31 44l-2 5" stroke="#dbe5a5" stroke-width="2.2"/>
+</g>
+</svg>

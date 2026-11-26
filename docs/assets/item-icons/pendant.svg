@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="An Bang jade pendant">
+<title>An Bang jade pendant</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#fff1e5" stroke="#cb9b71" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#cb9b71" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M16 13c-1 13 3 19 16 26 13-7 17-13 16-26" stroke="#c48f49" stroke-width="4" fill="none"/>
+<path d="m32 27 14 12-3 14H21l-3-14Z" fill="#83b9a0" stroke="#3e7f71" stroke-width="3"/>
+<circle cx="32" cy="40" r="6" fill="#c9e5ba" stroke="#4d9173" stroke-width="2"/>
+<path d="M24 49h16" stroke="#4d9173" stroke-width="3"/>
+</g>
+</svg>

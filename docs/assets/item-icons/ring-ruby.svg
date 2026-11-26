@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Ring with ruby gem">
+<title>Ring with ruby gem</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#fff1e5" stroke="#cb9b71" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#cb9b71" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="32" cy="39" rx="15" ry="16" fill="none" stroke="#b77f39" stroke-width="9"/>
+<ellipse cx="32" cy="39" rx="15" ry="16" fill="none" stroke="#f4ce7f" stroke-width="4"/>
+<path d="m32 8 13 11-4 12H23l-4-12Z" fill="#a93854" stroke="#854957" stroke-width="3"/>
+<path d="m19 19 26 0M32 8l-4 11 4 12 4-12Z" fill="none" stroke="#ffd1d2" stroke-width="2"/>
+</g>
+</svg>

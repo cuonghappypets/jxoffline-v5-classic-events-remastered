@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Premium lantern: star">
+<title>Premium lantern: star</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#fff0dd" stroke="#d89a72" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#d89a72" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M32 7v11m0 30v9" stroke="#9d6850" stroke-width="3"/>
+<path d="m32 13 7 14 16 2-12 11 3 16-14-8-14 8 3-16L9 29l16-2Z" fill="#f3c35d" stroke="#b7773d" stroke-width="3"/>
+<path d="m32 19 0 29m-17-15 34 0m-28 13 21-20m-21 0 22 20" stroke="#fff2ad" stroke-width="2.6"/>
+<path d="m52 8 1.8 5.7L60 16l-6.2 2.3L52 24l-2-5.7L44 16l6-2.3Z" fill="#f3ca65" stroke="#9e6e36" stroke-width="1.5"/></g>
+</svg>

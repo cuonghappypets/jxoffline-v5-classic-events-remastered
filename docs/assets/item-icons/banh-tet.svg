@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Banh tet">
+<title>Banh tet</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#fff0d8" stroke="#d5a169" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#d5a169" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M13 38 33 15l19 16-20 23Z" fill="#669c5d" stroke="#356e4c" stroke-width="3"/>
+<path d="m16 34 18 15m-8-25 18 16" stroke="#d8df8b" stroke-width="5"/>
+<path d="m16 34 18 15m-8-25 18 16" stroke="#568f5d" stroke-width="2.3"/>
+<ellipse cx="32" cy="53" rx="10" ry="7" transform="rotate(-45 32 53)" fill="#f3d7a0" stroke="#356e4c" stroke-width="2.5"/>
+<ellipse cx="32" cy="53" rx="4" ry="3" transform="rotate(-45 32 53)" fill="#d6a66c"/>
+</g>
+</svg>

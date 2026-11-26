@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Fire element crystal">
+<title>Fire element crystal</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#ecf5fe" stroke="#7aadc9" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#7aadc9" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="m24 12 17 0 12 22-21 22-21-22Z" fill="#f7b068" stroke="#bd633c" stroke-width="3"/>
+<path d="M31 48c-11 0-14-10-6-18 1 7 6 7 5-1-1-5 4-10 7-13 2 9 10 15 8 23-1 6-6 9-14 9Z" fill="#eb6046" stroke="#a83e3b" stroke-width="2"/>
+<path d="M32 46c-5-2-6-6-1-12 2 4 5 5 5 8s-2 4-4 4Z" fill="#ffdb7c"/>
+</g>
+</svg>

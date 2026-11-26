@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Du du">
+<title>Du du</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#fff3d9" stroke="#c98f5b" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#c98f5b" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M30 15c-2-5 2-7 6-8M32 17c6-8 13-7 16-2-5 6-10 8-16 2Z" fill="#6aaf56" stroke="#39804f" stroke-width="2.5"/>
+<path d="M17 39c0-17 9-26 20-22 11 3 16 16 9 28-5 10-20 13-27 6-3-4-3-8-2-12Z" fill="#f1aa43" stroke="#6d8c3e" stroke-width="3"/>
+<path d="M27 25c-7 8-8 19-2 24 8 5 18-4 17-14-1-9-9-16-15-10Z" fill="#ffcf65" stroke="#e58739" stroke-width="2.5"/>
+<ellipse cx="32" cy="34" rx="2.5" ry="3.5" fill="#6d4b30"/><ellipse cx="36" cy="41" rx="2.5" ry="3.5" fill="#6d4b30"/><ellipse cx="27" cy="41" rx="2.5" ry="3.5" fill="#6d4b30"/>
+</g>
+</svg>

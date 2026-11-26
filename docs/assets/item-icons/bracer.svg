@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Dinh Quoc bracer">
+<title>Dinh Quoc bracer</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#eaf1f9" stroke="#839eb8" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#839eb8" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M19 11h26l-4 40H23Z" fill="#6f95ae" stroke="#355d78" stroke-width="3"/>
+<path d="M21 17h22M20 45h23" stroke="#d4b67f" stroke-width="6"/>
+<path d="m32 22 7 11-7 8-7-8Z" fill="#bad2de" stroke="#4e718e" stroke-width="2"/>
+</g>
+</svg>

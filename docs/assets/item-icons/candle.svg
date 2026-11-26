@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Candle">
+<title>Candle</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#f0f2dd" stroke="#aab085" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#aab085" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="20" y="28" width="24" height="27" rx="4" fill="#f3dfac" stroke="#ba9b70" stroke-width="3"/>
+<path d="M32 27v-5" stroke="#81674f" stroke-width="2.5"/>
+<path d="M32 8c-9 8-7 17 0 17 7 0 9-9 0-17Z" fill="#f4a957" stroke="#d17f45" stroke-width="2.5"/>
+<path d="M32 15c-4 5-3 9 0 9 4 0 4-5 0-9Z" fill="#fff0ac"/>
+<path d="M22 34h20" stroke="#fff6d8" stroke-width="3"/>
+</g>
+</svg>

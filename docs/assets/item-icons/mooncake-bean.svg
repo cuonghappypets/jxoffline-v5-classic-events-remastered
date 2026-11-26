@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Mooncake: bean filling illustration">
+<title>Mooncake: bean filling illustration</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#fff0d8" stroke="#d5a169" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#d5a169" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M17 26q-5-7 4-10 3-9 11-5 8-4 11 5 9 3 4 10 7 7 0 13 2 9-7 10-8 9-17 0-10-1-7-10-7-6 1-13Z" fill="#d3ad68" stroke="#a77137" stroke-width="3"/>
+<circle cx="32" cy="32" r="14" fill="#d5da8c" stroke="#b88341" stroke-width="2.5"/>
+<path d="m32 22 3 7 8 1-6 6 1 8-6-4-6 4 1-8-6-6 8-1Z" fill="#d49b4d" stroke="#a77137" stroke-width="1.5"/>
+<ellipse cx="32" cy="32" rx="9" ry="7" fill="#779d59" stroke="#58753f" stroke-width="2"/><path d="M26 32Q32 38 39 29" fill="none" stroke="#dbe6a0" stroke-width="2"/></g>
+</svg>

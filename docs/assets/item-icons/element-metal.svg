@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Metal element crystal">
+<title>Metal element crystal</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#ecf5fe" stroke="#7aadc9" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#7aadc9" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="m21 12 22 0 12 17-23 27L9 29Z" fill="#afc8d6" stroke="#55798e" stroke-width="3"/>
+<path d="m21 12 11 14 11-14M9 29h46M32 26v30" stroke="#effaff" stroke-width="2.5" fill="none"/>
+<path d="m32 21 3.5 6.5L43 31l-7.5 3.5L32 42l-3.5-7.5L21 31l7.5-3.5Z" fill="#fff8c7" stroke="#698da3" stroke-width="1.5"/>
+</g>
+</svg>

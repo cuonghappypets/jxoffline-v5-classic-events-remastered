@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Dinh Quoc boots">
+<title>Dinh Quoc boots</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#eaf1f9" stroke="#839eb8" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#839eb8" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M16 11h14v25l8 8v9H12v-9l4-10Z" fill="#62839c" stroke="#355d78" stroke-width="3"/>
+<path d="M35 11h12v24l7 7v11H32V42l3-9Z" fill="#8cacc2" stroke="#355d78" stroke-width="3"/>
+<path d="M14 45h23m-1-5h16M17 23h12m7 0h10" stroke="#d1e3e7" stroke-width="2.8"/>
+</g>
+</svg>

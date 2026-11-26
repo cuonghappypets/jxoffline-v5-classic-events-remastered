@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Bamboo sticks">
+<title>Bamboo sticks</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#f0f2dd" stroke="#aab085" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#aab085" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M20 10v44M31 8v48M43 13v42" stroke="#60834b" stroke-width="8"/>
+<path d="M20 10v44M31 8v48M43 13v42" stroke="#a6c47b" stroke-width="4"/>
+<path d="M16 22h8m3-2h8m4 10h8M16 40h8m3-2h8m4 8h8" stroke="#4e7648" stroke-width="3"/>
+<path d="M18 17C7 12 8 5 12 5c8 1 9 9 6 12m24 11c10-12 14-8 14-4-1 5-8 8-14 4" fill="#77ad65" stroke="#4e7648" stroke-width="2"/>
+</g>
+</svg>

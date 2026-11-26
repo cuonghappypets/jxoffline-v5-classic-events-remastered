@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Round lantern">
+<title>Round lantern</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#fff0dd" stroke="#d89a72" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#d89a72" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M32 7v8m0 33v10" stroke="#9a6b47" stroke-width="3"/>
+<rect x="24" y="13" width="16" height="6" rx="2" fill="#d4a75f" stroke="#9a6b47" stroke-width="2"/>
+<ellipse cx="32" cy="34" rx="22" ry="19" fill="#db5c53" stroke="#a44747" stroke-width="3"/>
+<path d="M21 19q-13 14 0 29m11-29v29m11-29q13 14 0 29" stroke="#f9bf79" stroke-width="2.7" fill="none"/>
+<path d="M23 52h18" stroke="#9a6b47" stroke-width="4"/>
+</g>
+</svg>

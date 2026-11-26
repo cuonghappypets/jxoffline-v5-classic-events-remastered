@@ -17,13 +17,14 @@ figure:empty{display:none}.card-img{display:none}
 /* Illustrative item-category icons, independent of game assets. */
 .item-card{display:flex;align-items:center;gap:.75rem;min-width:0;padding:.8rem}
 .item-card>div{min-width:0;overflow-wrap:anywhere}
+.item-illustration{display:block;flex:0 0 2.65rem;width:2.65rem;height:2.65rem;object-fit:contain;padding:3px;border:1px solid var(--line);border-radius:8px;background:var(--soft)}
 .item-symbol{display:flex;align-items:center;justify-content:center;flex:0 0 2.65rem;height:2.65rem;border:1px solid var(--line);border-radius:8px;background:rgba(174,135,65,.10);font-size:1.45rem;line-height:1;font-family:"Segoe UI Emoji","Apple Color Emoji","Noto Color Emoji",sans-serif}
 .item-symbol--fruit,.item-symbol--flower{background:rgba(104,148,68,.14)}
 .item-symbol--festival,.item-symbol--gift{background:rgba(175,68,48,.12)}
 .item-symbol--gem,.item-symbol--potion{background:rgba(60,115,166,.12)}
 .item-symbol--scroll,.item-symbol--food{background:rgba(193,145,51,.15)}
 .icon-legend{font-size:.8rem;color:var(--muted);margin:.65rem 0 0}
-@media(max-width:700px){.item-card{gap:.55rem;padding:.65rem}.item-symbol{flex-basis:2.15rem;height:2.15rem;font-size:1.25rem}.item-card strong{font-size:.9rem}}
+@media(max-width:700px){.item-card{gap:.55rem;padding:.65rem}.item-illustration{flex-basis:2.15rem;width:2.15rem;height:2.15rem;padding:2px}.item-card strong{font-size:.9rem}}
 
 /* Final handbook polish: ink, old paper and understated seasonal accents. */
 :root {

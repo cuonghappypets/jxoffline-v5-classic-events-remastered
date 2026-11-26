@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Rice bowl">
+<title>Rice bowl</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#fff0d8" stroke="#d5a169" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#d5a169" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M13 34c1 17 9 23 19 23s18-6 19-23Z" fill="#6188ab" stroke="#335c80" stroke-width="3"/>
+<path d="M15 34c-1-10 8-16 17-16s18 6 17 16Z" fill="#fff1cc" stroke="#ad9b7c" stroke-width="2.5"/>
+<path d="m23 24 2 5m7-7v7m9-5-3 5" stroke="#d4c59d" stroke-width="2.5"/>
+<path d="M23 43c5 3 13 4 19 0" stroke="#a4ccdc" stroke-width="3" fill="none"/>
+</g>
+</svg>
