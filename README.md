@@ -29,21 +29,23 @@ Phần quan trọng nhất mình muốn chia sẻ là addon này mới được 
 
 Có sự kiện còn tương đối đầy đủ dữ liệu, nhưng cũng có sự kiện chỉ còn vài đoạn script, vài vật phẩm hoặc một bài viết cũ. Những cơ chế bị thất lạc phải được suy luận, tái tạo và chế cháo thêm để có thể hoạt động. Cái gì tìm được căn cứ thì cố gắng giữ đúng; phần chưa đủ tư liệu vẫn có thể khác với nguyên bản.
 
-Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là cả 61 sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta vẫn đang được hoàn thiện. Về nền tảng, nhóm phát triển xác nhận addon tương thích với JxOffline V5, V5.1 và V5.2 của ACE và Mel.
+Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là cả 61 sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta vẫn đang được hoàn thiện. Về nền tảng, nhóm phát triển xác nhận addon tương thích với JxOffline V5, V5.1 và V5.2 của ACE và Mel. Bản beta đầu tiên cho phép mở 60 sự kiện; Thép Tinh Luyện (ID52) tạm khóa để kiểm tra rủi ro nhận thưởng.
 
 ## Cài đặt và đồng bộ addon
 
-> **Hiện trạng:** chưa có gói cài công khai. Các bước dưới đây mô tả cách sử dụng gói `cgpt` khi được phát hành, không phải hướng dẫn lấy mã từ repo tài liệu hiện tại để cài ngay.
+**[Tải CGPT Community Beta 1.1.0](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.1)** — tải asset `CGPT_1.1.0-beta.1.zip`, không phải Source code ZIP.
+
+Gói vá tạo thư mục addon `cgpt` từ bộ game có sẵn của anh em, không phân phối nguyên dữ liệu game. Có một bước chuẩn bị trên Windows trước khi đồng bộ.
 
 ### Chuẩn bị
 
 1. Có bộ **JxOffline V5, V5.1 hoặc V5.2 của ACE và Mel**, chơi được bình thường. Không bắt buộc nâng cấp lên V5.2. Các bản mod khác cần đối chiếu xung đột trước khi cài.
 2. Thoát game, tắt GameServer và sao lưu toàn bộ server, client, ảnh đĩa máy ảo và dữ liệu nhân vật. Nên thử trên bản sao trước.
-3. Khi gói addon được công bố, tải đúng phiên bản từ mục Releases và giải nén vào thư mục riêng. Không chép đè cả bộ game.
+3. Tải ZIP từ Releases, giải nén vào thư mục riêng. Chạy `Prepare-cgpt.cmd`, nhập đường dẫn archive `JxserV5.tgz` gốc hoặc thư mục server sạch đã export chứa `server1`, rồi nhập đường dẫn thư mục Client (nơi có `settings`). Khi báo SUCCESS, thư mục `cgpt` xuất hiện cạnh file chuẩn bị. Nếu báo file thiếu hoặc khác checksum, dừng lại kiểm tra bộ gốc. Script chỉ tạo thư mục mới, không tự chép vào game và không cần cài Python. Hướng dẫn chi tiết có trong README của ZIP.
 
 ### Đồng bộ lần đầu
 
-Gói dự kiến có cấu trúc `cgpt/server1/` và `cgpt/Client/` (chỉ các file cần thiết cho lễ hội). Đọc ghi chú tương thích của chính gói đó trước khi chép.
+Sau bước chuẩn bị, thư mục `cgpt` có cấu trúc `cgpt/server1/` và `cgpt/Client/` (chỉ các file cần thiết cho lễ hội). Đọc ghi chú tương thích của chính gói đó trước khi chép.
 
 | Thư mục trong gói | Vị trí trong game |
 | --- | --- |
@@ -63,11 +65,11 @@ Gói dự kiến có cấu trúc `cgpt/server1/` và `cgpt/Client/` (chỉ các 
 
 ### Trạng thái bộ cài
 
-Đã đối chiếu các tuyến tích hợp với archive game gốc. Nhóm phát triển xác nhận tương thích V5, V5.1 và V5.2; việc hoàn thiện bộ cài và kiểm thử từng sự kiện vẫn đang tiếp tục. Nghiệm thu gameplay do cộng đồng cùng đóng góp; các ca chưa thử không được ghi PASS. Thép Tinh Luyện (ID52) còn tình huống thiếu ô hành trang/stack cần kiểm tra, chưa khuyến nghị giao dịch trên nhân vật có dữ liệu quan trọng.
+Đã phát hành Community Beta 1.1.0 (pre-release). Bộ tạo addon kiểm tra 123 file gốc, tái tạo 278 file đầu ra đúng checksum và từ chối đầu vào khác dữ liệu đã đối chiếu. Các file nguồn cần cho bản vá không thay đổi trong hai gói cập nhật V5.1/V5.2 đã kiểm tra. Nhóm phát triển xác nhận tương thích nền tảng V5, V5.1 và V5.2; chưa nghiệm thu cài đặt native sạch hoặc gameplay đầy đủ của chính gói beta này. Nghiệm thu gameplay do cộng đồng cùng đóng góp. Thép Tinh Luyện (ID52) tạm khóa trong beta này.
 
 ## Cẩm nang và góp ý
 
-Anh em nào có thời gian thì chơi thử khi gói beta được phát hành nhé! Không cần test hết 61 sự kiện đâu, cứ chọn những sự kiện mình từng chơi và còn nhớ là quý lắm rồi.
+Anh em nào có thời gian thì tải gói beta về chơi thử nhé! Không cần test hết 61 sự kiện đâu, cứ chọn những sự kiện mình từng chơi và còn nhớ là quý lắm rồi.
 
 Nếu thấy cơ chế chưa đúng, tỷ lệ rơi đồ hoặc phần thưởng chưa hợp lý, gặp bug hay đơn giản là nhớ một chi tiết khác với bản phục dựng, anh em cứ thoải mái góp ý. Không cần biết lập trình hay đọc source; đôi khi chỉ một câu *“Hồi đó tôi nhớ sự kiện này không phải chơi như vậy…”* cũng đã là một manh mối rất quý.
 
@@ -75,9 +77,9 @@ Nếu thấy cơ chế chưa đúng, tỷ lệ rơi đồ hoặc phần thưởn
 - [Danh sách kiểm thử](COMMUNITY_UAT.md)
 - [Mẫu báo lỗi](REPORT_BUG.md)
 - [Gửi góp ý qua GitHub Issues](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/issues)
-- [Releases – nơi công bố gói addon khi sẵn sàng](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases)
+- [Releases – tải gói addon](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases)
 
-Cẩm nang công khai giữ nội dung chi tiết và liên kết nguồn, không kèm ảnh hoặc sprite game. Hiện chưa có gói cài công khai trên GitHub.
+Cẩm nang công khai giữ nội dung chi tiết và liên kết nguồn, không kèm ảnh hoặc sprite game.
 
 ## Lời cảm ơn
 
