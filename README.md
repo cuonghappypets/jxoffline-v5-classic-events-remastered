@@ -8,6 +8,8 @@ Addon: `cgpt`
 
 **Nền tảng JxOffline V5:** ACE và Mel.
 
+**Bộ cài WSL2:** Võ Duy Khánh (VDK).
+
 **Cảm ơn:** PGaming và các anh em dev đi trước đã để lại mã nguồn và tư liệu quý giá.
 
 **Nhóm phục dựng addon:** **CGPT — Classic Game Preservation Team** (Cường + Chat GPT).
@@ -55,6 +57,17 @@ Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ
 ## Cộng đồng Voze Truyền Kỳ Vui Vẻ
 
 Anh em có thể tham gia [Discord Voze Truyền Kỳ Vui Vẻ](https://discord.gg/B7WEFRDwT) để tải bản JxV5 gốc, trao đổi kinh nghiệm cài đặt và thảo luận cùng Mel, ACE và cộng đồng người chơi.
+
+## Cài JxV5 bằng bộ cài WSL2 của VDK
+
+Nếu anh em chưa có game chạy được trên Windows, có thể sử dụng bộ cài WSL2 do bác **Võ Duy Khánh (VDK)** chia sẻ.
+
+1. Tải [bộ cài WSL2 của bác Võ Duy Khánh](https://drive.google.com/file/d/1DAgjb3Ari2zednom28EDCt2Biu0xkLqK/view?usp=drive_link). Chuẩn bị bộ Server (`.tgz`) và Client JxV5 từ cộng đồng Voze Truyền Kỳ Vui Vẻ ở trên.
+2. Chạy `VLTK-Server.exe` để khởi tạo lần đầu. Sang tab **Quản lý file**, tải lên file Server `.tgz` rồi giải nén tại chỗ.
+3. Trở lại tab **Bảng điều khiển**, chọn `jxser` ở cạnh nút **Khởi động**, rồi bấm **Khởi động** để chạy Server.
+4. Khi Server đã khởi động, chạy `Game.exe` trong thư mục Client để vào game.
+
+Nên kiểm tra game gốc hoạt động bình thường trước khi cài addon CGPT theo hướng dẫn bên dưới. Bộ cài WSL2 và game gốc là các sản phẩm riêng, không nằm trong gói addon CGPT.
 
 ## Cài đặt và đồng bộ addon
 
@@ -120,7 +133,7 @@ Cẩm nang giữ nội dung chi tiết và liên kết nguồn; các icon vật 
 
 ## Lời cảm ơn
 
-Đặc biệt cảm ơn hai bác **ACE và Mel** đã làm nên nền tảng JxOffline V5 để anh em có cơ hội trở lại Võ Lâm. Cảm ơn **PGaming** và các anh em dev đi trước đã để lại những đoạn source và tư liệu quý giá cho cộng đồng. Nếu không có công sức của mọi người, chắc cũng chẳng có addon này. :D
+Đặc biệt cảm ơn hai bác **ACE và Mel** đã làm nên nền tảng JxOffline V5 để anh em có cơ hội trở lại Võ Lâm. Cảm ơn bác **Võ Duy Khánh (VDK)** đã chia sẻ bộ cài WSL2, giúp anh em thuận tiện hơn khi cài đặt và trải nghiệm game. Cảm ơn **PGaming** và các anh em dev đi trước đã để lại những đoạn source và tư liệu quý giá cho cộng đồng. Nếu không có công sức của mọi người, chắc cũng chẳng có addon này. :D
 
 Gần hai mươi năm đã qua, mã nguồn có thể thất lạc, tư liệu có thể không còn, nhưng đâu đó trong ký ức mỗi anh em vẫn còn một mảnh Võ Lâm ngày ấy.
 
