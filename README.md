@@ -29,7 +29,7 @@ Phần quan trọng nhất mình muốn chia sẻ là addon này mới được 
 
 Có sự kiện còn tương đối đầy đủ dữ liệu, nhưng cũng có sự kiện chỉ còn vài đoạn script, vài vật phẩm hoặc một bài viết cũ. Những cơ chế bị thất lạc phải được suy luận, tái tạo và chế cháo thêm để có thể hoạt động. Cái gì tìm được căn cứ thì cố gắng giữ đúng; phần chưa đủ tư liệu vẫn có thể khác với nguyên bản.
 
-Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là cả 61 sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta vẫn đang được hoàn thiện; khả năng tương thích với bộ V5.2 sạch cũng chưa được xác nhận.
+Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là cả 61 sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta vẫn đang được hoàn thiện. Về nền tảng, nhóm phát triển xác nhận addon tương thích với JxOffline V5, V5.1 và V5.2 của ACE và Mel.
 
 ## Cài đặt và đồng bộ addon
 
@@ -37,7 +37,7 @@ Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ
 
 ### Chuẩn bị
 
-1. Có bộ **JxOffline V5 của ACE và Mel**, đã cập nhật V5.1 và V5.2, chơi được bình thường. Chưa xác nhận tương thích V5.0/V5.1 hoặc bản mod khác.
+1. Có bộ **JxOffline V5, V5.1 hoặc V5.2 của ACE và Mel**, chơi được bình thường. Không bắt buộc nâng cấp lên V5.2. Các bản mod khác cần đối chiếu xung đột trước khi cài.
 2. Thoát game, tắt GameServer và sao lưu toàn bộ server, client, ảnh đĩa máy ảo và dữ liệu nhân vật. Nên thử trên bản sao trước.
 3. Khi gói addon được công bố, tải đúng phiên bản từ mục Releases và giải nén vào thư mục riêng. Không chép đè cả bộ game.
 
@@ -63,7 +63,7 @@ Gói dự kiến có cấu trúc `cgpt/server1/` và `cgpt/Client/` (chỉ các 
 
 ### Trạng thái bộ cài
 
-Đã đối chiếu các tuyến tích hợp với archive game gốc. Còn phải hoàn thành bản ghép bảng vật phẩm sự kiện và thử trên JX V5.2 sạch. Nghiệm thu gameplay do cộng đồng cùng đóng góp; các ca chưa thử không được ghi PASS. Thép Tinh Luyện (ID52) còn tình huống thiếu ô hành trang/stack cần kiểm tra, chưa khuyến nghị giao dịch trên nhân vật có dữ liệu quan trọng.
+Đã đối chiếu các tuyến tích hợp với archive game gốc. Nhóm phát triển xác nhận tương thích V5, V5.1 và V5.2; việc hoàn thiện bộ cài và kiểm thử từng sự kiện vẫn đang tiếp tục. Nghiệm thu gameplay do cộng đồng cùng đóng góp; các ca chưa thử không được ghi PASS. Thép Tinh Luyện (ID52) còn tình huống thiếu ô hành trang/stack cần kiểm tra, chưa khuyến nghị giao dịch trên nhân vật có dữ liệu quan trọng.
 
 ## Cẩm nang và góp ý
 
