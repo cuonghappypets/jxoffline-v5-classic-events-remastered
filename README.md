@@ -1,10 +1,12 @@
 # JxOffline V5 Classic Events Remastered
 
-**JxOffline V5 (by ACE) · Community Beta**
+**JxOffline V5 (by ACE) · Beta cộng đồng đầu tiên** (phiên bản phát hành: v1.1.0-beta.1)
 
 Addon: `cgpt`
 
-**Tri ân các bậc tiền bối:** **ACE và Mel** — nền tảng JxOffline V5; **PGaming** và các anh em dev đi trước — mã nguồn và tư liệu quý giá.
+**Nền tảng JxOffline V5:** ACE và Mel.
+
+**Cảm ơn:** PGaming và các anh em dev đi trước đã để lại mã nguồn và tư liệu quý giá.
 
 **Nhóm phục dựng addon:** **CGPT — Classic Game Preservation Team** (Cường + Chat GPT).
 
@@ -30,13 +32,15 @@ Phần quan trọng nhất mình muốn chia sẻ là addon này mới được 
 
 Có sự kiện còn tương đối đầy đủ dữ liệu, nhưng cũng có sự kiện chỉ còn vài đoạn script, vài vật phẩm hoặc một bài viết cũ. Những cơ chế bị thất lạc phải được suy luận, tái tạo và chế cháo thêm để có thể hoạt động. Cái gì tìm được căn cứ thì cố gắng giữ đúng; phần chưa đủ tư liệu vẫn có thể khác với nguyên bản.
 
-Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là cả 61 sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta vẫn đang được hoàn thiện. Về nền tảng, nhóm phát triển xác nhận addon tương thích với JxOffline V5, V5.1 và V5.2 của ACE và Mel. Bản beta đầu tiên cho phép mở 60 sự kiện; Thép Tinh Luyện (ID52) tạm khóa để kiểm tra rủi ro nhận thưởng.
+Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là cả 61 sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta vẫn đang được hoàn thiện. Về nền tảng, nhóm phát triển xác nhận addon tương thích với JxOffline V5, V5.1 và V5.2 của ACE và Mel. Bản beta đầu tiên cho phép mở 60 sự kiện; Thép Tinh Luyện tạm khóa để kiểm tra rủi ro nhận thưởng.
 
 ## Cài đặt và đồng bộ addon
 
 **[Tải CGPT Community Beta 1.1.0 — bản chép trực tiếp](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1_Full.zip)** — tải asset `CGPT_1.1.0-beta.1_Full.zip`, không phải Source code ZIP.
 
 Bản chép trực tiếp đã có sẵn thư mục `cgpt` chứa các file cần thiết cho addon. Không cần chạy script chuẩn bị. [Bản vá tạo file từ bộ gốc](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1.zip) vẫn được giữ lại cho anh em muốn đối chiếu dữ liệu đầu vào.
+
+Xem thêm [hướng dẫn cài đặt chi tiết](INSTALL.md) nếu cần.
 
 ### Chuẩn bị
 
@@ -66,7 +70,7 @@ Thư mục `cgpt` có cấu trúc `cgpt/server1/` và `cgpt/Client/` (chỉ các
 
 ### Trạng thái bộ cài
 
-Đã phát hành Community Beta 1.1.0 (pre-release). Bản chép trực tiếp gồm 254 file server và 24 file client, khớp checksum với 278 file do bản vá cùng phiên bản tạo ra. Đã rà các đường dẫn file mới và các tuyến script của vật phẩm thay đổi; không phát hiện đường dẫn thiếu trong phạm vi đối chiếu tĩnh. Các file nguồn cần cho bản vá không thay đổi trong hai gói cập nhật V5.1/V5.2 đã kiểm tra. Nhóm phát triển xác nhận tương thích nền tảng V5, V5.1 và V5.2; chưa nghiệm thu cài đặt native sạch hoặc gameplay đầy đủ của chính gói beta này. Nghiệm thu gameplay do cộng đồng cùng đóng góp. Thép Tinh Luyện (ID52) tạm khóa trong beta này.
+Bản beta cộng đồng đầu tiên đã có file tải. Hai gói cài cho cùng nội dung addon và đã được kiểm tra tính toàn vẹn. Nhóm phát triển xác nhận tương thích V5, V5.1 và V5.2 của ACE và Mel; việc cài đặt trên bộ game sạch và chơi thử đầy đủ từng sự kiện của chính gói phát hành này vẫn chưa được kiểm chứng độc lập. Thép Tinh Luyện đang tạm khóa để tránh rủi ro nhận thưởng.
 
 ## Cẩm nang và góp ý
 
@@ -75,12 +79,14 @@ Anh em nào có thời gian thì tải gói beta về chơi thử nhé! Không c
 Nếu thấy cơ chế chưa đúng, tỷ lệ rơi đồ hoặc phần thưởng chưa hợp lý, gặp bug hay đơn giản là nhớ một chi tiết khác với bản phục dựng, anh em cứ thoải mái góp ý. Không cần biết lập trình hay đọc source; đôi khi chỉ một câu *“Hồi đó tôi nhớ sự kiện này không phải chơi như vậy…”* cũng đã là một manh mối rất quý.
 
 - [Cẩm nang Hồi Ức Võ Lâm – 61 sự kiện](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/)
-- [Danh sách kiểm thử](COMMUNITY_UAT.md)
+- [Cách cài đặt và gỡ addon](INSTALL.md)
+- [Những thay đổi qua các phiên bản](CHANGELOG.md)
+- [Danh sách sự kiện để anh em chơi thử](COMMUNITY_UAT.md)
 - [Mẫu báo lỗi](REPORT_BUG.md)
 - [Gửi góp ý qua GitHub Issues](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/issues)
 - [Releases – tải gói addon](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases)
 
-Cẩm nang công khai giữ nội dung chi tiết và liên kết nguồn, không kèm ảnh hoặc sprite game.
+Cẩm nang giữ nội dung chi tiết và liên kết nguồn; các icon vật phẩm chỉ là minh họa, không phải hình gốc trong game.
 
 ## Lời cảm ơn
 
