@@ -14,7 +14,18 @@ Addon: `cgpt`
 
 **Nhóm phục dựng addon:** **CGPT — Classic Game Preservation Team** (Cường + Chat GPT).
 
-[Tải addon](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.1) · [Mở cẩm nang 61 sự kiện](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/) · [Gửi góp ý](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/issues)
+## Bắt đầu tại đây
+
+**Addon là phần bổ sung sự kiện, không phải bộ game đầy đủ.** Anh em cần có JxOffline V5, V5.1 hoặc V5.2 chạy được trước khi cài.
+
+- **[Tải addon CGPT Beta — bản chép trực tiếp (Full.zip)](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1_Full.zip)**: dành cho đa số anh em, chỉ cần giải nén và chép file.
+- **[Hướng dẫn chi tiết cách cài đặt, cấu hình kết nối và cập nhật addon](INSTALL.md)**.
+- **[Hướng dẫn chép file từ Windows sang server bằng WinSCP](INSTALL.md#chép-file-từ-windows-sang-server-bằng-winscp-sftp)**.
+- [Mở cẩm nang 61 sự kiện](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/) · [Gửi góp ý](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/issues).
+
+Chưa có game? Xem mục [Cài JxV5 bằng bộ cài WSL2 của VDK](#cài-jxv5-bằng-bộ-cài-wsl2-của-vdk). Đã chơi được game gốc? Chuyển thẳng đến mục [Cài đặt và đồng bộ addon](#cài-đặt-và-đồng-bộ-addon).
+
+**Đừng tải mục Source code (zip) trên GitHub để cài addon.** Dùng đúng file CGPT có liên kết tải ở trên.
 
 ## Một chút hồi ức Võ Lâm
 
@@ -60,48 +71,70 @@ Anh em có thể tham gia [Discord Vozer Truyền Kỳ Vui Vẻ](https://discord
 
 ## Cài JxV5 bằng bộ cài WSL2 của VDK
 
-Nếu anh em chưa có game chạy được trên Windows, có thể sử dụng bộ cài WSL2 do bác **Võ Duy Khánh (VDK)** chia sẻ.
+**Chỉ làm phần này nếu anh em chưa có JxV5 chạy được.** Nếu đã vào game bình thường, không cần cài lại game gốc hay nâng cấp lên V5.2.
 
-1. Tải [bộ cài WSL2 của bác Võ Duy Khánh](https://drive.google.com/file/d/1DAgjb3Ari2zednom28EDCt2Biu0xkLqK/view?usp=drive_link). Chuẩn bị bộ Server (`.tgz`) và Client JxV5 từ cộng đồng Vozer Truyền Kỳ Vui Vẻ ở trên.
-2. Chạy `VLTK-Server.exe` để khởi tạo lần đầu. Sang tab **Quản lý file**, tải lên file Server `.tgz` rồi giải nén tại chỗ.
-3. Trở lại tab **Bảng điều khiển**, chọn `jxser` ở cạnh nút **Khởi động**, rồi bấm **Khởi động** để chạy Server.
+1. Tải [bộ cài WSL2 của bác Võ Duy Khánh](https://drive.google.com/file/d/1DAgjb3Ari2zednom28EDCt2Biu0xkLqK/view?usp=drive_link). Tải thêm bộ Server (`.tgz`) và Client JxV5 (bộ file để mở game trên Windows) từ cộng đồng Vozer Truyền Kỳ Vui Vẻ ở trên.
+2. Chạy `VLTK-Server.exe` để khởi tạo lần đầu. Sang tab **Quản lý file**, tải file Server `.tgz` lên đúng vị trí theo hướng dẫn bộ cài rồi giải nén tại chỗ.
+3. Trở lại tab **Bảng điều khiển**, chọn `jxser` ở cạnh nút **Khởi động**, rồi bấm **Khởi động** để chạy Server. Nếu dùng thư mục server khác, chọn đúng thư mục đó.
 4. Khi Server đã khởi động, chạy `Game.exe` trong thư mục Client để vào game.
 
-Nên kiểm tra game gốc hoạt động bình thường trước khi cài addon CGPT theo hướng dẫn bên dưới. Bộ cài WSL2 và game gốc là các sản phẩm riêng, không nằm trong gói addon CGPT.
+Kiểm tra game gốc hoạt động bình thường trước khi cài addon CGPT. Nếu chưa vào được game, hãy hỏi cộng đồng về bộ cài trước; addon không thay thế hoặc sửa lỗi cài đặt của game gốc. Bộ cài WSL2 và game gốc là các sản phẩm riêng, không nằm trong gói addon CGPT.
 
 ## Cài đặt và đồng bộ addon
 
-**[Tải CGPT Community Beta 1.1.0 — bản chép trực tiếp](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1_Full.zip)** — tải asset `CGPT_1.1.0-beta.1_Full.zip`, không phải Source code ZIP.
+**[Tải CGPT Community Beta 1.1.0 — bản chép trực tiếp](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1_Full.zip)** — tải file `CGPT_1.1.0-beta.1_Full.zip`, không phải Source code (zip).
 
-Bản chép trực tiếp đã có sẵn thư mục `cgpt` chứa các file cần thiết cho addon. Không cần chạy script chuẩn bị. [Bản vá tạo file từ bộ gốc](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1.zip) vẫn được giữ lại cho anh em muốn đối chiếu dữ liệu đầu vào.
+Chỉ cần tải một gói. Người mới nên chọn bản chép trực tiếp. Gói này đã có sẵn thư mục `cgpt` chứa các file cần thiết cho addon. Không cần chạy script chuẩn bị. [Bản vá tạo file từ bộ gốc](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1.zip) vẫn được giữ lại cho anh em muốn đối chiếu dữ liệu đầu vào.
 
-Xem thêm [hướng dẫn cài đặt chi tiết](INSTALL.md), bao gồm [cách chép file từ Windows sang server bằng WinSCP (SFTP)](INSTALL.md#chép-file-từ-windows-sang-server-bằng-winscp-sftp).
+> **[Hướng dẫn chi tiết cách cài đặt, cấu hình kết nối và cập nhật addon](INSTALL.md)** — có hướng dẫn sao lưu, chép đúng thư mục, đồng bộ Client và khôi phục khi gặp lỗi.
+>
+> Nếu cần chuyển file từ Windows sang Linux, xem **[Cách chép file bằng WinSCP (SFTP)](INSTALL.md#chép-file-từ-windows-sang-server-bằng-winscp-sftp)** (địa chỉ, cổng kết nối, tài khoản và cách chép file từng bước).
 
-### Chuẩn bị
+### Bước 1 — Sao lưu và giải nén
 
 1. Có bộ **JxOffline V5, V5.1 hoặc V5.2 của ACE và Mel**, chơi được bình thường. Không bắt buộc nâng cấp lên V5.2. Các bản mod khác cần đối chiếu xung đột trước khi cài.
-2. Thoát game, tắt GameServer và sao lưu toàn bộ server, client, ảnh đĩa máy ảo và dữ liệu nhân vật. Nên thử trên bản sao trước.
+2. Thoát game, dừng GameServer và sao lưu server, Client và dữ liệu nhân vật. Nếu sao chép cả file đĩa máy ảo, tắt hẳn môi trường Linux trước khi sao chép. Nên thử trên bản sao trước.
 3. Tải bản `CGPT_1.1.0-beta.1_Full.zip` từ Releases và giải nén vào thư mục riêng. Thư mục `cgpt` đã có sẵn. Nếu chọn bản vá thay thế, làm theo hướng dẫn trong README của bản vá để tạo thư mục `cgpt` trước khi đồng bộ.
 
-### Đồng bộ lần đầu
+### Bước 2 — Chép file vào server và Client
 
 Thư mục `cgpt` có cấu trúc `cgpt/server1/` và `cgpt/Client/` (chỉ các file cần thiết cho lễ hội). Đọc ghi chú tương thích của chính gói đó trước khi chép.
 
-| Thư mục trong gói | Vị trí trong game |
+| Thư mục nguồn trong gói | Thư mục đích trong game |
 | --- | --- |
 | `cgpt/server1/script/` | `server1/script/` trên server Linux |
 | `cgpt/server1/settings/` | `server1/settings/` trên server Linux |
 | `cgpt/Client/settings/` | `settings/` trong thư mục Client Windows |
 
-4. Dừng các dịch vụ game trong chương trình quản lý, giữ máy ảo hoạt động để sử dụng tab **Quản lý file**. Xác nhận đúng thư mục server đang dùng: tùy bộ cài có thể là `/home/jxser/server1` hoặc `/home/jxser_new/server1`. Không chép nhầm profile. Chép gộp nội dung server vào đúng `server1`, giữ nguyên đường dẫn và mã TCVN3.
-5. Chép gộp nội dung `Client/` vào thư mục client thực tế. Không tạo thêm một cấp `Client/Client`. Những thay đổi bảng vật phẩm cần đồng bộ cả hai phía; nếu bản cập nhật chỉ có Lua server thì không cần chép client.
-6. Khởi động lại GameServer, mở game. Trong **Cẩm Nang Đồng Hành**, nhận **Hồi Ức Võ Lâm Lệnh** (một lệnh bài quản lý). Dùng lệnh để vào Quản lý lễ hội hoặc Quản lý tính năng. Khi thử lễ hội, mở một sự kiện, kiểm tra thông báo và trạng thái trước khi tham gia.
+**Server** là phần game chạy trên Linux. **Client** là thư mục game trên Windows có file `Game.exe`.
+
+1. Bật môi trường Linux (WSL2 hoặc máy ảo) để chép file, nhưng chưa khởi động GameServer. Dùng tab **Quản lý file** của VDK hoặc WinSCP. Xác định đúng thư mục server đang sử dụng: ví dụ `/home/jxser/server1` hoặc `/home/jxser_new/server1`.
+2. Chép **gộp nội dung** hai thư mục `script` và `settings` vào server theo bảng trên. Không xóa file khác hoặc thay cả thư mục game. Ví dụ, chép nội dung `cgpt/server1/script/` vào `/home/jxser/server1/script/` nếu đang dùng thư mục server đó. Không tạo thêm cấp `server1/server1`, `script/script` hoặc `settings/settings`. Giữ nguyên file và mã chữ TCVN3.
+3. Chép riêng nội dung `cgpt/Client/settings/` vào `settings/` của Client trên Windows. Không chép Client lên Linux. Không tạo thêm cấp `Client/Client`. Những thay đổi bảng vật phẩm cần đồng bộ cả hai phía.
+
+#### Chép file từ Windows sang server bằng WinSCP
+
+[WinSCP](https://winscp.net/) là chương trình giúp anh em kéo thả file từ Windows sang Linux mà không cần gõ lệnh.
+
+**[Xem hướng dẫn WinSCP từng bước — thông số kết nối và cách chép file](INSTALL.md#chép-file-từ-windows-sang-server-bằng-winscp-sftp).**
+
+Mở WinSCP, kết nối theo bảng thông số trong hướng dẫn trên. Khung trái là file Windows, khung phải là file Linux. Mở thư mục `cgpt/server1` ở bên trái và đúng thư mục `server1` ở bên phải. Chọn hai thư mục `script` và `settings`, chép sang phải ở chế độ **Binary** để giữ nguyên file. Chỉ ghi đè các file cần cập nhật sau khi đã sao lưu, không dùng chế độ đồng bộ có xóa file đích. Chờ chép xong và đóng WinSCP.
+
+Vẫn phải chép riêng phần Client trên Windows theo dòng Client trong bảng bên trên. Nếu WinSCP không kết nối được, xem hướng dẫn chi tiết, không mở cổng ra Internet chỉ để chép file cục bộ.
+
+### Bước 3 — Khởi động lại và vào sự kiện
+
+Khởi động lại GameServer, mở game. Vào **Cẩm Nang Đồng Hành → Nhận Lệnh bài Hồi Ức → Hồi Ức Võ Lâm Lệnh**. Dùng lệnh bài để vào **Quản lý lễ hội**, chọn mùa và sự kiện muốn chơi. Mục **Quản lý tính năng** dành cho các hoạt động nguyên bản.
+
+Chỉ mở một sự kiện tại một thời điểm. [Xem hướng dẫn chung trong cẩm nang](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/guide.html) nếu chưa biết bắt đầu từ đâu.
 
 ### Cập nhật bản mới hoặc gỡ addon
 
 - Với bản cập nhật nhỏ, sao lưu các file sẽ thay, dừng GameServer, chép đúng các file cập nhật server/client được cung cấp cho phiên bản đang dùng rồi khởi động lại. Không lấy gói cập nhật của bản khác ghép vào.
-- Nếu lỗi, dừng game/server và dùng gói khôi phục đúng phiên bản hoặc bản sao lưu. Khôi phục file không hoàn tác vật phẩm, EXP hoặc tiến độ đã phát sinh; nếu cần khôi phục cả dữ liệu, dùng bản sao lưu đầy đủ.
+- Nếu lỗi, dừng game và GameServer và dùng gói khôi phục đúng phiên bản hoặc bản sao lưu. Khôi phục file không hoàn tác vật phẩm, EXP hoặc tiến độ đã phát sinh; nếu cần khôi phục cả dữ liệu, dùng bản sao lưu đầy đủ.
 - Nếu bộ game đã được tùy chỉnh, không chép đè bảng vật phẩm hoặc script dùng chung khi chưa đối chiếu xung đột. Addon chỉ thay đổi những phần cần thiết để tích hợp sự kiện.
+
+**[Đọc hướng dẫn cập nhật và khôi phục chi tiết](INSTALL.md#5-cập-nhật-addon).**
 
 ### Trạng thái bộ cài
 
@@ -122,7 +155,8 @@ Nếu thấy cơ chế chưa đúng, tỷ lệ rơi đồ hoặc phần thưởn
 </p>
 
 - [Cẩm nang Hồi Ức Võ Lâm – 61 sự kiện](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/)
-- [Cách cài đặt và gỡ addon](INSTALL.md)
+- [Hướng dẫn chi tiết cách cài đặt, cấu hình kết nối và cập nhật addon](INSTALL.md) (bao gồm cách gỡ addon)
+- [Cách chép file bằng WinSCP (SFTP)](INSTALL.md#chép-file-từ-windows-sang-server-bằng-winscp-sftp)
 - [Những thay đổi qua các phiên bản](CHANGELOG.md)
 - [Danh sách sự kiện để anh em chơi thử](COMMUNITY_UAT.md)
 - [Mẫu báo lỗi](REPORT_BUG.md)
