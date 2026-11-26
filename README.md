@@ -30,7 +30,7 @@ Các sự kiện được chia thành những nhóm lễ hội để anh em dễ
 
 Kèm theo addon là cẩm nang HTML với 61 bài viết, tổng hợp thể lệ, cách tham gia, vật phẩm, công thức, phần thưởng và tư liệu lịch sử còn tìm được.
 
-Dự án chỉ tập trung vào phục dựng lễ hội, tôn trọng game gốc và ý đồ của các tác giả JxOffline V5. Đây là addon cộng đồng phi thương mại, không phải sản phẩm chính thức của nhà phát hành. Repo không đính kèm full game, tài khoản, DB/save hay mã và tài nguyên chưa rõ quyền phân phối.
+Dự án chỉ tập trung vào phục dựng lễ hội, tôn trọng game gốc và ý đồ của các tác giả JxOffline V5. Đây là addon cộng đồng phi thương mại, không phải sản phẩm chính thức của nhà phát hành. Kho mã không đính kèm bộ game đầy đủ, tài khoản, cơ sở dữ liệu hoặc dữ liệu lưu nhân vật, cũng như mã và tài nguyên chưa rõ quyền phân phối.
 
 ## Hình ảnh những mùa lễ hội
 
@@ -52,7 +52,7 @@ Phần quan trọng nhất mình muốn chia sẻ là addon này mới được 
 
 Có sự kiện còn tương đối đầy đủ dữ liệu, nhưng cũng có sự kiện chỉ còn vài đoạn script, vài vật phẩm hoặc một bài viết cũ. Những cơ chế bị thất lạc phải được suy luận, tái tạo và chế cháo thêm để có thể hoạt động. Cái gì tìm được căn cứ thì cố gắng giữ đúng; phần chưa đủ tư liệu vẫn có thể khác với nguyên bản.
 
-Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là cả 61 sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta vẫn đang được hoàn thiện. Về nền tảng, nhóm phát triển xác nhận addon tương thích với JxOffline V5, V5.1 và V5.2 của ACE và Mel. Bản beta đầu tiên cho phép mở 60 sự kiện; Thép Tinh Luyện tạm khóa để kiểm tra rủi ro nhận thưởng.
+Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là cả 61 sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta được giữ để anh em chơi thử và góp ý. Nhóm sẽ tập trung tiếp nhận phản hồi trước khi mở lại đợt phát triển. Về nền tảng, nhóm phát triển xác nhận addon tương thích với JxOffline V5, V5.1 và V5.2 của ACE và Mel. Bản beta đầu tiên cho phép mở 60 sự kiện; Thép Tinh Luyện tạm khóa để kiểm tra rủi ro nhận thưởng.
 
 ## Cộng đồng Vozer Truyền Kỳ Vui Vẻ
 
@@ -75,7 +75,7 @@ Nên kiểm tra game gốc hoạt động bình thường trước khi cài addo
 
 Bản chép trực tiếp đã có sẵn thư mục `cgpt` chứa các file cần thiết cho addon. Không cần chạy script chuẩn bị. [Bản vá tạo file từ bộ gốc](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1.zip) vẫn được giữ lại cho anh em muốn đối chiếu dữ liệu đầu vào.
 
-Xem thêm [hướng dẫn cài đặt chi tiết](INSTALL.md) nếu cần.
+Xem thêm [hướng dẫn cài đặt chi tiết](INSTALL.md), bao gồm [cách chép file từ Windows sang server bằng WinSCP (SFTP)](INSTALL.md#chép-file-từ-windows-sang-server-bằng-winscp-sftp).
 
 ### Chuẩn bị
 
@@ -93,15 +93,15 @@ Thư mục `cgpt` có cấu trúc `cgpt/server1/` và `cgpt/Client/` (chỉ các
 | `cgpt/server1/settings/` | `server1/settings/` trên server Linux |
 | `cgpt/Client/settings/` | `settings/` trong thư mục Client Windows |
 
-4. Dừng game stack trong launcher, giữ máy ảo hoạt động để sử dụng tab **Quản lý file**. Xác nhận đúng thư mục server đang dùng: tùy bộ cài có thể là `/home/jxser/server1` hoặc `/home/jxser_new/server1`. Không chép nhầm profile. Chép gộp nội dung server vào đúng `server1`, giữ nguyên đường dẫn và mã TCVN3.
+4. Dừng các dịch vụ game trong chương trình quản lý, giữ máy ảo hoạt động để sử dụng tab **Quản lý file**. Xác nhận đúng thư mục server đang dùng: tùy bộ cài có thể là `/home/jxser/server1` hoặc `/home/jxser_new/server1`. Không chép nhầm profile. Chép gộp nội dung server vào đúng `server1`, giữ nguyên đường dẫn và mã TCVN3.
 5. Chép gộp nội dung `Client/` vào thư mục client thực tế. Không tạo thêm một cấp `Client/Client`. Những thay đổi bảng vật phẩm cần đồng bộ cả hai phía; nếu bản cập nhật chỉ có Lua server thì không cần chép client.
 6. Khởi động lại GameServer, mở game. Trong **Cẩm Nang Đồng Hành**, nhận **Hồi Ức Võ Lâm Lệnh** (một lệnh bài quản lý). Dùng lệnh để vào Quản lý lễ hội hoặc Quản lý tính năng. Khi thử lễ hội, mở một sự kiện, kiểm tra thông báo và trạng thái trước khi tham gia.
 
 ### Cập nhật bản mới hoặc gỡ addon
 
-- Với bản cập nhật nhỏ, sao lưu các file sẽ thay, dừng GameServer, chép đúng delta server/client được cung cấp cho phiên bản đang dùng rồi khởi động lại. Không lấy delta của bản khác ghép vào.
-- Nếu lỗi, dừng game/server và dùng bản rollback đúng phiên bản hoặc khôi phục backup. Rollback file không hoàn tác vật phẩm, EXP hoặc tiến độ đã phát sinh; nếu cần khôi phục cả dữ liệu, dùng backup đầy đủ.
-- Nếu bộ game đã được tùy chỉnh, không chép đè bảng item hoặc script dùng chung khi chưa đối chiếu xung đột. Addon chỉ thay đổi những phần cần thiết để tích hợp sự kiện.
+- Với bản cập nhật nhỏ, sao lưu các file sẽ thay, dừng GameServer, chép đúng các file cập nhật server/client được cung cấp cho phiên bản đang dùng rồi khởi động lại. Không lấy gói cập nhật của bản khác ghép vào.
+- Nếu lỗi, dừng game/server và dùng gói khôi phục đúng phiên bản hoặc bản sao lưu. Khôi phục file không hoàn tác vật phẩm, EXP hoặc tiến độ đã phát sinh; nếu cần khôi phục cả dữ liệu, dùng bản sao lưu đầy đủ.
+- Nếu bộ game đã được tùy chỉnh, không chép đè bảng vật phẩm hoặc script dùng chung khi chưa đối chiếu xung đột. Addon chỉ thay đổi những phần cần thiết để tích hợp sự kiện.
 
 ### Trạng thái bộ cài
 

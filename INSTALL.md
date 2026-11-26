@@ -15,11 +15,11 @@ Bản beta cộng đồng đầu tiên mang mã phiên bản **v1.1.0-beta.1**. 
 
 Không tải mục Source code ZIP của GitHub để cài addon. Cả hai gói đều có README riêng.
 
-Nếu dùng bản vá, giải nén vào thư mục riêng trên Windows, chạy `Prepare-cgpt.cmd`. Chọn archive `JxserV5.tgz` gốc hoặc thư mục server sạch đã xuất ra có chứa `server1`, sau đó chọn thư mục Client (nơi có `settings`). Khi màn hình báo SUCCESS, thư mục `cgpt` xuất hiện cạnh file chuẩn bị. Chương trình không tự chép vào game. Nếu báo lỗi file thiếu hoặc không khớp, dừng lại, kiểm tra bộ gốc; không bỏ qua kiểm tra. Nếu thư mục cgpt đã tồn tại, di chuyển hoặc đổi tên nó trước khi chạy lại.
+Nếu dùng bản vá, giải nén vào thư mục riêng trên Windows, chạy `Prepare-cgpt.cmd`. Chọn file nén `JxserV5.tgz` gốc hoặc thư mục server sạch đã xuất ra có chứa `server1`, sau đó chọn thư mục Client (nơi có `settings`). Khi màn hình báo SUCCESS, thư mục `cgpt` xuất hiện cạnh file chuẩn bị. Chương trình không tự chép vào game. Nếu báo lỗi file thiếu hoặc không khớp, dừng lại, kiểm tra bộ gốc; không bỏ qua kiểm tra. Nếu thư mục cgpt đã tồn tại, di chuyển hoặc đổi tên nó trước khi chạy lại.
 
 ## 3. Chép addon vào game
 
-Dừng GameServer trong launcher. Nếu dùng tab Quản lý file, giữ máy ảo hoạt động.
+Dừng GameServer trong chương trình quản lý. Nếu dùng tab Quản lý file, giữ máy ảo hoạt động.
 
 | Trong gói đã giải nén | Chép gộp vào |
 |---|---|
@@ -28,6 +28,27 @@ Dừng GameServer trong launcher. Nếu dùng tab Quản lý file, giữ máy �
 | `cgpt/Client/settings/` | `settings/` của Client Windows |
 
 Tùy bộ cài, server1 có thể nằm tại `/home/jxser/server1` hoặc `/home/jxser_new/server1`. Kiểm tra đúng thư mục đang chạy. Chép **nội dung** vào đúng thư mục, không tạo thêm cấp server1/server1 hoặc Client/Client. Giữ nguyên file và mã chữ TCVN3. Không chỉ chép một phía nếu có thay đổi bảng vật phẩm.
+
+### Chép file từ Windows sang server bằng WinSCP (SFTP)
+
+Nếu không dùng tab **Quản lý file**, anh em có thể dùng [WinSCP](https://winscp.net/) để chép file. Thoát game, sao lưu và dừng GameServer trong chương trình quản lý; giữ Linux (WSL2 hoặc máy ảo) chạy để kết nối.
+
+1. Mở WinSCP, tạo phiên kết nối mới với các thông số:
+
+   | Mục | Giá trị |
+   |---|---|
+   | File protocol | SFTP |
+   | Host name | `127.0.0.1` |
+   | Port number | `22` |
+   | User name | Tài khoản SSH của bộ cài Linux (ví dụ `root` nếu bộ cài dùng tài khoản này) |
+   | Password | `123456` nếu bộ cài vẫn dùng mật khẩu mặc định |
+
+2. Bấm **Login**. Khi kết nối lần đầu, kiểm tra máy chủ và khóa SSH đúng với máy Linux cục bộ trước khi xác nhận.
+3. Khung bên trái là file Windows; khung bên phải là file trên server Linux. Mở thư mục addon đã giải nén ở bên trái và đúng thư mục `server1` đang sử dụng ở bên phải (ví dụ `/home/jxser/server1` hoặc `/home/jxser_new/server1`).
+4. Chọn hai thư mục `script` và `settings` trong `cgpt/server1/`, chép sang thư mục `server1` trên Linux. Chọn chế độ truyền **Binary** để giữ nguyên mã chữ TCVN3 và nội dung file. Chép gộp các thư mục, chỉ xác nhận ghi đè file cần cập nhật sau khi đã sao lưu; không xóa file khác trên server.
+5. Chép riêng nội dung `cgpt/Client/settings/` vào `settings/` của Client trên Windows, như bảng ở trên. Kiểm tra đường dẫn và file đã chép xong, đóng WinSCP rồi khởi động lại GameServer.
+
+Nếu không kết nối được, kiểm tra Linux đã chạy, dịch vụ SSH và cổng 22 của bộ cài có hoạt động hay không; không mở cổng ra Internet chỉ để chép file cục bộ. Mật khẩu trên chỉ dành cho cấu hình mặc định được nêu ở đây; nếu đã đổi, dùng mật khẩu hiện tại. Không dùng mật khẩu mặc định cho máy chủ mở ra mạng, không lưu hoặc chia sẻ mật khẩu cá nhân.
 
 ## 4. Vào game
 
