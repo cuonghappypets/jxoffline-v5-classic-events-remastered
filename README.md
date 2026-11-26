@@ -4,7 +4,7 @@
 
 Addon: `cgpt`
 
-- **Phát triển addon:** CGPT (ChatGPT).
+- **Phát triển addon:** CGPT — Classic Game Preservation Team (CGPT cũng là nickname của ChatGPT).
 - **Nền tảng JxOffline V5:** ACE và Mel.
 
 Dự án phục dựng 61 lễ hội Võ Lâm Truyền Kỳ giai đoạn 2005–2010 trên môi trường JX Offline V5.2. Bản beta cộng đồng đang chuẩn bị; chưa có gói cài công khai, chưa xác nhận tương thích bản sạch, chưa có 61/61 native gameplay PASS. Mỗi người chơi có thể đóng góp bằng cách chọn vài sự kiện từng trải nghiệm và ghi lỗi có thể tái hiện.
