@@ -2,7 +2,11 @@
 
 **JxOffline V5 (by ACE) · Community Beta**
 
-Addon: `cgpt` · Dev: CGPT (ChatGPT), cùng cộng đồng.
+Addon: `cgpt`
+
+- **Phát triển addon:** CGPT (ChatGPT) — dev chính, phục dựng sự kiện và triển khai mã nguồn.
+- **Kiểm thử gameplay và góp ý:** [cuonghappypets](https://github.com/cuonghappypets) — trải nghiệm thực tế, định hướng tính năng và hỗ trợ hoàn thiện addon.
+- **Nền tảng JxOffline V5:** ACE và Mel.
 
 Dự án phục dựng 61 lễ hội Võ Lâm Truyền Kỳ giai đoạn 2005–2010 trên môi trường JX Offline V5.2. Bản beta cộng đồng đang chuẩn bị; chưa có gói cài công khai, chưa xác nhận tương thích bản sạch, chưa có 61/61 native gameplay PASS. Mỗi người chơi có thể đóng góp bằng cách chọn vài sự kiện từng trải nghiệm và ghi lỗi có thể tái hiện.
 
