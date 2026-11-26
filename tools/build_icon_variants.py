@@ -103,4 +103,167 @@ variant("cake","cake-special",(),
         '<path d="m48 7 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z" fill="#edc85d" stroke="#ac7e39" stroke-width="1"/>',
         "Premium celebration cake")
 
+# Lantern craft paper: the named color must match the illustration.
+for shade, face in [
+    ("yellow","#e6c34f"), ("blue","#73afd3"), ("green","#8eb86f"),
+    ("red","#d8796b"), ("orange","#e9a45a")
+]:
+    variant("paper","paper-"+shade,(("#e2d17f",face),),
+            title="Colored lantern paper: "+shade)
+
+# Tiểu/Trung/Đại pills share one silhouette with clear grade badges.
+for grade, rank, face in [
+    ("small","I","#95bf8a"),("medium","II","#e4c477"),
+    ("large","III","#df9e72")
+]:
+    variant("pill","pill-"+grade,(),
+            f'<circle cx="50" cy="14" r="10" fill="{face}" stroke="#875c37" stroke-width="1.5"/>'
+            f'<text x="50" y="17" text-anchor="middle" font-family="Georgia,serif" font-size="9" font-weight="700" fill="#433628">{rank}</text>',
+            "Pill grade "+grade)
+
+# Collectibles are fragments, not complete weapons or a completed picture.
+# Keep color/shape cues to the source family without presenting a full item.
+for label, border, face in [
+    ("small","#876e55","#e7c991"),("large","#6b788d","#c5cedb")
+]:
+    variant("paper","fragment-"+label,
+            (("#9a6861",border),("#e2d17f",face)),
+            '<path d="m23 24 9 3 4-6 7 7-6 5 4 10-12 2-5-8-9-2Z" fill="#fff9e5" stroke="#9d8058" stroke-width="1.8"/>',
+            "Collectible "+label+" fragment")
+for theme, face in [("traveler","#8bbba9"),("immortal","#b5a3ce")]:
+    for part in range(1,7):
+        variant("paper","picture-"+theme+"-"+str(part),
+                (("#e2d17f",face),),
+                '<path d="M22 24l10-4 8 6-4 10-10 6-8-8Z" fill="#fff3d0" stroke="#806e77" stroke-width="1.7"/>'
+                f'<circle cx="{23+part*3}" cy="{27+(part%3)*4}" r="3" fill="#ba8059"/>',
+                f"Picture puzzle fragment {theme} {part}")
+for part in range(1,5):
+    variant("flag","flag-piece-"+str(part),(),
+            f'<path d="M{16+part*3} 22l10-2 7 10-7 12-9-6Z" fill="#f1dcb4" stroke="#865846" stroke-width="2"/>',
+            "Flag fragment "+str(part))
+
+# Material rankings: the same ancient plaque silhouette in five substances.
+for material, face in [
+    ("wood","#987443"),("copper","#bd8b5b"),
+    ("silver","#d3d9e2"),("gold","#e8c15c"),("jade","#84b6a2")
+]:
+    variant("talisman","plaque-"+material,
+            (("#f7d778",face),),
+            title="Material plaque "+material)
+
+# Eight-letter festive tokens share a tiled physical form. Individual names
+# stay as labels, while a small Roman index distinguishes positions at 32px.
+for n in range(1,9):
+    variant("paper","letter-tile-"+str(n),(),
+            f'<circle cx="49" cy="14" r="9" fill="#ce9d62" stroke="#86623e" stroke-width="1.5"/>'
+            f'<text x="49" y="17" text-anchor="middle" font-size="9" font-family="Georgia,serif" fill="#fff8e5">{n}</text>',
+            "Festival character tile "+str(n))
+
+# These are original simple silhouettes, not copied client sprites.
+variant("mooncake","peach-bun-bean",(),
+        '<path d="M22 36Q13 23 29 18l4-7 5 8q16 9 1 28Q32 56 22 36Z" fill="#f0bea3" stroke="#b87968" stroke-width="2.5"/>'
+        '<path d="M32 17q6-10 14-5" fill="none" stroke="#699057" stroke-width="2.5"/>'
+        '<circle cx="32" cy="37" r="4.5" fill="#91a95c"/>',
+        "Longevity peach bun with bean filling")
+variant("mooncake","peach-bun-date",(),
+        '<path d="M22 36Q13 23 29 18l4-7 5 8q16 9 1 28Q32 56 22 36Z" fill="#f0bea3" stroke="#b87968" stroke-width="2.5"/>'
+        '<path d="M32 17q6-10 14-5" fill="none" stroke="#699057" stroke-width="2.5"/>'
+        '<circle cx="32" cy="37" r="4.5" fill="#a9554a"/>',
+        "Longevity peach bun with jujube filling")
+
+# Fashion accessories #46 need their own actual silhouettes.
+variant("mirror","lipstick",(),
+        '<path d="M24 48V27h16v21Z" fill="#d9aa6b" stroke="#875d45" stroke-width="2.5"/>'
+        '<path d="M25 27V18l12-8 3 9v8Z" fill="#bb4e62" stroke="#83364c" stroke-width="2.5"/>',
+        "Lipstick")
+variant("mirror","hairclip",(),
+        '<path d="M11 34Q32 15 53 34Q32 52 11 34Z" fill="#e1b66c" stroke="#875f3e" stroke-width="3"/>'
+        '<path d="M20 33L28 25 36 33 44 25" fill="none" stroke="#fce7b9" stroke-width="2"/>',
+        "Decorative hair clip")
+variant("mirror","comb",(),
+        '<rect x="13" y="20" width="38" height="10" rx="3" fill="#ad764a" stroke="#714c36" stroke-width="2"/>'
+        '<path d="M17 30v22m5-22v22m5-22v22m5-22v22m5-22v22m5-22v22m5-22v22" stroke="#895b3f" stroke-width="3"/>',
+        "Hair comb")
+
+# Three firecracker sizes, with an optional festive gold spark.
+for size, badge in [
+    ("small","I"),("medium","II"),("large","III")
+]:
+    for extra in (False,True):
+        name="firecracker-"+size+("-special" if extra else "")
+        variant("firecracker",name,(),
+                f'<circle cx="49" cy="13" r="10" fill="#e7c277" stroke="#ad7944" stroke-width="1.5"/>'
+                f'<text x="49" y="16" text-anchor="middle" font-family="Georgia,serif" font-size="8" font-weight="700" fill="#604529">{badge}</text>'
+                + ('<path d="m13 11 2 4 5 1-5 2-2 4-2-4-5-2 5-1Z" fill="#f8e3a2"/>' if extra else ""),
+                "Firecracker "+size+(" special" if extra else ""))
+
+for color, tint in [("yellow","#dfc35c"),("purple","#a588c7"),("green","#79ae82")]:
+    variant("snowman","snowman-"+color,(("#c86461",tint),),title="Snowman "+color)
+variant("gift-box","gift-box-blue",
+        (("#cb6d69","#5c9ac5"),("#e88c7d","#8fbed7")),
+        title="Blue gift box")
+variant("pendant","pendant-amber",
+        (("#83b9a0","#daa65a"),("#c9e5ba","#f0d78c")),
+        title="Amber-yellow jade pendant")
+variant("potion-bottle","potion-special",(),
+        '<path d="m51 7 2 5 5 2-5 2-2 5-2-5-5-2 5-2Z" fill="#f8d689" stroke="#9a7046" stroke-width="1"/>',
+        "Special restorative potion")
+
+# Ball assembly parts are NOT a completed soccer ball.
+variant("ball","ball-gold",
+        (("#faf3df","#f0d080"),("#526c82","#c3913b")),
+        title="Gold football")
+variant("ball","ball-shell",(),
+        '<path d="M17 42Q32 28 47 42" fill="none" stroke="#e5bf78" stroke-width="7"/>'
+        '<path d="M18 43Q32 32 45 43" fill="none" stroke="#9b704a" stroke-width="2"/>',
+        "Football outer shell")
+variant("ball","ball-bladder",(),
+        '<ellipse cx="32" cy="33" rx="18" ry="13" fill="#b6a3a0" stroke="#71675d" stroke-width="3"/>'
+        '<path d="m36 20 3-6" stroke="#71675d" stroke-width="3"/>',
+        "Ball rubber bladder")
+variant("flower","seed",(),
+        '<path d="M13 46Q32 21 51 46Q32 59 13 46Z" fill="#b18252" stroke="#75563b" stroke-width="3"/>'
+        '<path d="M32 39q0-13 9-17" fill="none" stroke="#66904d" stroke-width="3"/>',
+        "Plant seed")
+variant("flower","sapling",(),
+        '<path d="M32 53V29M32 34Q19 18 14 30Q18 43 32 39M32 32Q44 17 51 28Q48 41 32 38" fill="#8bb96c" stroke="#4c814d" stroke-width="3"/>',
+        "Young sapling")
+variant("bag","ingredient-sack",(),
+        '<path d="M17 29h30l4 23H13Z" fill="#dbc69e" stroke="#876c4d" stroke-width="3"/>'
+        '<path d="M22 33h20M20 42h24" stroke="#a99161" stroke-width="2"/>',
+        "Raw ingredient sack")
+variant("potion-bottle","milk-bottle",(),
+        '<rect x="22" y="22" width="20" height="29" rx="4" fill="#fffaf0" stroke="#9cb0b1" stroke-width="2.5"/>'
+        '<path d="M25 19h14" stroke="#8ea7b1" stroke-width="4"/>',
+        "Milk bottle")
+variant("package","yeast-starter",(),
+        '<rect x="19" y="28" width="27" height="22" rx="5" fill="#e0bc83" stroke="#977248" stroke-width="3"/>'
+        '<circle cx="29" cy="35" r="3" fill="#c38b55"/><circle cx="38" cy="43" r="2.5" fill="#a8794c"/>',
+        "Yeast starter")
+variant("potion-bottle","wine-gourd",(),
+        '<path d="M31 11q-9 5-3 14-17 6-14 21 3 12 18 12 19 0 19-16 0-12-15-17 5-11-5-14Z" fill="#c29360" stroke="#835f3b" stroke-width="3"/>'
+        '<path d="M22 38h20" stroke="#e5c98c" stroke-width="3"/>',
+        "Wine gourd")
+variant("potion-bottle","water-bucket",(),
+        '<path d="M17 27h30l-4 28H21Z" fill="#b98b5c" stroke="#7b5a3f" stroke-width="3"/>'
+        '<path d="M21 27q0-21 11-21t11 21" fill="none" stroke="#8b765d" stroke-width="4"/>'
+        '<path d="M19 30h26" stroke="#90bdc9" stroke-width="3"/>',
+        "Water bucket")
+variant("talisman","signal-horn",(),
+        '<path d="M13 43l28-23 10-2-4 26-24 8Z" fill="#d1af67" stroke="#89653b" stroke-width="3"/>'
+        '<path d="M23 43l-7 9" stroke="#89653b" stroke-width="4"/>',
+        "Signal horn")
+variant("hat","bucket-hat",(),
+        '<path d="M17 29Q20 11 32 11T47 29l7 15Q32 53 10 44Z" fill="#718e67" stroke="#405e45" stroke-width="3"/>'
+        '<path d="M13 42Q32 47 51 42" stroke="#d0d7aa" stroke-width="3"/>',
+        "Soft bucket hat")
+for shade, tint in [
+    ("peace","#779d7c"),("freedom","#8ba6ba"),
+    ("happiness","#d5a96e"),("soldier","#718765")
+]:
+    variant("hat","soft-hat-"+shade,
+            (("#506f93",tint),),
+            '<path d="M12 41Q32 49 52 41" fill="none" stroke="#8e7754" stroke-width="3"/>',
+            "Soft event hat "+shade)
+
 print("Built",len(MADE),"original-art SVG variants")

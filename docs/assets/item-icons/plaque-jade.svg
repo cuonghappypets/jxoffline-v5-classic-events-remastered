@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Material plaque jade">
+<title>Material plaque jade</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#fff3de" stroke="#c5a276" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#c5a276" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M20 9h24l3 43-15-4-15 4Z" fill="#84b6a2" stroke="#ab8543" stroke-width="3"/>
+<path d="M23 17h18M32 14v14m-7-4 14 0" stroke="#a94735" stroke-width="3"/>
+<path d="m28 30-5 6 9 3-4 6m9-16 5 5-8 5 5 6" stroke="#a94735" stroke-width="3" fill="none"/>
+</g>
+</svg>

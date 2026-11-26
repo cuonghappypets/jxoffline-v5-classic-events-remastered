@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Soft event hat freedom">
+<title>Soft event hat freedom</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#eaf1f9" stroke="#839eb8" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#839eb8" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M16 40 21 20l11-8 11 8 5 20Z" fill="#8ba6ba" stroke="#304c70" stroke-width="3"/>
+<path d="M14 40h36c5 0 7 5 1 9H13c-5-4-4-9 1-9Z" fill="#385979" stroke="#304c70" stroke-width="3"/>
+<path d="M22 32h20M32 15v21" stroke="#a2bad3" stroke-width="2.6"/>
+<path d="m28 26 4-7 4 7-4 6Z" fill="#e4bd77" stroke="#a07b4b" stroke-width="1.5"/>
+<path d="M12 41Q32 49 52 41" fill="none" stroke="#8e7754" stroke-width="3"/></g>
+</svg>

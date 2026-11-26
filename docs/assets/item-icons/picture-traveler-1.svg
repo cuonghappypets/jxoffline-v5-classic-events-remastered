@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Picture puzzle fragment traveler 1">
+<title>Picture puzzle fragment traveler 1</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#f0f2dd" stroke="#aab085" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#aab085" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M13 15h30l8 8v30H13Z" fill="#e8a07b" stroke="#9a6861" stroke-width="2.7"/>
+<path d="m43 15 0 9h8" fill="#ffd8a4" stroke="#9a6861" stroke-width="2.5"/>
+<path d="M18 22h23v31H18Z" fill="#8bbba9" stroke="#a08750" stroke-width="2.5"/>
+<path d="M24 29h12M24 36h12M24 43h9" stroke="#f7ebae" stroke-width="3"/>
+<path d="M22 24l10-4 8 6-4 10-10 6-8-8Z" fill="#fff3d0" stroke="#806e77" stroke-width="1.7"/><circle cx="26" cy="31" r="3" fill="#ba8059"/></g>
+</svg>

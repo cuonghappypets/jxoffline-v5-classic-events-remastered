@@ -41,6 +41,83 @@ def classify(raw, key):
     has = lambda *p: any(x in n for x in p)
     start = lambda *p: any(n.startswith(x) for x in p)
     # Icon semantics take precedence over arbitrary text shared by item names.
+    # Source-backed overrides for items whose display names suggest the wrong
+    # physical form. Keyed by client-004 IDs, never by neighboring text.
+    keyed = {
+        "6,1,23": "book",        # Thiết La Hán: obj_item_lection.spr
+        "6,1,35": "book",        # Vân Long Kích. Mâu pháp: martial manual
+        "6,1,41": "book",        # Thúy Yên Song đao: martial manual
+        "gold,146": "necklace",  # Phỉ Thúy Ngọc Hạng Khuyên: equip/nick
+        "gold,187": "necklace",  # Hiệp Cốt Đa Tình Hoàn: equip/nick
+        "6,1,1221": "paper-yellow",
+        "6,1,1222": "paper-blue",
+        "6,1,1223": "paper-green",
+        "6,1,1224": "paper-red",
+        "6,1,1225": "paper-orange",
+        "6,1,217": "pill-small",
+        "6,1,216": "pill-medium",
+        "6,1,215": "pill-large",
+        "6,1,1179": "peach-bun-bean",
+        "6,1,1180": "peach-bun-date",
+        "6,1,30340": "plaque-wood",
+        "6,1,30383": "plaque-copper",
+        "6,1,30384": "plaque-silver",
+        "6,1,30569": "plaque-gold",
+        "6,1,30570": "plaque-jade",
+        "6,1,1960": "lipstick",
+        "6,1,1961": "hairclip",
+        "6,1,1963": "comb",
+        "6,1,1634": "snowman-yellow",
+        "6,1,1635": "snowman-purple",
+        "6,1,1636": "snowman-green",
+        "6,1,1441": "gift-box-blue",
+        "6,0,1012": "gift-box-blue",
+        "gold,166": "pendant-amber",
+        "6,1,1765": "potion-special",
+        "6,1,2358": "ball-shell",
+        "6,1,2361": "ball-bladder",
+        "6,1,2363": "ball",
+        "6,1,2364": "ball-gold",
+        "6,1,1927": "seed",
+        "6,1,2207": "seed",
+        "6,1,2294": "seed",
+        "6,1,30571": "sapling",
+        "6,1,2010": "ingredient-sack",
+        "6,1,2012": "yeast-starter",
+        "6,1,2013": "wine-gourd",
+        "6,1,2296": "water-bucket",
+        "4,975,1": "milk-bottle",
+        "4,976,1": "ingredient-sack",
+        "4,977,1": "ingredient-sack",
+        "6,1,1175": "ingredient-sack",
+        "6,1,1176": "ingredient-sack",
+        "6,1,1177": "ingredient-sack",
+        "6,1,214": "signal-horn",
+        "6,1,2097": "bucket-hat",
+        "6,1,2098": "soft-hat-peace",
+        "6,1,2099": "soft-hat-freedom",
+        "6,1,2100": "soft-hat-happiness",
+        "6,1,2304": "soft-hat-soldier",
+    }
+    if key in keyed: return keyed[key]
+    if re.fullmatch(r"6,1,135[1-9]",key):
+        num=int(key.split(",")[-1])
+        size=("small","medium","large")[(num-1351)%3]
+        return "firecracker-"+size+("-special" if num in {1354,1355,1356} else "")
+    if re.fullmatch(r"4,\d+,1",key) and n.startswith("manh "):
+        source_index=int(key.split(",")[1])
+        return "fragment-large" if source_index in set(
+            list(range(585,594))+list(range(594,602))+
+            list(range(631,639))+list(range(684,692))+
+            list(range(702,710))) else "fragment-small"
+    if re.fullmatch(r"6,1,12(?:0[7-9]|1[0-8])",key):
+        idx=int(key.split(",")[-1])-1207
+        theme="traveler" if idx<6 else "immortal"
+        return "picture-"+theme+"-"+str(idx%6+1)
+    if re.fullmatch(r"6,1,173[5-8]",key):
+        return "flag-piece-"+str(int(key.split(",")[-1])-1734)
+    if re.fullmatch(r"6,1,175[2-9]",key):
+        return "letter-tile-"+str(int(key.split(",")[-1])-1751)
     if has("banh chung"):
         return "banh-chung-premium" if has("thuong hang") else "banh-chung-mixed"
     if has("banh tet"):

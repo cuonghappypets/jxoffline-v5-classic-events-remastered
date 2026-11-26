@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Plant seed">
+<title>Plant seed</title>
+<metadata>Original CGPT vector illustration. SPDX-License-Identifier: CC0-1.0.</metadata>
+<rect x="2" y="2" width="60" height="60" rx="13" fill="#f0f2dd" stroke="#aab085" stroke-width="2"/>
+<path d="M10 18V14a4 4 0 0 1 4-4h5M54 46v4a4 4 0 0 1-4 4h-5" stroke="#aab085" stroke-width="1.4" opacity=".35" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M32 33v22M30 44c-7-8-15-9-17-4 4 10 11 10 17 8M34 45c5-9 15-11 17-7-1 9-9 12-17 10" fill="#6da36a" stroke="#4b7e4f" stroke-width="2.6"/>
+<circle cx="32" cy="25" r="7" fill="#f7bf6e" stroke="#b57c4e" stroke-width="2.5"/>
+<path d="M32 18c-12-16-22 1-9 8-16 1-8 19 2 11-1 16 17 16 16 0 13 7 19-9 6-11 9-10-7-18-9-8Z" fill="#e99897" stroke="#aa646c" stroke-width="3"/>
+<circle cx="32" cy="26" r="7" fill="#f6c878" stroke="#b57c4e" stroke-width="2"/>
+<path d="M13 46Q32 21 51 46Q32 59 13 46Z" fill="#b18252" stroke="#75563b" stroke-width="3"/><path d="M32 39q0-13 9-17" fill="none" stroke="#66904d" stroke-width="3"/></g>
+</svg>

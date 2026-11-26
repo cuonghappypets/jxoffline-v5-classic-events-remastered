@@ -91,7 +91,7 @@ def static():
     # An Bang and Dinh Quoc must use equipment *slot*, not crystal/coin catchalls.
     equip=[r for group in pages.values() for r in group if r["name"].startswith(("An Bang ","Định Quốc "))]
     assert equip and {r["icon"] for r in equip}>={
-        "ring-amber","ring-ruby","necklace","pendant","armor",
+        "ring-amber","ring-ruby","necklace","pendant-amber","armor",
         "hat","boots","bracer","belt"},Counter(x["icon"] for x in equip)
     print(f"STATIC PASS: {len(pages)} event pages, {total} illustrated cards, "
           f"{len(names)} labels, {len({r['key'] for group in pages.values() for r in group})} "
