@@ -23,6 +23,7 @@ SVG=ROOT/"docs"/"assets"/"item-icons"
 MANIFEST=ROOT/"tools"/"item_icon_map.json"
 QA=ROOT.parent.parent/"05_HANDBOOK"/"qa"
 TAG=re.compile(r'<img class="item-illustration"[^>]*>')
+TABLE_TAG=re.compile(r'<img class="table-item-icon"[^>]*>')
 CARD=re.compile(r'<div class="item-card">(?P<image><img[^>]*>)?<div><strong>(?P<name>.*?)</strong>',re.S)
 ATTR=re.compile(r'([a-zA-Z][\w-]*)="([^"]*)"')
 def attrs(raw):
@@ -61,7 +62,7 @@ def static():
         # except for the intentionally inserted decorative SVG img elements.
         old=subprocess.run(["git","show",f"HEAD:docs/events/{name}.html"],cwd=ROOT,
                            capture_output=True,text=True,encoding="utf8",check=True).stdout
-        if TAG.sub("",raw).replace("\r\n","\n")!=TAG.sub("",old).replace("\r\n","\n"):
+        if TABLE_TAG.sub("",TAG.sub("",raw)).replace("\r\n","\n")!=TABLE_TAG.sub("",TAG.sub("",old)).replace("\r\n","\n"):
             fail(f"{name}: article content differs from HEAD beyond icon markup")
     assert total==575,(total,575)
     js=(ROOT/"docs/assets/app.js").read_text(encoding="utf8")

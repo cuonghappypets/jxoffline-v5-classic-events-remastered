@@ -18,6 +18,19 @@ figure:empty{display:none}.card-img{display:none}
 .item-card{display:flex;align-items:center;gap:.75rem;min-width:0;padding:.8rem}
 .item-card>div{min-width:0;overflow-wrap:anywhere}
 .item-illustration{display:block;flex:0 0 2.65rem;width:2.65rem;height:2.65rem;object-fit:contain;padding:3px;border:1px solid var(--line);border-radius:8px;background:var(--soft)}
+/* The source-mapped table illustration sits before each named ingredient,
+   preserving original table text, amounts, probabilities, links and wrapping. */
+.table-item-icon{display:inline-block;width:1.4rem;height:1.4rem;max-width:none;vertical-align:-.35rem;object-fit:contain;margin:0 .3rem 0 0;padding:1px;border:1px solid var(--line);border-radius:5px;background:var(--soft);flex:none}
+th .table-item-icon{width:1.15rem;height:1.15rem;vertical-align:-.26rem;margin-right:.2rem}
+@media(max-width:700px){.table-item-icon{width:1.3rem;height:1.3rem;vertical-align:-.32rem;margin-right:.25rem}th .table-item-icon{width:1.1rem;height:1.1rem}}
+/* Let wide recipe/reward matrices scroll inside .table-wrap on small screens,
+   instead of crushing item names into one-character vertical columns. */
+@media(max-width:700px){
+ .table-wrap table:has(th:nth-child(3)){min-width:520px}
+ .table-wrap table:has(th:nth-child(4)){min-width:640px}
+ .table-wrap table:has(th:nth-child(5)){min-width:740px}
+ .table-wrap table:has(th:nth-child(8)){min-width:980px}
+}
 .item-symbol{display:flex;align-items:center;justify-content:center;flex:0 0 2.65rem;height:2.65rem;border:1px solid var(--line);border-radius:8px;background:rgba(174,135,65,.10);font-size:1.45rem;line-height:1;font-family:"Segoe UI Emoji","Apple Color Emoji","Noto Color Emoji",sans-serif}
 .item-symbol--fruit,.item-symbol--flower{background:rgba(104,148,68,.14)}
 .item-symbol--festival,.item-symbol--gift{background:rgba(175,68,48,.12)}
