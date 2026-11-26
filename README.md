@@ -34,19 +34,19 @@ Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ
 
 ## Cài đặt và đồng bộ addon
 
-**[Tải CGPT Community Beta 1.1.0](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.1)** — tải asset `CGPT_1.1.0-beta.1.zip`, không phải Source code ZIP.
+**[Tải CGPT Community Beta 1.1.0 — bản chép trực tiếp](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1_Full.zip)** — tải asset `CGPT_1.1.0-beta.1_Full.zip`, không phải Source code ZIP.
 
-Gói vá tạo thư mục addon `cgpt` từ bộ game có sẵn của anh em, không phân phối nguyên dữ liệu game. Có một bước chuẩn bị trên Windows trước khi đồng bộ.
+Bản chép trực tiếp đã có sẵn thư mục `cgpt` chứa các file cần thiết cho addon. Không cần chạy script chuẩn bị. [Bản vá tạo file từ bộ gốc](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1.zip) vẫn được giữ lại cho anh em muốn đối chiếu dữ liệu đầu vào.
 
 ### Chuẩn bị
 
 1. Có bộ **JxOffline V5, V5.1 hoặc V5.2 của ACE và Mel**, chơi được bình thường. Không bắt buộc nâng cấp lên V5.2. Các bản mod khác cần đối chiếu xung đột trước khi cài.
 2. Thoát game, tắt GameServer và sao lưu toàn bộ server, client, ảnh đĩa máy ảo và dữ liệu nhân vật. Nên thử trên bản sao trước.
-3. Tải ZIP từ Releases, giải nén vào thư mục riêng. Chạy `Prepare-cgpt.cmd`, nhập đường dẫn archive `JxserV5.tgz` gốc hoặc thư mục server sạch đã export chứa `server1`, rồi nhập đường dẫn thư mục Client (nơi có `settings`). Khi báo SUCCESS, thư mục `cgpt` xuất hiện cạnh file chuẩn bị. Nếu báo file thiếu hoặc khác checksum, dừng lại kiểm tra bộ gốc. Script chỉ tạo thư mục mới, không tự chép vào game và không cần cài Python. Hướng dẫn chi tiết có trong README của ZIP.
+3. Tải bản `CGPT_1.1.0-beta.1_Full.zip` từ Releases và giải nén vào thư mục riêng. Thư mục `cgpt` đã có sẵn. Nếu chọn bản vá thay thế, làm theo hướng dẫn trong README của bản vá để tạo thư mục `cgpt` trước khi đồng bộ.
 
 ### Đồng bộ lần đầu
 
-Sau bước chuẩn bị, thư mục `cgpt` có cấu trúc `cgpt/server1/` và `cgpt/Client/` (chỉ các file cần thiết cho lễ hội). Đọc ghi chú tương thích của chính gói đó trước khi chép.
+Thư mục `cgpt` có cấu trúc `cgpt/server1/` và `cgpt/Client/` (chỉ các file cần thiết cho lễ hội). Đọc ghi chú tương thích của chính gói đó trước khi chép.
 
 | Thư mục trong gói | Vị trí trong game |
 | --- | --- |
@@ -66,7 +66,7 @@ Sau bước chuẩn bị, thư mục `cgpt` có cấu trúc `cgpt/server1/` và 
 
 ### Trạng thái bộ cài
 
-Đã phát hành Community Beta 1.1.0 (pre-release). Bộ tạo addon kiểm tra 123 file gốc, tái tạo 278 file đầu ra đúng checksum và từ chối đầu vào khác dữ liệu đã đối chiếu. Các file nguồn cần cho bản vá không thay đổi trong hai gói cập nhật V5.1/V5.2 đã kiểm tra. Nhóm phát triển xác nhận tương thích nền tảng V5, V5.1 và V5.2; chưa nghiệm thu cài đặt native sạch hoặc gameplay đầy đủ của chính gói beta này. Nghiệm thu gameplay do cộng đồng cùng đóng góp. Thép Tinh Luyện (ID52) tạm khóa trong beta này.
+Đã phát hành Community Beta 1.1.0 (pre-release). Bản chép trực tiếp gồm 254 file server và 24 file client, khớp checksum với 278 file do bản vá cùng phiên bản tạo ra. Đã rà các đường dẫn file mới và các tuyến script của vật phẩm thay đổi; không phát hiện đường dẫn thiếu trong phạm vi đối chiếu tĩnh. Các file nguồn cần cho bản vá không thay đổi trong hai gói cập nhật V5.1/V5.2 đã kiểm tra. Nhóm phát triển xác nhận tương thích nền tảng V5, V5.1 và V5.2; chưa nghiệm thu cài đặt native sạch hoặc gameplay đầy đủ của chính gói beta này. Nghiệm thu gameplay do cộng đồng cùng đóng góp. Thép Tinh Luyện (ID52) tạm khóa trong beta này.
 
 ## Cẩm nang và góp ý
 
