@@ -1,5 +1,7 @@
 # JxOffline V5 Classic Events Remastered
 
+![Hồi Ức Võ Lâm — JxOffline V5 Classic Events Remastered, banner minh họa của dự án](assets/readme/cover.jpg)
+
 **JxOffline V5 (by ACE) · Beta cộng đồng đầu tiên** (phiên bản phát hành: v1.1.0-beta.1)
 
 Addon: `cgpt`
@@ -9,6 +11,8 @@ Addon: `cgpt`
 **Cảm ơn:** PGaming và các anh em dev đi trước đã để lại mã nguồn và tư liệu quý giá.
 
 **Nhóm phục dựng addon:** **CGPT — Classic Game Preservation Team** (Cường + Chat GPT).
+
+[Tải addon](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.1) · [Mở cẩm nang 61 sự kiện](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/) · [Gửi góp ý](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/issues)
 
 ## Một chút hồi ức Võ Lâm
 
@@ -25,6 +29,20 @@ Các sự kiện được chia thành những nhóm lễ hội để anh em dễ
 Kèm theo addon là cẩm nang HTML với 61 bài viết, tổng hợp thể lệ, cách tham gia, vật phẩm, công thức, phần thưởng và tư liệu lịch sử còn tìm được.
 
 Dự án chỉ tập trung vào phục dựng lễ hội, tôn trọng game gốc và ý đồ của các tác giả JxOffline V5. Đây là addon cộng đồng phi thương mại, không phải sản phẩm chính thức của nhà phát hành. Repo không đính kèm full game, tài khoản, DB/save hay mã và tài nguyên chưa rõ quyền phân phối.
+
+## Hình ảnh những mùa lễ hội
+
+| Trung Thu Lồng Đèn | Mâm Ngũ Quả |
+| :---: | :---: |
+| ![Banner minh họa Trung Thu Lồng Đèn](assets/readme/mid-autumn-poster.jpg) | ![Banner minh họa Mâm Ngũ Quả](assets/readme/tet-poster.jpg) |
+
+*Hai banner minh họa gợi nhớ không khí lễ hội năm xưa, không phải ảnh chụp trong game.*
+
+| Lồng đèn tại Chu Tiên trấn | Săn nguyên liệu tại Khóa Lang động |
+| :---: | :---: |
+| ![Cảnh lồng đèn trong game](assets/readme/lanterns-ingame.jpg) | ![Cảnh đánh quái và nhặt nguyên liệu trong game](assets/readme/materials-ingame.jpg) |
+
+*Ảnh chụp trong quá trình chơi thử, cắt khung để tập trung vào cảnh sự kiện.*
 
 ## Vài lời về bản beta
 
@@ -74,9 +92,17 @@ Bản beta cộng đồng đầu tiên đã có file tải. Hai gói cài cho c�
 
 ## Cẩm nang và góp ý
 
+[![Giao diện cẩm nang Hồi Ức Võ Lâm](assets/readme/handbook.jpg)](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/)
+
+*Bấm vào ảnh để mở cẩm nang và tìm sự kiện muốn chơi.*
+
 Anh em nào có thời gian thì tải gói beta về chơi thử nhé! Không cần test hết 61 sự kiện đâu, cứ chọn những sự kiện mình từng chơi và còn nhớ là quý lắm rồi.
 
 Nếu thấy cơ chế chưa đúng, tỷ lệ rơi đồ hoặc phần thưởng chưa hợp lý, gặp bug hay đơn giản là nhớ một chi tiết khác với bản phục dựng, anh em cứ thoải mái góp ý. Không cần biết lập trình hay đọc source; đôi khi chỉ một câu *“Hồi đó tôi nhớ sự kiện này không phải chơi như vậy…”* cũng đã là một manh mối rất quý.
+
+<p align="center">
+  <img src="assets/readme/community-poster.jpg" width="720" alt="Tranh minh họa hội quán Võ Lâm — Anh em vào test phụ một tay nhé!" />
+</p>
 
 - [Cẩm nang Hồi Ức Võ Lâm – 61 sự kiện](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/)
 - [Cách cài đặt và gỡ addon](INSTALL.md)
