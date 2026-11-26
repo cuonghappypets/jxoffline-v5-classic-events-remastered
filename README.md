@@ -6,6 +6,10 @@ Addon: `cpgt` · Dev: CGPT (ChatGPT), cùng cộng đồng.
 
 Dự án phục dựng 61 lễ hội Võ Lâm Truyền Kỳ giai đoạn 2005–2010 trên môi trường JX Offline V5.2. Bản beta cộng đồng đang chuẩn bị; chưa có gói cài công khai, chưa xác nhận tương thích bản sạch, chưa có 61/61 native gameplay PASS. Mỗi người chơi có thể đóng góp bằng cách chọn vài sự kiện từng trải nghiệm và ghi lỗi có thể tái hiện.
 
+## Phạm vi addon cộng đồng
+
+Tôn trọng game gốc và ý đồ của các tác giả JxOffline V5. Addon chỉ phục dựng lễ hội và bổ sung Hồi Ức Võ Lâm Lệnh với hai nhóm **Quản lý lễ hội** và **Quản lý tính năng** (các hoạt động nguyên bản). Trong Quản lý lễ hội, mục đầu dùng để quản lý sự kiện hiện tại: tạm dừng nhưng vẫn cho đổi thưởng, hoặc đóng và ngừng đổi thưởng. Không bao gồm mod cấp tiền, điểm, trang bị hay chỉnh tốc độ luyện kỹ năng.
+
 Không đính kèm full game, tài khoản, DB/save, mã/asset chưa có quyền phân phối. Gói cài, phạm vi tương thích và license sẽ chỉ được công bố sau khi kiểm duyệt. Không tự nhận là sản phẩm chính thức của nhà phát hành.
 
 ## Cẩm nang và góp ý
