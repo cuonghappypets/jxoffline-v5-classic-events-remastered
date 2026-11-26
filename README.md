@@ -6,8 +6,8 @@ Không đính kèm full game, tài khoản, DB/save, mã/asset chưa có quyền
 
 ## Cẩm nang và góp ý
 
-- [Danh mục 61 sự kiện (HTML)](https://cuonghappypets.github.io/cgpt-classic-events-remastered/)
+- [Cẩm nang chi tiết 61 sự kiện (HTML)](https://cuonghappypets.github.io/cgpt-classic-events-remastered/)
 - [Danh sách kiểm thử](COMMUNITY_UAT.md)
 - [Mẫu báo lỗi](REPORT_BUG.md)
 
-Cẩm nang công khai hiện là danh mục tra cứu; bản chi tiết và gói addon chưa phát hành.
+Cẩm nang công khai gồm 61 bài chi tiết, giữ nội dung và liên kết nguồn; không kèm ảnh hoặc sprite game. Gói addon chưa phát hành.
