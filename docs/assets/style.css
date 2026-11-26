@@ -10,3 +10,6 @@
 
 /* Text-only public edition */
 figure:empty{display:none}.card-img{display:none}
+
+/* Player-facing edition */
+.dev-note{margin:1rem 0;border:1px solid var(--line,#b8a98e);border-radius:8px;padding:.65rem .9rem;font-size:.93em}.dev-note summary{cursor:pointer;font-weight:600}.dev-note[open]>summary{margin-bottom:.8rem}.dev-note h2{font-size:1.15em}.player-notice{border:1px solid var(--line,#b8a98e);border-radius:8px;padding:1rem;margin:1rem 0;font-weight:600}.item-card{min-height:0;min-width:0}.historical-note{font-size:.9em}
