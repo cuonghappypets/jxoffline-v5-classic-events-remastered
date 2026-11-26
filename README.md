@@ -2,7 +2,7 @@
 
 **JxOffline V5 (by ACE) · Community Beta**
 
-Addon: `cpgt` · Dev: CGPT (ChatGPT), cùng cộng đồng.
+Addon: `cgpt` · Dev: CGPT (ChatGPT), cùng cộng đồng.
 
 Dự án phục dựng 61 lễ hội Võ Lâm Truyền Kỳ giai đoạn 2005–2010 trên môi trường JX Offline V5.2. Bản beta cộng đồng đang chuẩn bị; chưa có gói cài công khai, chưa xác nhận tương thích bản sạch, chưa có 61/61 native gameplay PASS. Mỗi người chơi có thể đóng góp bằng cách chọn vài sự kiện từng trải nghiệm và ghi lỗi có thể tái hiện.
 
@@ -14,7 +14,7 @@ Không đính kèm full game, tài khoản, DB/save, mã/asset chưa có quyền
 
 ## Cài đặt và đồng bộ addon
 
-> **Hiện trạng:** chưa có gói cài công khai. Các bước dưới đây mô tả cách sử dụng gói `cpgt` khi được phát hành, không phải hướng dẫn lấy mã từ repo tài liệu hiện tại để cài ngay. Không dùng gói addon cá nhân hoặc bản ghép chưa duyệt thay thế.
+> **Hiện trạng:** chưa có gói cài công khai. Các bước dưới đây mô tả cách sử dụng gói `cgpt` khi được phát hành, không phải hướng dẫn lấy mã từ repo tài liệu hiện tại để cài ngay. Không dùng gói addon cá nhân hoặc bản ghép chưa duyệt thay thế.
 
 ### Chuẩn bị
 
@@ -24,13 +24,13 @@ Không đính kèm full game, tài khoản, DB/save, mã/asset chưa có quyền
 
 ### Đồng bộ lần đầu
 
-Gói dự kiến có cấu trúc `cpgt/server1/` và `cpgt/Client/` (chỉ các file cần thiết cho lễ hội). Đọc ghi chú tương thích của chính gói đó trước khi chép.
+Gói dự kiến có cấu trúc `cgpt/server1/` và `cgpt/Client/` (chỉ các file cần thiết cho lễ hội). Đọc ghi chú tương thích của chính gói đó trước khi chép.
 
 | Thư mục trong gói | Vị trí trong game |
 | --- | --- |
-| `cpgt/server1/script/` | `server1/script/` trên server Linux |
-| `cpgt/server1/settings/` | `server1/settings/` trên server Linux |
-| `cpgt/Client/settings/` | `settings/` trong thư mục Client Windows |
+| `cgpt/server1/script/` | `server1/script/` trên server Linux |
+| `cgpt/server1/settings/` | `server1/settings/` trên server Linux |
+| `cgpt/Client/settings/` | `settings/` trong thư mục Client Windows |
 
 4. Dừng game stack trong launcher, giữ máy ảo hoạt động để sử dụng tab **Quản lý file**. Xác nhận đúng thư mục server đang dùng: tùy bộ cài có thể là `/home/jxser/server1` hoặc `/home/jxser_new/server1`. Không chép nhầm profile. Chép gộp nội dung server vào đúng `server1`, giữ nguyên đường dẫn và mã TCVN3.
 5. Chép gộp nội dung `Client/` vào thư mục client thực tế. Không tạo thêm một cấp `Client/Client`. Những thay đổi bảng vật phẩm cần đồng bộ cả hai phía; nếu bản cập nhật chỉ có Lua server thì không cần chép client.
