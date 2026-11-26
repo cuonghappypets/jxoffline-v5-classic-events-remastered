@@ -4,8 +4,9 @@
 
 Addon: `cgpt`
 
-- **Phát triển addon:** **CGPT — Classic Game Preservation Team** (Cường + Chat GPT).
-- **Nền tảng JxOffline V5:** ACE và Mel.
+**Tri ân các bậc tiền bối:** **ACE và Mel** — nền tảng JxOffline V5; **PGaming** và các anh em dev đi trước — mã nguồn và tư liệu quý giá.
+
+**Nhóm phục dựng addon:** **CGPT — Classic Game Preservation Team** (Cường + Chat GPT).
 
 ## Một chút hồi ức Võ Lâm
 
