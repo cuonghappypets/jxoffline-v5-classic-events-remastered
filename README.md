@@ -7,13 +7,29 @@ Addon: `cgpt`
 - **Phát triển addon:** **CGPT — Classic Game Preservation Team** (Cường + Chat GPT).
 - **Nền tảng JxOffline V5:** ACE và Mel.
 
-Dự án phục dựng 61 lễ hội Võ Lâm Truyền Kỳ giai đoạn 2005–2010 trên môi trường JX Offline V5.2. Bản beta cộng đồng đang chuẩn bị; chưa có gói cài công khai, chưa xác nhận tương thích bản sạch, chưa có 61/61 native gameplay PASS. Mỗi người chơi có thể đóng góp bằng cách chọn vài sự kiện từng trải nghiệm và ghi lỗi có thể tái hiện.
+## Một chút hồi ức Võ Lâm
 
-## Phạm vi addon cộng đồng
+Chào anh em!
 
-Tôn trọng game gốc và ý đồ của các tác giả JxOffline V5. Addon chỉ phục dựng lễ hội và bổ sung Hồi Ức Võ Lâm Lệnh với hai nhóm **Quản lý lễ hội** và **Quản lý tính năng** (các hoạt động nguyên bản). Trong Quản lý lễ hội, mục đầu dùng để quản lý sự kiện hiện tại: tạm dừng nhưng vẫn cho đổi thưởng, hoặc đóng và ngừng đổi thưởng.
+Không biết còn bao nhiêu anh em nhớ những ngày chạy khắp bản đồ săn trái cây làm Mâm Ngũ Quả, những mùa Trung Thu gom nguyên liệu làm lồng đèn, hay những lần thức khuya chỉ để kiếm thêm vài vật phẩm đổi thưởng. Thời ấy, niềm vui chơi Võ Lâm đôi khi cũng chỉ đơn giản như vậy.
 
-Không đính kèm full game, tài khoản, DB/save, mã/asset chưa có quyền phân phối. Gói cài, phạm vi tương thích và license sẽ chỉ được công bố sau khi kiểm duyệt. Không tự nhận là sản phẩm chính thức của nhà phát hành.
+Nhờ có bản JxOffline V5 của hai bác ACE và Mel, mình cùng ông dev CGPT đã tranh thủ vài ngày đào bới, chắp vá và chế cháo để phục dựng lại những sự kiện Võ Lâm Truyền Kỳ giai đoạn 2005–2010. Đến nay, addon đã tập hợp được **61 sự kiện**, từ Tết Nguyên Đán, Trung Thu, Giáng Sinh, Valentine, các ngày lễ trong năm, sinh nhật Võ Lâm cho đến những hoạt động đặc biệt khác.
+
+## Có gì trong addon?
+
+Các sự kiện được chia thành những nhóm lễ hội để anh em dễ tìm và chủ động trải nghiệm. Addon bổ sung **Hồi Ức Võ Lâm Lệnh**, với hai nhóm **Quản lý lễ hội** và **Quản lý tính năng** (các hoạt động nguyên bản). Mục đầu của Quản lý lễ hội cho phép quản lý sự kiện hiện tại: tạm dừng nhưng vẫn cho đổi thưởng, hoặc đóng và ngừng đổi thưởng. Thích đón Tết giữa tháng Bảy hay chơi Trung Thu vào đêm giao thừa cũng được. :)))
+
+Kèm theo addon là cẩm nang HTML với 61 bài viết, tổng hợp thể lệ, cách tham gia, vật phẩm, công thức, phần thưởng và tư liệu lịch sử còn tìm được.
+
+Dự án chỉ tập trung vào phục dựng lễ hội, tôn trọng game gốc và ý đồ của các tác giả JxOffline V5. Đây là addon cộng đồng phi thương mại, không phải sản phẩm chính thức của nhà phát hành. Repo không đính kèm full game, tài khoản, DB/save hay mã và tài nguyên chưa rõ quyền phân phối.
+
+## Vài lời về bản beta
+
+Phần quan trọng nhất mình muốn chia sẻ là addon này mới được thực hiện trong vài ngày, với chút ký ức còn sót lại sau gần hai thập kỷ và lượng mã nguồn, dữ liệu ít ỏi mà PGaming cùng các anh em dev đi trước đã để lại.
+
+Có sự kiện còn tương đối đầy đủ dữ liệu, nhưng cũng có sự kiện chỉ còn vài đoạn script, vài vật phẩm hoặc một bài viết cũ. Những cơ chế bị thất lạc phải được suy luận, tái tạo và chế cháo thêm để có thể hoạt động. Cái gì tìm được căn cứ thì cố gắng giữ đúng; phần chưa đủ tư liệu vẫn có thể khác với nguyên bản.
+
+Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là cả 61 sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta vẫn đang được hoàn thiện; khả năng tương thích với bộ V5.2 sạch cũng chưa được xác nhận.
 
 ## Cài đặt và đồng bộ addon
 
@@ -51,12 +67,24 @@ Gói dự kiến có cấu trúc `cgpt/server1/` và `cgpt/Client/` (chỉ các 
 
 ## Cẩm nang và góp ý
 
-- [Cẩm nang chi tiết 61 sự kiện (HTML)](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/)
+Anh em nào có thời gian thì chơi thử khi gói beta được phát hành nhé! Không cần test hết 61 sự kiện đâu, cứ chọn những sự kiện mình từng chơi và còn nhớ là quý lắm rồi.
+
+Nếu thấy cơ chế chưa đúng, tỷ lệ rơi đồ hoặc phần thưởng chưa hợp lý, gặp bug hay đơn giản là nhớ một chi tiết khác với bản phục dựng, anh em cứ thoải mái góp ý. Không cần biết lập trình hay đọc source; đôi khi chỉ một câu *“Hồi đó tôi nhớ sự kiện này không phải chơi như vậy…”* cũng đã là một manh mối rất quý.
+
+- [Cẩm nang Hồi Ức Võ Lâm – 61 sự kiện](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/)
 - [Danh sách kiểm thử](COMMUNITY_UAT.md)
 - [Mẫu báo lỗi](REPORT_BUG.md)
+- [Gửi góp ý qua GitHub Issues](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/issues)
+- [Releases – nơi công bố gói addon khi sẵn sàng](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases)
 
-Cẩm nang công khai gồm 61 bài chi tiết, giữ nội dung và liên kết nguồn; không kèm ảnh hoặc sprite game. Gói addon chưa phát hành.
+Cẩm nang công khai giữ nội dung chi tiết và liên kết nguồn, không kèm ảnh hoặc sprite game. Hiện chưa có gói cài công khai trên GitHub.
 
 ## Lời cảm ơn
 
-Đặc biệt cảm ơn **ACE và Mel**, những người đã làm nên bản JxOffline V5 để anh em có cơ hội trở lại Võ Lâm. Nếu không có công sức của hai anh, addon phục dựng lễ hội này cũng không có nền tảng để ra đời. CGPT là addon cộng đồng độc lập, không phải bản phát hành chính thức của ACE hay Mel.
+Đặc biệt cảm ơn hai bác **ACE và Mel** đã làm nên nền tảng JxOffline V5 để anh em có cơ hội trở lại Võ Lâm. Cảm ơn **PGaming** và các anh em dev đi trước đã để lại những đoạn source và tư liệu quý giá cho cộng đồng. Nếu không có công sức của mọi người, chắc cũng chẳng có addon này. :D
+
+Gần hai mươi năm đã qua, mã nguồn có thể thất lạc, tư liệu có thể không còn, nhưng đâu đó trong ký ức mỗi anh em vẫn còn một mảnh Võ Lâm ngày ấy.
+
+Hy vọng chúng ta có thể cùng nhau nhặt nhạnh những mảnh ký ức đó, ghép lại thành một Hồi Ức Võ Lâm trọn vẹn hơn.
+
+Chúc anh em chơi game vui vẻ!
