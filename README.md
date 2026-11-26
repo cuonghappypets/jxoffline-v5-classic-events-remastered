@@ -11,13 +11,13 @@ Dự án phục dựng 61 lễ hội Võ Lâm Truyền Kỳ giai đoạn 2005–
 
 ## Phạm vi addon cộng đồng
 
-Tôn trọng game gốc và ý đồ của các tác giả JxOffline V5. Addon chỉ phục dựng lễ hội và bổ sung Hồi Ức Võ Lâm Lệnh với hai nhóm **Quản lý lễ hội** và **Quản lý tính năng** (các hoạt động nguyên bản). Trong Quản lý lễ hội, mục đầu dùng để quản lý sự kiện hiện tại: tạm dừng nhưng vẫn cho đổi thưởng, hoặc đóng và ngừng đổi thưởng. Không bao gồm mod cấp tiền, điểm, trang bị hay chỉnh tốc độ luyện kỹ năng.
+Tôn trọng game gốc và ý đồ của các tác giả JxOffline V5. Addon chỉ phục dựng lễ hội và bổ sung Hồi Ức Võ Lâm Lệnh với hai nhóm **Quản lý lễ hội** và **Quản lý tính năng** (các hoạt động nguyên bản). Trong Quản lý lễ hội, mục đầu dùng để quản lý sự kiện hiện tại: tạm dừng nhưng vẫn cho đổi thưởng, hoặc đóng và ngừng đổi thưởng.
 
 Không đính kèm full game, tài khoản, DB/save, mã/asset chưa có quyền phân phối. Gói cài, phạm vi tương thích và license sẽ chỉ được công bố sau khi kiểm duyệt. Không tự nhận là sản phẩm chính thức của nhà phát hành.
 
 ## Cài đặt và đồng bộ addon
 
-> **Hiện trạng:** chưa có gói cài công khai. Các bước dưới đây mô tả cách sử dụng gói `cgpt` khi được phát hành, không phải hướng dẫn lấy mã từ repo tài liệu hiện tại để cài ngay. Không dùng gói addon cá nhân hoặc bản ghép chưa duyệt thay thế.
+> **Hiện trạng:** chưa có gói cài công khai. Các bước dưới đây mô tả cách sử dụng gói `cgpt` khi được phát hành, không phải hướng dẫn lấy mã từ repo tài liệu hiện tại để cài ngay.
 
 ### Chuẩn bị
 
@@ -43,11 +43,11 @@ Gói dự kiến có cấu trúc `cgpt/server1/` và `cgpt/Client/` (chỉ các 
 
 - Với bản cập nhật nhỏ, sao lưu các file sẽ thay, dừng GameServer, chép đúng delta server/client được cung cấp cho phiên bản đang dùng rồi khởi động lại. Không lấy delta của bản khác ghép vào.
 - Nếu lỗi, dừng game/server và dùng bản rollback đúng phiên bản hoặc khôi phục backup. Rollback file không hoàn tác vật phẩm, EXP hoặc tiến độ đã phát sinh; nếu cần khôi phục cả dữ liệu, dùng backup đầy đủ.
-- Nếu bộ game đã chỉnh mod, không chép đè bảng item hoặc script dùng chung khi chưa đối chiếu xung đột. Addon cộng đồng không thay các chức năng nguyên bản ngoài phần tích hợp sự kiện, không cấp tiền/điểm/đồ miễn phí.
+- Nếu bộ game đã được tùy chỉnh, không chép đè bảng item hoặc script dùng chung khi chưa đối chiếu xung đột. Addon chỉ thay đổi những phần cần thiết để tích hợp sự kiện.
 
 ### Trạng thái bộ cài
 
-Đã tách mã quản lý lễ hội khỏi bản mod cá nhân và đối chiếu các tuyến tích hợp với archive game gốc. Còn phải hoàn thành bản ghép bảng vật phẩm sự kiện và thử trên JX V5.2 sạch. Không phát tán bảng item nguyên khối từ bản private: chúng có thay đổi giới hạn stack và các dữ liệu ngoài phạm vi lễ hội. Nghiệm thu gameplay do cộng đồng cùng đóng góp; các ca chưa thử không được ghi PASS. Thép Tinh Luyện (ID52) còn tình huống thiếu ô hành trang/stack cần kiểm tra, chưa khuyến nghị giao dịch trên nhân vật có dữ liệu quan trọng.
+Đã đối chiếu các tuyến tích hợp với archive game gốc. Còn phải hoàn thành bản ghép bảng vật phẩm sự kiện và thử trên JX V5.2 sạch. Nghiệm thu gameplay do cộng đồng cùng đóng góp; các ca chưa thử không được ghi PASS. Thép Tinh Luyện (ID52) còn tình huống thiếu ô hành trang/stack cần kiểm tra, chưa khuyến nghị giao dịch trên nhân vật có dữ liệu quan trọng.
 
 ## Cẩm nang và góp ý
 
