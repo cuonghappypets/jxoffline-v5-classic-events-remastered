@@ -4,7 +4,7 @@ Chọn 1–3 sự kiện mình từng chơi, dùng bản sao game để trải n
 
 Ưu tiên báo lỗi mất đồ, nhận thưởng lặp, sai kinh nghiệm, sai phần thưởng hoặc game bị treo. Nếu chỉ chơi thử một phần, cứ kể lại đúng phần đó. Không cần kết luận cả sự kiện hoạt động tốt nếu chưa thử hết.
 
-Thép Tinh Luyện đang tạm khóa trong bản beta. Các mục chưa xác nhận đầy đủ không có nghĩa là sự kiện hỏng; chỉ là chưa có đủ kết quả chơi thử của chính bản phát hành này.
+Beta2 đã được nhóm chơi thử nhanh trên bộ UAT cá nhân. Anh em có thể kiểm tra thêm Thượng Sứ Lễ Hội tại Tương Dương, menu hiện tại khi mở/tạm dừng/đóng, tỷ lệ rơi mới và thông báo đổi thưởng. Thép Tinh Luyện đang tạm khóa trong bản beta. Các mục chưa xác nhận đầy đủ không có nghĩa là sự kiện hỏng; chỉ là chưa có đủ kết quả chơi thử của chính bản phát hành này.
 
 [Mẫu góp ý và báo lỗi](REPORT_BUG.md) · [Cẩm nang](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/)
 

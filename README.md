@@ -2,7 +2,7 @@
 
 ![Hồi Ức Võ Lâm — JxOffline V5 Classic Events Remastered, banner minh họa của dự án](assets/readme/cover.jpg)
 
-**JxOffline V5 (by ACE) · Beta cộng đồng đầu tiên** (phiên bản phát hành: v1.1.0-beta.1)
+**JxOffline V5 (by ACE) · Beta cộng đồng 2** (phiên bản phát hành: v1.1.0-beta.2)
 
 Addon: `cgpt`
 
@@ -18,7 +18,8 @@ Addon: `cgpt`
 
 **Addon là phần bổ sung sự kiện, không phải bộ game đầy đủ.** Anh em cần có JxOffline V5, V5.1 hoặc V5.2 chạy được trước khi cài.
 
-- **[Tải addon CGPT Beta — bản chép trực tiếp (Full.zip)](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1_Full.zip)**: dành cho đa số anh em, chỉ cần giải nén và chép file.
+- **[Tải addon CGPT Beta — bản chép trực tiếp (Full.zip)](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.2/CGPT_1.1.0-beta.2_Full.zip)**: dành cho đa số anh em, chỉ cần giải nén và chép file.
+- **[Đã cài Beta1? Tải bản cập nhật Beta2](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.2/CGPT_1.1.0-beta.2_Update_from_beta.1.zip)**: chỉ chép file Lua phía server, không cần đồng bộ lại Client.
 - **[Hướng dẫn chi tiết cách cài đặt, cấu hình kết nối và cập nhật addon](INSTALL.md)**.
 - **[Hướng dẫn chép file từ Windows sang server bằng WinSCP](INSTALL.md#chép-file-từ-windows-sang-server-bằng-winscp-sftp)**.
 - [Mở cẩm nang 61 sự kiện](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/) · [Gửi góp ý](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/issues).
@@ -37,7 +38,9 @@ Nhờ có bản JxOffline V5 của hai bác ACE và Mel, mình cùng ông dev CG
 
 ## Có gì trong addon?
 
-Các sự kiện được chia thành những nhóm lễ hội để anh em dễ tìm và chủ động trải nghiệm. Addon bổ sung **Hồi Ức Võ Lâm Lệnh**, với hai nhóm **Quản lý lễ hội** và **Quản lý tính năng** (các hoạt động nguyên bản). Mục đầu của Quản lý lễ hội cho phép quản lý sự kiện hiện tại: tạm dừng nhưng vẫn cho đổi thưởng, hoặc đóng và ngừng đổi thưởng. Thích đón Tết giữa tháng Bảy hay chơi Trung Thu vào đêm giao thừa cũng được. :)))
+Các sự kiện được chia thành những nhóm lễ hội để anh em dễ tìm và chủ động trải nghiệm. Addon bổ sung **Hồi Ức Võ Lâm Lệnh**, với hai nhóm **Quản lý sự kiện** và **Quản lý tính năng** (các hoạt động nguyên bản). Khi có sự kiện đang mở, mục đầu tiên là **Quản lý sự kiện hiện tại**: đóng (ngừng săn và đổi thưởng) hoặc tạm dừng (ngừng săn, vẫn đổi thưởng). Khi không có sự kiện đang mở, mục này tự ẩn. Thích đón Tết giữa tháng Bảy hay chơi Trung Thu vào đêm giao thừa cũng được. :)))
+
+**Mới trong Beta2:** NPC Thượng Sứ Lễ Hội tập trung các tuyến đổi thưởng tại Tương Dương, giữa cổng Nha Môn dưới bậc thang. Các NPC và tuyến đặc thù vẫn giữ riêng. Tỷ lệ rơi nguyên liệu thường là 10% với quái nhóm 10–80 đủ điều kiện, 20% với nhóm 90 tại bãi quy định; mỗi lượt trúng rơi một món. Giữ điều kiện riêng của từng sự kiện. Hệ thống đổi theo số lượng bổ sung thông báo riêng về vật phẩm thực tế đã sử dụng và nhận được khi đọc được dữ liệu giao dịch.
 
 Kèm theo addon là cẩm nang HTML với 61 bài viết, tổng hợp thể lệ, cách tham gia, vật phẩm, công thức, phần thưởng và tư liệu lịch sử còn tìm được.
 
@@ -63,7 +66,7 @@ Phần quan trọng nhất mình muốn chia sẻ là addon này mới được 
 
 Có sự kiện còn tương đối đầy đủ dữ liệu, nhưng cũng có sự kiện chỉ còn vài đoạn script, vài vật phẩm hoặc một bài viết cũ. Những cơ chế bị thất lạc phải được suy luận, tái tạo và chế cháo thêm để có thể hoạt động. Cái gì tìm được căn cứ thì cố gắng giữ đúng; phần chưa đủ tư liệu vẫn có thể khác với nguyên bản.
 
-Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là cả 61 sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta được giữ để anh em chơi thử và góp ý. Nhóm sẽ tập trung tiếp nhận phản hồi trước khi mở lại đợt phát triển. Về nền tảng, nhóm phát triển xác nhận addon tương thích với JxOffline V5, V5.1 và V5.2 của ACE và Mel. Bản beta đầu tiên cho phép mở 60 sự kiện; Thép Tinh Luyện tạm khóa để kiểm tra rủi ro nhận thưởng.
+Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là cả 61 sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta được giữ để anh em chơi thử và góp ý. Nhóm sẽ tập trung tiếp nhận phản hồi trước khi mở lại đợt phát triển. Về nền tảng, nhóm phát triển xác nhận addon tương thích với JxOffline V5, V5.1 và V5.2 của ACE và Mel. Bản Beta2 vẫn cho phép mở 60 sự kiện; Thép Tinh Luyện tạm khóa để kiểm tra rủi ro nhận thưởng.
 
 ## Cộng đồng Vozer Truyền Kỳ Vui Vẻ
 
@@ -82,9 +85,9 @@ Kiểm tra game gốc hoạt động bình thường trước khi cài addon CGP
 
 ## Cài đặt và đồng bộ addon
 
-**[Tải CGPT Community Beta 1.1.0 — bản chép trực tiếp](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1_Full.zip)** — tải file `CGPT_1.1.0-beta.1_Full.zip`, không phải Source code (zip).
+**[Tải CGPT Community Beta 2 — bản chép trực tiếp](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.2/CGPT_1.1.0-beta.2_Full.zip)** — tải file `CGPT_1.1.0-beta.2_Full.zip`, không phải Source code (zip).
 
-Chỉ cần tải một gói. Người mới nên chọn bản chép trực tiếp. Gói này đã có sẵn thư mục `cgpt` chứa các file cần thiết cho addon. Không cần chạy script chuẩn bị. [Bản vá tạo file từ bộ gốc](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1.zip) vẫn được giữ lại cho anh em muốn đối chiếu dữ liệu đầu vào.
+Chỉ cần tải một gói. Người mới chọn Full.zip, giải nén là có thư mục cgpt. Anh em đã cài đúng bản cộng đồng beta.1 có thể dùng [Update từ Beta1](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.2/CGPT_1.1.0-beta.2_Update_from_beta.1.zip) (79 file Lua, không cần chép Client). Nếu game có mod riêng, đối chiếu file trước khi ghi đè. [Bản vá chuẩn bị từ game gốc của beta.1](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.1) là bản lịch sử, không phải gói Beta2.
 
 > **[Hướng dẫn chi tiết cách cài đặt, cấu hình kết nối và cập nhật addon](INSTALL.md)** — có hướng dẫn sao lưu, chép đúng thư mục, đồng bộ Client và khôi phục khi gặp lỗi.
 >
@@ -94,7 +97,7 @@ Chỉ cần tải một gói. Người mới nên chọn bản chép trực ti�
 
 1. Có bộ **JxOffline V5, V5.1 hoặc V5.2 của ACE và Mel**, chơi được bình thường. Không bắt buộc nâng cấp lên V5.2. Các bản mod khác cần đối chiếu xung đột trước khi cài.
 2. Thoát game, dừng GameServer và sao lưu server, Client và dữ liệu nhân vật. Nếu sao chép cả file đĩa máy ảo, tắt hẳn môi trường Linux trước khi sao chép. Nên thử trên bản sao trước.
-3. Tải bản `CGPT_1.1.0-beta.1_Full.zip` từ Releases và giải nén vào thư mục riêng. Thư mục `cgpt` đã có sẵn. Nếu chọn bản vá thay thế, làm theo hướng dẫn trong README của bản vá để tạo thư mục `cgpt` trước khi đồng bộ.
+3. Tải bản `CGPT_1.1.0-beta.2_Full.zip` từ Releases và giải nén vào thư mục riêng. Thư mục `cgpt` đã có sẵn. Nếu đang dùng đúng beta.1, xem mục cập nhật bên dưới.
 
 ### Bước 2 — Chép file vào server và Client
 
@@ -124,7 +127,7 @@ Vẫn phải chép riêng phần Client trên Windows theo dòng Client trong b�
 
 ### Bước 3 — Khởi động lại và vào sự kiện
 
-Khởi động lại GameServer, mở game. Vào **Cẩm Nang Đồng Hành → Nhận Lệnh bài Hồi Ức → Hồi Ức Võ Lâm Lệnh**. Dùng lệnh bài để vào **Quản lý lễ hội**, chọn mùa và sự kiện muốn chơi. Mục **Quản lý tính năng** dành cho các hoạt động nguyên bản.
+Khởi động lại GameServer, mở game. Vào **Cẩm Nang Đồng Hành → Nhận Lệnh bài Hồi Ức → Hồi Ức Võ Lâm Lệnh**. Dùng lệnh bài để vào **Quản lý sự kiện**, chọn mùa và sự kiện muốn chơi. Mục **Quản lý tính năng** dành cho các hoạt động nguyên bản.
 
 Chỉ mở một sự kiện tại một thời điểm. [Xem hướng dẫn chung trong cẩm nang](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/guide.html) nếu chưa biết bắt đầu từ đâu.
 
@@ -138,7 +141,7 @@ Chỉ mở một sự kiện tại một thời điểm. [Xem hướng dẫn chu
 
 ### Trạng thái bộ cài
 
-Bản beta cộng đồng đầu tiên đã có file tải. Hai gói cài cho cùng nội dung addon và đã được kiểm tra tính toàn vẹn. Nhóm phát triển xác nhận tương thích V5, V5.1 và V5.2 của ACE và Mel; việc cài đặt trên bộ game sạch và chơi thử đầy đủ từng sự kiện của chính gói phát hành này vẫn chưa được kiểm chứng độc lập. Thép Tinh Luyện đang tạm khóa để tránh rủi ro nhận thưởng.
+Beta2 gồm gói Full và gói Update từ beta.1; nội dung cập nhật đã được đối chiếu với bản cộng đồng trước, không kèm mod cá nhân. Nhóm đã chơi thử đại diện trên bộ UAT cá nhân; chưa kiểm chứng độc lập việc cài mới bản cộng đồng trên từng nền tảng V5/V5.1/V5.2 và chưa chơi thử đầy đủ tất cả sự kiện. Thép Tinh Luyện vẫn tạm khóa.
 
 ## Cẩm nang và góp ý
 

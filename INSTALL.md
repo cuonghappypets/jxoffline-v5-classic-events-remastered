@@ -1,6 +1,6 @@
 # Hướng dẫn cài đặt, cấu hình kết nối và cập nhật Hồi Ức Võ Lâm
 
-Bản beta cộng đồng đầu tiên mang mã phiên bản **v1.1.0-beta.1**. Đây là addon (phần bổ sung sự kiện), không phải bộ game hoàn chỉnh. Nếu chưa có game gốc chạy được, xem [cách cài JxV5 bằng bộ cài WSL2 của VDK](README.md#cài-jxv5-bằng-bộ-cài-wsl2-của-vdk) trước.
+Bản beta cộng đồng hiện tại mang mã phiên bản **v1.1.0-beta.2**. Đây là addon (phần bổ sung sự kiện), không phải bộ game hoàn chỉnh. Nếu chưa có game gốc chạy được, xem [cách cài JxV5 bằng bộ cài WSL2 của VDK](README.md#cài-jxv5-bằng-bộ-cài-wsl2-của-vdk) trước.
 
 ## 1. Chuẩn bị
 
@@ -8,18 +8,16 @@ Bản beta cộng đồng đầu tiên mang mã phiên bản **v1.1.0-beta.1**. 
 - Nên dùng một bản sao để chơi thử. Nếu đã cài thêm mod, cần kiểm tra những file có thể bị chép đè.
 - Thoát game, dừng GameServer và sao lưu server, Client, máy ảo và dữ liệu nhân vật trước khi cài. Nếu sao chép cả file đĩa máy ảo, tắt hẳn môi trường Linux trước khi sao chép. Đừng bỏ qua bước này!
 
-## 2. Tải một trong hai gói
+## 2. Tải đúng gói
 
-**Người mới nên chọn bản chép trực tiếp (Full.zip).** Chỉ cần tải một gói, giải nén vào thư mục riêng trên Windows, không giải nén đè trực tiếp vào game.
+- [Bản chép trực tiếp — CGPT_1.1.0-beta.2_Full.zip](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.2/CGPT_1.1.0-beta.2_Full.zip): cho người mới, giải nén là có thư mục cgpt.
+- [Bản cập nhật — CGPT_1.1.0-beta.2_Update_from_beta.1.zip](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.2/CGPT_1.1.0-beta.2_Update_from_beta.1.zip): chỉ dành cho bản cộng đồng beta.1 đã cài đầy đủ, không sửa các file cần cập nhật. Có 79 file Lua phía server và rollback riêng; không có file Client cần chép.
 
-- [Bản chép trực tiếp – CGPT_1.1.0-beta.1_Full.zip](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1_Full.zip): giải nén là có thư mục `cgpt`, không cần chạy chương trình chuẩn bị.
-- [Bản vá – CGPT_1.1.0-beta.1.zip](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.1/CGPT_1.1.0-beta.1.zip): tạo cùng nội dung từ bộ game có sẵn và kiểm tra dữ liệu đầu vào. Phù hợp nếu muốn đối chiếu với bộ gốc trước khi chép.
-
-Không tải mục **Source code (zip)** của GitHub để cài addon. Cả hai gói đều có README riêng.
-
-Nếu dùng bản vá, giải nén vào thư mục riêng trên Windows, chạy `Prepare-cgpt.cmd`. Chọn file nén `JxserV5.tgz` gốc hoặc thư mục server sạch đã xuất ra có chứa `server1`, sau đó chọn thư mục Client (nơi có `settings`). Khi màn hình báo SUCCESS, thư mục `cgpt` xuất hiện cạnh file chuẩn bị. Chương trình không tự chép vào game. Nếu báo lỗi file thiếu hoặc không khớp, dừng lại, kiểm tra bộ gốc; không bỏ qua kiểm tra. Nếu thư mục cgpt đã tồn tại, di chuyển hoặc đổi tên nó trước khi chạy lại.
+Chỉ cần một gói phù hợp. Không tải mục **Source code (zip)** của GitHub để cài addon. Giải nén vào thư mục riêng, không giải nén đè trực tiếp vào game. Nếu dùng gói Update, đọc README.md trong gói, sao lưu và đối chiếu PRE.sha256 trước khi chép. Nếu không chắc bản hiện tại là beta.1 hoặc đã có mod riêng, dừng để đối chiếu.
 
 ## 3. Chép addon vào game
+
+Các bước chép cả server và Client dưới đây dành cho Full.zip. Nếu dùng gói Update từ beta.1, chép riêng cgpt/server1/script theo README của gói; bỏ qua các bước Client/settings không có trong gói.
 
 Server là phần game chạy trên Linux; Client là thư mục game trên Windows có file `Game.exe`.
 
@@ -56,13 +54,13 @@ Nếu không kết nối được, kiểm tra Linux đã chạy, dịch vụ SSH
 
 ## 4. Vào game
 
-Khởi động GameServer, mở game, vào **Cẩm Nang Đồng Hành → Nhận Lệnh bài Hồi Ức → Hồi Ức Võ Lâm Lệnh**. Chọn Quản lý lễ hội, mùa và sự kiện muốn chơi. Chỉ mở một sự kiện tại một thời điểm; xem [hướng dẫn chung](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/guide.html).
+Khởi động GameServer, mở game, vào **Cẩm Nang Đồng Hành → Nhận Lệnh bài Hồi Ức → Hồi Ức Võ Lâm Lệnh**. Chọn Quản lý sự kiện, mùa và sự kiện muốn chơi. Chỉ mở một sự kiện tại một thời điểm; xem [hướng dẫn chung](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/guide.html).
 
-Bản beta có 61 bài hướng dẫn, 60 sự kiện có thể mở. Thép Tinh Luyện đang tạm khóa. Chưa kiểm chứng độc lập việc cài trên bộ sạch và chơi hết các sự kiện của chính bản phát hành này.
+Bản Beta2 có 61 bài hướng dẫn, 60 sự kiện có thể mở. Gặp Thượng Sứ Lễ Hội ở Tương Dương, ngay giữa cổng Nha Môn dưới bậc thang. Khi có sự kiện đang mở, vào Quản lý sự kiện hiện tại để tạm dừng hoặc đóng; muốn đóng hẳn sự kiện đã tạm dừng, chọn sự kiện trong nhóm mùa. Thép Tinh Luyện đang tạm khóa. Chưa kiểm chứng độc lập việc cài trên bộ sạch và chơi hết các sự kiện của chính bản phát hành này.
 
 ## 5. Cập nhật addon
 
-Khi có bản cập nhật mới, không cần cài lại game gốc nếu game đang hoạt động bình thường.
+Khi có bản cập nhật mới, không cần cài lại game gốc nếu game đang hoạt động bình thường. Từ beta.1 lên beta.2, dùng gói Update ở mục 2. Chép gộp cgpt/server1/script vào server1/script thật, không chép thư mục rollback trừ khi cần phục hồi. Không phải chép lại Client.
 
 1. Tải đúng gói cập nhật dành cho phiên bản addon và bộ game anh em đang dùng. Đọc hướng dẫn đi kèm gói; không lấy file cập nhật của phiên bản khác ghép vào.
 2. Thoát game, dừng GameServer và sao lưu các file sắp thay cùng dữ liệu nhân vật.
@@ -76,4 +74,4 @@ Dừng game/server, dùng bản sao lưu đúng phiên bản để khôi phục.
 
 ## Kiểm tra file tải (không bắt buộc)
 
-Đối chiếu mã SHA256 từ trang [Releases](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.1) với file tải về. Trên Windows có thể mở PowerShell tại thư mục chứa ZIP và chạy `Get-FileHash -Algorithm SHA256 .\CGPT_1.1.0-beta.1_Full.zip` (đổi tên file nếu dùng bản vá).
+Đối chiếu mã SHA256 từ trang [Releases](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.2) với file tải về. Trên Windows có thể mở PowerShell tại thư mục chứa ZIP và chạy `Get-FileHash -Algorithm SHA256 .\CGPT_1.1.0-beta.2_Full.zip` (đổi tên file nếu dùng gói Update).
