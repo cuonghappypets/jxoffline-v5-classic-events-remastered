@@ -35,4 +35,4 @@
 
 Đã biên tập lời hướng dẫn, giữ bảng công thức, phần thưởng và tư liệu đối chiếu; bổ sung biểu tượng minh họa vật phẩm. Lượt biên tập cuối tập trung vào ngôn ngữ dành cho người chơi, thuật ngữ, tiêu đề và tham chiếu tài liệu. Cập nhật cẩm nang không đồng nghĩa với thay đổi thể lệ trong addon.
 
-Kết thúc đợt phát triển beta đầu tiên. Tạm dừng mở rộng nội dung, tiếp nhận góp ý và kết quả chơi thử của cộng đồng. Chỉ mở lại khi có đủ phản hồi thực tế hoặc phát hiện lỗi nghiêm trọng.
+Sau Beta3, dự án chuyển sang bảo trì và tiếp nhận góp ý. Giữ ổn định số lượng sự kiện, không mở rộng sau năm 2010; chỉ sửa lỗi và điều chỉnh có căn cứ thực tế. Thử nghiệm bản 1-click là hướng cân nhắc riêng, chưa có xác nhận tương thích hoặc lịch triển khai.

@@ -1,10 +1,14 @@
-# JxOffline V5 Classic Events Remastered
+# JxCER — JXOffline Classic Events Remastered
+
+**Dự án Phục dựng các sự kiện/lễ hội Võ Lâm Truyền Kỳ xưa** (2005–2010), trên nền tảng JxOffline V5.
 
 ![Hồi Ức Võ Lâm — JxOffline V5 Classic Events Remastered, banner minh họa của dự án](assets/readme/cover.jpg)
 
 **JxOffline V5 (by ACE) · Beta cộng đồng 3** (phiên bản phát hành: v1.1.0-beta.3)
 
 Thư mục gói addon: `cuonghappypets_cgpt`
+
+**Trạng thái dự án: bảo trì và tiếp nhận góp ý cộng đồng.** Beta 3 là mốc hiện tại; chưa mở đợt phát triển nội dung mới.
 
 **Nền tảng JxOffline V5:** ACE và Mel.
 
@@ -44,6 +48,8 @@ Các sự kiện được chia thành những nhóm lễ hội để anh em dễ
 
 **Mới trong Beta3:** Lễ hội chiến công (30/4/2007), Ghép người tuyết (Giáng sinh 2006), nhánh Tân Bản Cổ của Sinh nhật 2009; bổ sung nhánh đổi lệnh bài và đèn kéo quân đặc biệt của Trung thu 2006, cân bằng vật liệu #35/#36/#40/#41 và ẩn #02 khỏi danh mục. Các ngày 30/4 và 25/12 là mốc tham chiếu dịp lễ, chưa xác minh lịch mở chính thức.
 
+Đợt nâng cấp này đã đối chiếu 30 sự kiện từ tư liệu của Tiểu Âu: giữ nguyên 17, nâng cấp 6, phục dựng thêm 2 và tạm gác 5. JxCER tiếp thu có chọn lọc, giữ bản sắc từng lễ hội và điều chỉnh khi cần cho trải nghiệm offline, LAN nhỏ.
+
 Cẩm nang HTML trực tuyến có 62 bài trong danh mục, tổng hợp thể lệ, cách tham gia, vật phẩm, công thức, phần thưởng và tư liệu lịch sử còn tìm được.
 
 Dự án chỉ tập trung vào phục dựng lễ hội, tôn trọng game gốc và ý đồ của các tác giả JxOffline V5. Đây là addon cộng đồng phi thương mại, không phải sản phẩm chính thức của nhà phát hành. Kho mã không đính kèm bộ game đầy đủ, tài khoản, cơ sở dữ liệu hoặc dữ liệu lưu nhân vật, cũng như mã và tài nguyên chưa rõ quyền phân phối.
@@ -69,6 +75,8 @@ Phần quan trọng nhất mình muốn chia sẻ là addon này mới được 
 Có sự kiện còn tương đối đầy đủ dữ liệu, nhưng cũng có sự kiện chỉ còn vài đoạn script, vài vật phẩm hoặc một bài viết cũ. Những cơ chế bị thất lạc phải được suy luận, tái tạo và chế cháo thêm để có thể hoạt động. Cái gì tìm được căn cứ thì cố gắng giữ đúng; phần chưa đủ tư liệu vẫn có thể khác với nguyên bản.
 
 Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là mọi sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta được giữ để anh em chơi thử và góp ý. Nhóm sẽ tập trung tiếp nhận phản hồi trước khi mở lại đợt phát triển. Addon hướng đến JxOffline V5, V5.1 và V5.2 của ACE và Mel. Bản Beta3 có 63 ID kỹ thuật, 62 sự kiện trong danh mục và 61 có thể mở. Trung thu PGaming (#02) được lưu trữ, giữ ghi nhận tác giả; Thép Tinh Luyện (#52) vẫn tạm khóa để kiểm tra rủi ro nhận thưởng.
+
+Mình muốn giữ ổn định số lượng sự kiện hiện tại, tập trung sửa lỗi và điều chỉnh dựa trên trải nghiệm thực tế thay vì tiếp tục mở rộng sang những sự kiện sau năm 2010. Nếu thu xếp được thời gian, mình có thể thử khả năng tương thích với bản Võ Lâm Offline 1-click cho anh em máy yếu hơn. **Bản 1-click chưa được xác nhận tương thích**, chưa có lịch phát hành riêng.
 
 ## Cộng đồng Vozer Truyền Kỳ Vui Vẻ
 
@@ -156,6 +164,8 @@ Beta3 gồm gói Full và Update từ đúng beta.2 cộng đồng; nội dung c
 Anh em nào có thời gian thì tải gói beta về chơi thử nhé! Không cần test hết các sự kiện đâu, cứ chọn những sự kiện mình từng chơi và còn nhớ là quý lắm rồi.
 
 Nếu thấy cơ chế chưa đúng, tỷ lệ rơi đồ hoặc phần thưởng chưa hợp lý, gặp bug hay đơn giản là nhớ một chi tiết khác với bản phục dựng, anh em cứ thoải mái góp ý. Không cần biết lập trình hay đọc source; đôi khi chỉ một câu *“Hồi đó tôi nhớ sự kiện này không phải chơi như vậy…”* cũng đã là một manh mối rất quý.
+
+JxCER hoàn toàn phi thương mại, không nhận donate hay mời cà phê. Anh em chơi thử và chia sẻ góp ý là sự hỗ trợ quý nhất đối với dự án.
 
 <p align="center">
   <img src="assets/readme/community-poster.jpg" width="720" alt="Tranh minh họa hội quán Võ Lâm — Anh em vào test phụ một tay nhé!" />
