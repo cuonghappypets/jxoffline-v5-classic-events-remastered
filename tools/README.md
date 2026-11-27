@@ -112,3 +112,15 @@ Where the underlying game table only says `Free Item`, icon choices are
 disambiguated by item keys in page order; the unchanged textual label remains
 as in the existing handbook. Art-specific errors should be corrected in the
 mapping or original SVG source, then rebuilt and visually verified.
+
+## Historical catalog order
+
+After adding or retiring an event, update both the visible index cards and
+timeline rows, then run `python tools/order_handbook.py` and
+`python tools/order_handbook.py --check`. The script uses the article's
+documented opening date, explicit editorial hints when an opening date is
+unknown, and the end of the relevant year when there is no useful hint.
+It updates display STT, navigation and timeline together. STT is not the
+in-game event ID; keep filenames and stable IDs unchanged. Undated community
+remixes are separate from the historical chronology. Review new date hints
+against their source before treating them as anything beyond ordering aids.
