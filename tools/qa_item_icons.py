@@ -22,20 +22,19 @@ EVENTS=ROOT/"docs"/"events"
 SVG=ROOT/"docs"/"assets"/"item-icons"
 MANIFEST=ROOT/"tools"/"item_icon_map.json"
 QA=ROOT.parent.parent/"05_HANDBOOK"/"qa"
-TAG=re.compile(r'<img class="item-illustration"[^>]*>')
-TABLE_TAG=re.compile(r'<img class="table-item-icon"[^>]*>')
+TAG=re.compile(r'<img\b(?=[^>]*\bclass="item-illustration")[^>]*>')
+TABLE_TAG=re.compile(r'<img\b(?=[^>]*\bclass="table-item-icon")[^>]*>')
 CARD=re.compile(r'<div class="item-card">(?P<image><img[^>]*>)?<div><strong>(?P<name>.*?)</strong>',re.S)
 ATTR=re.compile(r'([a-zA-Z][\w-]*)="([^"]*)"')
 def attrs(raw):
     return dict(ATTR.findall(raw or ""))
 def fail(msg):
     raise AssertionError(msg)
-def static():
+def static(compare_head=False):
     source=json.loads(MANIFEST.read_text(encoding="utf8"))
     pages=source["pages"]
     assert source["kind"]=="original-illustration"
-    assert len(pages)==61,len(pages)
-    assert len(list(EVENTS.glob("[0-9][0-9].html")))==61
+    assert set(pages)=={p.stem for p in EVENTS.glob("[0-9][0-9].html")}
     names=Counter()
     total=0
     refs=set()
@@ -60,11 +59,12 @@ def static():
         total+=len(cards)
         # Invariant: content is unchanged relative to the checkout HEAD,
         # except for the intentionally inserted decorative SVG img elements.
-        old=subprocess.run(["git","show",f"HEAD:docs/events/{name}.html"],cwd=ROOT,
-                           capture_output=True,text=True,encoding="utf8",check=True).stdout
-        if TABLE_TAG.sub("",TAG.sub("",raw)).replace("\r\n","\n")!=TABLE_TAG.sub("",TAG.sub("",old)).replace("\r\n","\n"):
-            fail(f"{name}: article content differs from HEAD beyond icon markup")
-    assert total==575,(total,575)
+        if compare_head:
+            old=subprocess.run(["git","show",f"HEAD:docs/events/{name}.html"],cwd=ROOT,
+                               capture_output=True,text=True,encoding="utf8",check=True).stdout
+            if TABLE_TAG.sub("",TAG.sub("",raw)).replace("\r\n","\n")!=TABLE_TAG.sub("",TAG.sub("",old)).replace("\r\n","\n"):
+                fail(f"{name}: article content differs from HEAD beyond icon markup")
+    assert total==sum(map(len,pages.values()))
     js=(ROOT/"docs/assets/app.js").read_text(encoding="utf8")
     if "const iconRules" in js or "card.prepend(symbol)" in js:
         fail("Legacy inaccurate emoji injection still active")
@@ -97,7 +97,7 @@ def static():
     print(f"STATIC PASS: {len(pages)} event pages, {total} illustrated cards, "
           f"{len(names)} labels, {len({r['key'] for group in pages.values() for r in group})} "
           f"source IDs, {len(refs)} used SVGs / {len(allsvg)} valid assets. "
-          f"Article text unchanged.")
+          + ("Article text unchanged." if compare_head else "Article prose not compared to HEAD."))
 def browser():
     try:
         from playwright.sync_api import sync_playwright
@@ -118,7 +118,7 @@ def browser():
                 page.locator("#theme").click()
                 if page.evaluate("document.documentElement.dataset.theme")!="dark":
                     fail(f"BROWSER {mode}: theme toggle failed")
-                for pid in ("01","02","20","35","48","59"):
+                for pid in ("01","20","35","48","59","62","63"):
                     page.goto((EVENTS/(pid+".html")).resolve().as_uri(),wait_until="load")
                     page.locator("#vat-pham").scroll_into_view_if_needed()
                     # Browser image loading is lazy: exercise each row at its
@@ -133,16 +133,17 @@ def browser():
                         fail(f"BROWSER {mode} #{pid}: broken/small art {result}")
                     if page.evaluate("document.documentElement.scrollWidth > window.innerWidth+1"):
                         fail(f"BROWSER {mode} #{pid}: horizontal overflow")
-                    if pid in ("01","02","35","48","59"):
+                    if pid in ("01","35","48","59","62","63"):
                         page.locator("#vat-pham").screenshot(path=str(QA/(f"item_icons_{mode}_{pid}.png")))
                 context.close()
-                print(f"BROWSER {mode}: 6 representative pages, image loads/width/overflow PASS.")
+                print(f"BROWSER {mode}: 7 representative pages, image loads/width/overflow PASS.")
         finally:
             b.close()
     print(f"Screenshots: {QA}")
 if __name__=="__main__":
     parser=argparse.ArgumentParser()
     parser.add_argument("--browser",action="store_true")
+    parser.add_argument("--compare-head",action="store_true",help="Require prose identical to Git HEAD for icon-only edits")
     opts=parser.parse_args()
-    static()
+    static(opts.compare_head)
     if opts.browser: browser()

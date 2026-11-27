@@ -1518,6 +1518,16 @@
         "name": "Thương Cổ Lệnh Bài",
         "key": "6,1,1252",
         "icon": "talisman"
+      },
+      {
+        "name": "Phụng Nguyệt Quả Dung",
+        "key": "6,1,127",
+        "icon": "flower"
+      },
+      {
+        "name": "Cống Nguyệt Phù Dung",
+        "key": "6,1,128",
+        "icon": "flower"
       }
     ],
     "28": [
@@ -2803,6 +2813,41 @@
         "name": "Quế Hoa Tửu",
         "key": "6,1,125",
         "icon": "potion-bottle"
+      },
+      {
+        "name": "Thiên Tứ Bảo Rương - Lễ hội 2009",
+        "key": "6,1,30620",
+        "icon": "gift-box"
+      },
+      {
+        "name": "Hùng - Lễ hội 2009",
+        "key": "6,1,30621",
+        "icon": "letter-tile-1"
+      },
+      {
+        "name": "Bá - Lễ hội 2009",
+        "key": "6,1,30622",
+        "icon": "letter-tile-2"
+      },
+      {
+        "name": "Thiên - Lễ hội 2009",
+        "key": "6,1,30623",
+        "icon": "letter-tile-3"
+      },
+      {
+        "name": "Hạ - Lễ hội 2009",
+        "key": "6,1,30624",
+        "icon": "letter-tile-4"
+      },
+      {
+        "name": "Đồng Cổ - Lễ hội 2009",
+        "key": "6,1,30625",
+        "icon": "drum"
+      },
+      {
+        "name": "Tân Bản Cổ - Lễ hội 2009",
+        "key": "6,1,30626",
+        "icon": "drum"
       }
     ],
     "52": [
@@ -2980,6 +3025,80 @@
         "name": "Tiểu Tự Khung",
         "key": "6,1,2418",
         "icon": "paper"
+      }
+    ],
+    "62": [
+      {
+        "name": "Công trạng lệnh - Lễ hội",
+        "key": "6,1,30610",
+        "icon": "plaque-copper"
+      },
+      {
+        "name": "Huy chương Tống Kim - Lễ hội",
+        "key": "6,1,30611",
+        "icon": "pendant"
+      },
+      {
+        "name": "Túi quà may mắn - Lễ hội",
+        "key": "6,1,30612",
+        "icon": "bag"
+      },
+      {
+        "name": "Bông hoa chiến công - Lễ hội",
+        "key": "6,1,30613",
+        "icon": "flower"
+      }
+    ],
+    "63": [
+      {
+        "name": "Hộp quà giáng sinh - Lễ hội",
+        "key": "6,1,30630",
+        "icon": "gift-box"
+      },
+      {
+        "name": "Hoa tuyết - Lễ hội",
+        "key": "6,1,30631",
+        "icon": "star"
+      },
+      {
+        "name": "Cà rốt - Lễ hội",
+        "key": "6,1,30632",
+        "icon": "package"
+      },
+      {
+        "name": "Cành thông - Lễ hội",
+        "key": "6,1,30633",
+        "icon": "sapling"
+      },
+      {
+        "name": "Nón giáng sinh - Lễ hội",
+        "key": "6,1,30634",
+        "icon": "hat"
+      },
+      {
+        "name": "Khăn choàng (xanh) - Lễ hội",
+        "key": "6,1,30635",
+        "icon": "silk"
+      },
+      {
+        "name": "Khăn choàng (đỏ) - Lễ hội",
+        "key": "6,1,30636",
+        "icon": "silk"
+      },
+      {
+        "name": "Người tuyết choàng khăn xanh (thường) - Lễ hội",
+        "key": "6,1,30637",
+        "icon": "snowman-green"
+      },
+      {
+        "name": "Người tuyết choàng khăn đỏ (thường) - Lễ hội",
+        "key": "6,1,30638",
+        "icon": "snowman"
+      },
+      {
+        "name": "Người tuyết thường - Lễ hội",
+        "key": "6,1,30639",
+        "icon": "snowman"
       }
     ]
   }

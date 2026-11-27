@@ -1,5 +1,16 @@
 # Lịch sử phát hành
 
+## Beta cộng đồng 3 — v1.1.0-beta.3 · 27/11/2026
+
+- Bổ sung ID62 Lễ hội chiến công: đổi điểm Tống Kim tích lũy thật, mua Công trạng lệnh, ghép Túi quà may mắn và đổi hoa lấy EXP. Không thêm điểm Tống Kim giả hoặc nguồn rơi từ quái.
+- Bổ sung ID63 Ghép người tuyết: hộp quà, sáu nguyên liệu, ba công thức; thời lượng nhân đôi EXP cá nhân 10/30/60 phút là điều chỉnh offline, cần thêm trải nghiệm thực tế.
+- Sinh nhật 2009 (#51) có thêm nhánh Thiên Tứ Bảo Rương, ghép Tân Bản Cổ; giữ Nhím Báo Phú. Trung thu 2006 (#27) bổ sung cơ hội nhận mảnh tranh khi ghép đèn, đổi 10 lệnh bài lấy vật phẩm kỹ năng/tiềm năng và đổi 10 đèn kéo quân đặc biệt; không thêm nguồn mảnh Dã Tẩu chưa xác minh.
+- Cân bằng nguyên liệu #27, #35, #36, #40, #41; giữ tỷ lệ rơi thường 10/20% và một vật phẩm mỗi lượt trúng theo điều kiện riêng.
+- Lưu trữ Trung thu PGaming (#02), giữ ID và ghi nhận nguồn; #52 Thép Tinh Luyện vẫn khóa. Tổng 63 ID kỹ thuật, 62 mục trong cẩm nang, 61 có thể mở.
+- Full và Update từ beta.2 dùng thư mục gói `cuonghappypets_cgpt`; cả hai cần cập nhật server và Client. Update gồm 43 file, 36 file rollback và 7 đường dẫn mới. Đã kiểm thử mock tích hợp và owner chấp nhận chơi thử nhanh bản private; chưa xác nhận cài mới bản công khai trên từng nền tảng hoặc tất cả tuyến sự kiện.
+
+[Xem file tải và ghi chú phát hành](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.3)
+
 ## Beta cộng đồng 2 — v1.1.0-beta.2 · 27/11/2026
 
 - Điều chỉnh 32 tuyến rơi nguyên liệu thường: 10% nhóm quái 10–80, 20% nhóm 90 tại bãi hợp lệ; mỗi lượt trúng một món. Giữ điều kiện riêng (Tết 2006/2007 chỉ nhóm 90, Quốc khánh 2007 từ nhóm 50) và nguồn đặc thù.

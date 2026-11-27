@@ -29,7 +29,7 @@ MANIFEST = ROOT / "tools" / "item_icon_map.json"
 # The private sources directory lives alongside 01_REPOSITORY in this workspace:
 PRIVATE = ROOT.parent.parent / "05_HANDBOOK" / "sources"
 PATTERN = re.compile(
-    r'(?P<open><div class="item-card">)(?P<art><img class="item-illustration"[^>]*>)?'
+    r'(?P<open><div class="item-card">)(?P<art><img\b(?=[^>]*\bclass="item-illustration")[^>]*>)?'
     r'(?P<label><div><strong>(?P<name>.*?)</strong>)', re.S
 )
 NORMALIZE = lambda s: "".join(ch for ch in unicodedata.normalize("NFD", str(s).lower().replace("đ", "d")) if unicodedata.category(ch) != "Mn")
@@ -360,7 +360,7 @@ def build(check=False):
     icons=validate_svgs()
     unmapped={r["icon"] for rows in pages.values() for r in rows} - set(icons)
     if unmapped: raise RuntimeError("SVG assets missing: "+", ".join(sorted(unmapped)))
-    assert len(pages)==61, len(pages)
+    assert set(pages)=={p.stem for p in HTML.glob("[0-9][0-9].html")}, "Page inventory drift"
     total=0
     changed=0
     for pid, rows in pages.items():

@@ -1,14 +1,15 @@
 # CGPT handbook item illustrations
 
-This is the **public, reproducible icon layer** for the 61-event player
-handbook in `docs/`. It does not modify addon code, reward values or prose.
+This is the **public, reproducible icon layer** for the player handbook in
+`docs/`: 62 catalog entries and one archived article. It does not modify
+addon code, reward values or prose.
 
 ## Data and provenance
 
-- `item_icon_map.json` is the committed, ordered map of **575 visible cards** to
+- `item_icon_map.json` is the ordered map of **598 item cards** (including
+  historical cards on the archived page) to
   their client-004 reference key, display name and selected original SVG family.
-  There are 390 distinct labels and 400 different referenced item keys. The
-  distinction matters: names repeat, especially the three `Free Item` cards.
+  Names and reference keys can repeat, especially the three `Free Item` cards.
 - `../docs/assets/item-icons/*.svg` contains original CGPT family
   illustrations and deterministic color/filling/grade variants. These are
   **original artwork released as CC0-1.0**, including the metadata in each SVG,
@@ -45,7 +46,7 @@ names within and across events.
 ### Item icons inside tables
 
 `table_icon_map.json` is the **reviewable source of truth** for the additional
-table decorations across all 61 event HTML files. It inventories 108 tables,
+table decorations across all 63 event HTML files, including the archive,
 including item-rich editorial tables, complex crafting formulas, reward
 tables and deliberate non-item tables. Each decoration carries its page,
 table/row/column, literal text span, original-cell SHA256, illustration
@@ -93,10 +94,10 @@ python tools/qa_table_icons.py --browser
 ```
 
 Browser mode checks search, theme, image decoding, overflow and representative
-pages (#01, #02, #20, #35, #48, #59) on desktop/mobile and writes private QA
-screenshots to `05_HANDBOOK/qa`. Static QA scans **all 61 pages**, **575 cards**
-and all local assets; it compares prose to the Git HEAD after removing
-decorative icon markup. It also checks representative semantic mappings for
+pages (#01, #20, #35, #48, #59, #62, #63) on desktop/mobile and writes private QA
+screenshots to `05_HANDBOOK/qa`. Static QA checks the current page inventory,
+all mapped cards and local assets. Use `--compare-head` when auditing an
+icon-only edit that must preserve existing prose. It also checks representative semantic mappings for
 Huyền Tinh, bí kíp and An Bang / Định Quốc equipment slots.
 Table browser QA additionally exercises crafting, item drops, rewards and
 eight collectible-letter column headers on desktop (1366 px), mobile
@@ -121,6 +122,7 @@ timeline rows, then run `python tools/order_handbook.py` and
 documented opening date, explicit editorial hints when an opening date is
 unknown, and the end of the relevant year when there is no useful hint.
 It updates display STT, navigation and timeline together. STT is not the
-in-game event ID; keep filenames and stable IDs unchanged. Undated community
-remixes are separate from the historical chronology. Review new date hints
+in-game event ID; keep filenames and stable IDs unchanged. Archived ID #02
+is intentionally excluded from catalog and timeline, but its direct URL and
+historical attribution remain. Review new date hints
 against their source before treating them as anything beyond ordering aids.

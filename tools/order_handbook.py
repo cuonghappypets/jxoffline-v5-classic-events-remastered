@@ -28,6 +28,8 @@ HINTS = {
     22: (2008, 2, 1, "Dịp Tết"),
     33: (2008, 4, 30, "Dịp 30/4"),
     34: (2008, 4, 30, "Dịp 30/4"),
+    62: (2007, 4, 30, "Dịp 30/04/2007"),
+    63: (2006, 12, 25, "Dịp 25/12/2006"),
 }
 NOTE = ('<p class="player-notice" id="chronology-note">Danh mục xếp theo mốc mở hoặc mốc tham chiếu lịch sử. '
         'Số thứ tự (STT) chỉ dùng trong cẩm nang; ID # là mã cố định trong game. '
@@ -77,6 +79,9 @@ def build():
         match = DATE.match(start)
         if id == 2:
             key, label, group = (9999, 12, 31, id), "Biến thể cộng đồng · chưa rõ niên đại", "Biến thể cộng đồng"
+        elif id in (62, 63):
+            y, m, d, hint = HINTS[id]
+            key, label, group = (y, m, d, id), hint + " · chưa rõ ngày mở", str(y)
         elif match:
             d, m, y = map(int, match.groups())
             date(y, m, d)

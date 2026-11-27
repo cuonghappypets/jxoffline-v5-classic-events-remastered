@@ -30,7 +30,7 @@ CELL=re.compile(r'(?P<open><td\b[^>]*>)(?P<inner>.*?)(?P<close></td>)',re.I|re.S
 HEADER=re.compile(r'(?P<open><th\b[^>]*>)(?P<inner>.*?)(?P<close></th>)',re.I|re.S)
 TH=re.compile(r'<th\b[^>]*>(.*?)</th>',re.I|re.S)
 TAG=re.compile(r'(<[^>]+>)')
-IMG=re.compile(r'<img class="table-item-icon"[^>]*>')
+IMG=re.compile(r'<img\b(?=[^>]*\bclass="table-item-icon")[^>]*>')
 STRIP=re.compile(r'<[^>]+>')
 KEY=re.compile(r'(?<![\w])(?:gold,\d+|[46],[01],\d+|4,\d+,1)(?![\w])')
 BADHEAD=re.compile(r'^(?:tỷ lệ|xác suất|phí|exp|tiền|điểm|số lượng|mã vật phẩm|id|map|tọa độ|trần|cấp yêu cầu|lượt gọi|giới hạn|cấp quái|nhóm quái|thành công|độ trễ|25 điểm|15–24|1–14|0$)',re.I)
@@ -404,7 +404,7 @@ def seed():
 
 def build(check=False):
     data=json.loads(MAP.read_text(encoding="utf8"))
-    if len(data["pages"])!=61:raise RuntimeError("Not all 61 pages inventoried")
+    if set(data["pages"])!={p.stem for p in PAGES.glob("[0-9][0-9].html")}:raise RuntimeError("Page inventory drift")
     total=Counter()
     for pid,planned in sorted(data["pages"].items()):
         page=PAGES/(pid+".html")
