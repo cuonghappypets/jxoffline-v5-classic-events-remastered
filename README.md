@@ -10,7 +10,7 @@ Addon: `cgpt`
 
 **Bộ cài WSL2:** Võ Duy Khánh (VDK).
 
-**Cảm ơn:** PGaming và các anh em dev đi trước đã để lại mã nguồn và tư liệu quý giá.
+**Cảm ơn:** Tiểu Âu và các anh em dev đi trước đã để lại mã nguồn và tư liệu quý giá.
 
 **Nhóm phục dựng addon:** **CGPT — Classic Game Preservation Team** (Cường + Chat GPT).
 
@@ -62,7 +62,7 @@ Dự án chỉ tập trung vào phục dựng lễ hội, tôn trọng game gố
 
 ## Vài lời về bản beta
 
-Phần quan trọng nhất mình muốn chia sẻ là addon này mới được thực hiện trong vài ngày, với chút ký ức còn sót lại sau gần hai thập kỷ và lượng mã nguồn, dữ liệu ít ỏi mà PGaming cùng các anh em dev đi trước đã để lại.
+Phần quan trọng nhất mình muốn chia sẻ là addon này mới được thực hiện trong vài ngày, với chút ký ức còn sót lại sau gần hai thập kỷ và lượng mã nguồn, dữ liệu ít ỏi mà Tiểu Âu cùng các anh em dev đi trước đã để lại.
 
 Có sự kiện còn tương đối đầy đủ dữ liệu, nhưng cũng có sự kiện chỉ còn vài đoạn script, vài vật phẩm hoặc một bài viết cũ. Những cơ chế bị thất lạc phải được suy luận, tái tạo và chế cháo thêm để có thể hoạt động. Cái gì tìm được căn cứ thì cố gắng giữ đúng; phần chưa đủ tư liệu vẫn có thể khác với nguyên bản.
 
@@ -170,7 +170,7 @@ Cẩm nang giữ nội dung chi tiết và liên kết nguồn; các icon vật 
 
 ## Lời cảm ơn
 
-Đặc biệt cảm ơn hai bác **ACE và Mel** đã làm nên nền tảng JxOffline V5 để anh em có cơ hội trở lại Võ Lâm. Cảm ơn bác **Võ Duy Khánh (VDK)** đã chia sẻ bộ cài WSL2, giúp anh em thuận tiện hơn khi cài đặt và trải nghiệm game. Cảm ơn **PGaming** và các anh em dev đi trước đã để lại những đoạn source và tư liệu quý giá cho cộng đồng. Nếu không có công sức của mọi người, chắc cũng chẳng có addon này. :D
+Đặc biệt cảm ơn hai bác **ACE và Mel** đã làm nên nền tảng JxOffline V5 để anh em có cơ hội trở lại Võ Lâm. Cảm ơn bác **Võ Duy Khánh (VDK)** đã chia sẻ bộ cài WSL2, giúp anh em thuận tiện hơn khi cài đặt và trải nghiệm game. Cảm ơn **Tiểu Âu** và các anh em dev đi trước đã để lại những đoạn source và tư liệu quý giá cho cộng đồng. Nếu không có công sức của mọi người, chắc cũng chẳng có addon này. :D
 
 Gần hai mươi năm đã qua, mã nguồn có thể thất lạc, tư liệu có thể không còn, nhưng đâu đó trong ký ức mỗi anh em vẫn còn một mảnh Võ Lâm ngày ấy.
 
