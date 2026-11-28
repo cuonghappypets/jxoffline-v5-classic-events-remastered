@@ -1,5 +1,20 @@
 # Anh em cùng chơi thử
 
+## Beta 5.1 — Classic Event Experience
+
+Đã kiểm tra trên đúng payload Beta 5.1: 22 nhóm kiểm thử Lua giả lập, gồm 200 tổ hợp lựa chọn vật phẩm ON/OFF, menu public/private, Relay và callback. Chưa kiểm thử native: pickup, marker, lưu qua restart, tương thích Auto thực tế và trường hợp túi đầy. Nếu có lỗi hoặc hộp bị khóa, tắt chế độ, giữ backup/log và báo lỗi; không ép mở lại. Đây vẫn là bản beta.
+
+- Kiểm tra menu public chỉ có tra cứu bản đồ, kiểm tra map hiện tại, Fix Bug Auto và quay lại; không còn nút chỉnh tỷ lệ.
+- Tết 2009 (STT 42): OFF giữ vật phẩm trực tiếp. ON thử với bản sao game, kiểm đúng một vật phẩm gốc, không mở rương bên trong, kiểm manual pickup, túi đầy, tắt lại, relogin/restart. Không dùng nếu không gặp lỗi tương thích.
+- Kiểm tra STT 09 Đào Vạn Thọ và STT 11 Trung thu 2006 không bị thay đổi cơ chế. Báo đúng phiên bản, STT, bản đồ, Auto, tình trạng túi và ảnh trước/sau; giữ backup nếu có lỗi.
+
+Nếu đang dùng Beta 5 và từng chỉnh tỷ lệ drop, trước khi cập nhật hãy chọn Khôi phục tỷ lệ mặc định (2% – 5%) và mở lại menu xác nhận. Bản 5.1 chỉ ẩn các nút điều chỉnh, không tự ghi đè cấu hình Relay đã lưu. Nếu đã dùng bản thử Auto trước đó, hãy tắt Auto và xác nhận trước khi nâng cấp. Không chỉnh DB thủ công.
+
+[Báo lỗi](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/issues)
+
+
+Các mục Beta 5 và Beta 4 dưới đây là hướng dẫn kiểm thử lịch sử, không áp dụng các nút tùy chỉnh drop cho Beta 5.1.
+
 ## Beta 5 — Item Quality of Life Update
 
 Chọn một vài sự kiện, không cần thử hết 61. Ghi phiên bản game và addon, STT, map, cấp, cách tái hiện và số lượng trước/sau.

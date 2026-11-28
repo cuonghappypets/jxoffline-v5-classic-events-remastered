@@ -1,5 +1,17 @@
 # Lịch sử phát hành
 
+## Beta cộng đồng 5.1 — v1.1.0-beta.5.1 · 28/11/2026
+
+Nhằm bảo toàn trải nghiệm các sự kiện cổ điển của Võ Lâm Truyền Kỳ, từ Beta 5.1 JxCER ngừng cung cấp và hỗ trợ tính năng tùy chỉnh tỷ lệ rơi vật phẩm sự kiện trong menu công cộng. Anh em có nhu cầu sử dụng tính năng này vẫn có thể tải [Beta 5](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.5); tính năng sẽ không còn được duy trì, sửa lỗi hoặc cập nhật trong các phiên bản tiếp theo.
+
+Nếu đang dùng Beta 5 và từng chỉnh tỷ lệ drop, trước khi cập nhật hãy chọn Khôi phục tỷ lệ mặc định (2% – 5%) và mở lại menu xác nhận. Bản 5.1 chỉ ẩn các nút điều chỉnh, không tự ghi đè cấu hình Relay đã lưu. Nếu đã dùng bản thử Auto trước đó, hãy tắt Auto và xác nhận trước khi nâng cấp. Không chỉnh DB thủ công.
+
+Fix Bug Auto là chế độ tương thích thử nghiệm, mặc định OFF trên cài đặt mới; chỉ bật nếu thực sự gặp vấn đề nhặt đồ. Hiện chỉ hỗ trợ Tết 2009 (STT 42, ID #21). Khi bật, hộp quà 1 ô thay cho vật phẩm rơi trực tiếp và khi nhặt chuyển thành đúng vật phẩm đã chọn, không thay tỷ lệ hay tự mở rương thưởng. Chưa xác nhận tương thích MelAuto hoặc các Auto khác trong game thực tế. Khi OFF, giữ cơ chế rơi trực tiếp của Beta 5.
+
+Đã kiểm tra trên đúng payload Beta 5.1: 22 nhóm kiểm thử Lua giả lập, gồm 200 tổ hợp lựa chọn vật phẩm ON/OFF, menu public/private, Relay và callback. Chưa kiểm thử native: pickup, marker, lưu qua restart, tương thích Auto thực tế và trường hợp túi đầy. Nếu có lỗi hoặc hộp bị khóa, tắt chế độ, giữ backup/log và báo lỗi; không ép mở lại. Đây vẫn là bản beta.
+
+- Full 288 file; Update từ đúng Beta 5 gồm 16 file, cả Server và Client. [Tải Beta 5.1](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.5.1).
+
 ## Beta cộng đồng 5 — v1.1.0-beta.5 · 28/11/2026
 
 - **Hình ảnh:** 12 vật phẩm từng thiếu sprite (9 Tết 2009, 3 Đào Vạn Thọ) được trỏ về tài nguyên có sẵn trong Client. Hai bánh đào dùng hình thay thế, không khẳng định đúng hình gốc.
