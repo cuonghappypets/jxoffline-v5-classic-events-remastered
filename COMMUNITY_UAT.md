@@ -4,11 +4,11 @@
 
 Beta 4 bổ sung các bãi luyện công cấp cao, trong đó có Tu Luyện Cốc 90–180, và chỉnh tỷ lệ mặc định xuống 2% ở nhóm thấp và 5% ở nhóm cao (90/110/119 theo file drop), mỗi lượt trúng rơi một món. Điều kiện riêng và các nguồn rơi đặc thù vẫn giữ nguyên.
 
-Anh em có thể tự chỉnh trong game: Hồi Ức Võ Lâm Lệnh → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ). Xem tên bản đồ, chỉnh tỷ lệ 0–100%, bật/tắt nguồn rơi thường hoặc khôi phục mặc định. Mỗi lượt trúng rơi đúng một vật phẩm; không còn chỉnh số lượng. Tỷ lệ tùy chỉnh và trạng thái bật/tắt cũ vẫn giữ, số lượng tùy chỉnh cũ bị bỏ qua. Chọn Khôi phục mặc định để về 2%/5%/1 món và bật drop. Chỉ đọc tên map khi mở chức năng xem bản đồ, không đọc maplist trong lúc farm. Thiết lập áp dụng chung cho server offline; danh sách map vẫn nằm trong config.lua.
+Anh em có thể tự chỉnh trong game: Hồi Ức Võ Lâm Lệnh → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ). Chỉnh tỷ lệ 0–100% cho từng nhóm, 0% là tắt nhóm đó; bỏ công tắc bật/tắt riêng và chỉnh số lượng. Cấu hình OFF cũ giữ 0/0; Khôi phục mặc định đưa về 2%/5%, một vật phẩm mỗi lượt trúng. Nếu Relay chưa có module, khởi tạo và đợi xác nhận trước khi chỉnh; không gửi lặp khi chưa xác nhận. Danh sách và thông tin map xét sự kiện đang mở, không đọc maplist trong lúc farm. Thiết lập áp dụng chung cho server offline; danh sách map vẫn nằm trong config.lua.
 
-RC01 và RC02 đã có lượt chơi thử đại diện ngày 28/11/2026 theo nhật ký phát hành trước. Thay đổi Beta 4 đã qua 7.702/7.702 ca mô phỏng; chưa kiểm thử native riêng bản 4, đo hiệu năng GameServer, lưu qua restart hoặc cài mới độc lập trên từng nền tảng.
+Đã kiểm tra native đại diện Trung thu 2006 tại Tần Lăng: 100%, ba lần tạo một vật phẩm và có nhặt item. Bản sạch qua 618/618 ca hồi quy giả lập và 33.693 đối chiếu map/sự kiện. Chưa kiểm thử native toàn bộ bản sạch, lưu tỷ lệ/trạng thái sự kiện qua restart, hiệu năng hoặc cài mới trên từng nền. Sau reload/restart, kiểm tra lại sự kiện đang mở và tỷ lệ trước khi farm; đã ghi nhận trường hợp quay về Mâm ngũ quả.
 
-Ưu tiên Tu Luyện Cốc 80/90/120/180 và map cao; thử menu với 100%/1 món, 0%, bật/tắt, reset và restart. Ghi nhận kết quả thực tế và phiên bản đang dùng.
+Ưu tiên Tu Luyện Cốc 80/90/120/180 và map cao; thử menu với 100%/1 món, 0%, reset, kiểm tra đúng sự kiện và restart. Ghi nhận kết quả thực tế và phiên bản đang dùng.
 
 
 Chọn 1–3 sự kiện mình từng chơi, dùng bản sao game để trải nghiệm. Không cần chơi hết 61 sự kiện có thể mở. Cùng kiểm tra cách mở sự kiện, tìm NPC, săn nguyên liệu, chế tạo/đổi thưởng, số lượt và tiến độ sau khi đăng nhập lại.

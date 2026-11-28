@@ -12,6 +12,7 @@ Bản beta cộng đồng hiện tại của **JxCER — JXOffline Classic Event
 
 - [Bản chép trực tiếp — CGPT_1.1.0-beta.4_Full.zip](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.4/CGPT_1.1.0-beta.4_Full.zip): cho người mới, giải nén là có thư mục `cuonghappypets_cgpt`.
 - [Đang chơi Beta 3? Tải bản cập nhật](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.4/CGPT_1.1.0-beta.4_Update_from_beta.3.zip): 38 file Lua server, không cần Client.
+- [Đã cài Beta 4 consolidated cũ? Tải hotfix ổn định](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.4/CGPT_1.1.0-beta.4_Update_from_beta.4_consolidated.zip): 2 file Lua server, không cần Client; chỉ dùng khi checksum PRE khớp.
 
 Chỉ cần một gói phù hợp. Không tải mục **Source code (zip)** của GitHub để cài addon. Giải nén vào thư mục riêng, không giải nén đè trực tiếp vào game. Nếu dùng gói Update, đọc README.md trong gói, sao lưu và đối chiếu PRE.sha256 trước khi chép. Nếu không chắc đang dùng đúng Beta3 cộng đồng hoặc đã có mod riêng, dừng để đối chiếu.
 
@@ -62,9 +63,9 @@ Bản Beta 4 có 63 ID kỹ thuật, 62 bài trong danh mục, 61 sự kiện c�
 
 Chọn đúng gói Update theo phiên bản đang chơi. Dừng GameServer, sao lưu, kiểm tra PRE.sha256 và NEW_PATHS.txt; nếu lệch thì dừng. Chép gộp server1, không chép rollback, không cần Client. Kiểm tra POST.sha256 rồi khởi động. Beta 4 bổ sung các bãi luyện công cấp cao, trong đó có Tu Luyện Cốc 90–180, và chỉnh tỷ lệ mặc định xuống 2% ở nhóm thấp và 5% ở nhóm cao (90/110/119 theo file drop), mỗi lượt trúng rơi một món. Điều kiện riêng và các nguồn rơi đặc thù vẫn giữ nguyên.
 
-Anh em có thể tự chỉnh trong game: Hồi Ức Võ Lâm Lệnh → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ). Xem tên bản đồ, chỉnh tỷ lệ 0–100%, bật/tắt nguồn rơi thường hoặc khôi phục mặc định. Mỗi lượt trúng rơi đúng một vật phẩm; không còn chỉnh số lượng. Tỷ lệ tùy chỉnh và trạng thái bật/tắt cũ vẫn giữ, số lượng tùy chỉnh cũ bị bỏ qua. Chọn Khôi phục mặc định để về 2%/5%/1 món và bật drop. Chỉ đọc tên map khi mở chức năng xem bản đồ, không đọc maplist trong lúc farm. Thiết lập áp dụng chung cho server offline; danh sách map vẫn nằm trong config.lua.
+Anh em có thể tự chỉnh trong game: Hồi Ức Võ Lâm Lệnh → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ). Chỉnh tỷ lệ 0–100% cho từng nhóm, 0% là tắt nhóm đó; bỏ công tắc bật/tắt riêng và chỉnh số lượng. Cấu hình OFF cũ giữ 0/0; Khôi phục mặc định đưa về 2%/5%, một vật phẩm mỗi lượt trúng. Nếu Relay chưa có module, khởi tạo và đợi xác nhận trước khi chỉnh; không gửi lặp khi chưa xác nhận. Danh sách và thông tin map xét sự kiện đang mở, không đọc maplist trong lúc farm. Thiết lập áp dụng chung cho server offline; danh sách map vẫn nằm trong config.lua.
 
-RC01 và RC02 đã có lượt chơi thử đại diện ngày 28/11/2026 theo nhật ký phát hành trước. Thay đổi Beta 4 đã qua 7.702/7.702 ca mô phỏng; chưa kiểm thử native riêng bản 4, đo hiệu năng GameServer, lưu qua restart hoặc cài mới độc lập trên từng nền tảng.
+Đã kiểm tra native đại diện Trung thu 2006 tại Tần Lăng: 100%, ba lần tạo một vật phẩm và có nhặt item. Bản sạch qua 618/618 ca hồi quy giả lập và 33.693 đối chiếu map/sự kiện. Chưa kiểm thử native toàn bộ bản sạch, lưu tỷ lệ/trạng thái sự kiện qua restart, hiệu năng hoặc cài mới trên từng nền. Sau reload/restart, kiểm tra lại sự kiện đang mở và tỷ lệ trước khi farm; đã ghi nhận trường hợp quay về Mâm ngũ quả.
 
 1. Tải đúng gói cập nhật dành cho phiên bản addon và bộ game anh em đang dùng. Đọc hướng dẫn đi kèm gói; không lấy file cập nhật của phiên bản khác ghép vào.
 2. Thoát game, dừng GameServer và sao lưu các file sắp thay cùng dữ liệu nhân vật.

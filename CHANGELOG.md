@@ -6,12 +6,12 @@ Bản cập nhật theo phản hồi người chơi, gom toàn bộ cải tiến
 
 - Bổ sung 19 ID map cấp cao, gồm Tu Luyện Cốc 90–180 và các bãi luyện công trên cấp 100.
 - Tỷ lệ rơi thường mặc định: 2% nhóm thấp, 5% nhóm cao (90/110/119 theo file drop), mỗi lượt trúng đúng một vật phẩm. Giữ điều kiện riêng và nguồn đặc thù.
-- Hồi Ức Võ Lâm Lệnh → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ): chỉnh tỷ lệ 0–100%, bật/tắt nguồn rơi thường, xem danh sách và tên bản đồ hiện tại, khôi phục mặc định 2%/5%/1 và bật drop. Không chỉnh số lượng.
+- Hồi Ức Võ Lâm Lệnh → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ): chỉnh tỷ lệ 0–100%, bỏ công tắc bật/tắt riêng, xem map theo sự kiện đang mở, khôi phục mặc định 2%/5%/1. Không chỉnh số lượng.
 - Danh sách map quản lý trong config.lua; chỉ đọc maplist khi xem thông tin, không đọc khi farm. Thiết lập áp dụng chung server offline. Nếu Relay chưa xác nhận, mở lại kiểm tra, không gửi lặp.
 - Giữ nguyên 62 mục/61 sự kiện có thể mở, #02 lưu trữ, #52 tạm khóa.
 
 
-- 7.702/7.702 ca mô phỏng cho thay đổi cuối; chưa nghiệm thu native riêng gói tổng hợp. Update từ Beta3: 38 Lua server, Client không đổi.
+- Cập nhật ổn định cùng ngày: Đã kiểm tra native đại diện Trung thu 2006 tại Tần Lăng: 100%, ba lần tạo một vật phẩm và có nhặt item. Bản sạch qua 618/618 ca hồi quy giả lập và 33.693 đối chiếu map/sự kiện. Chưa kiểm thử native toàn bộ bản sạch, lưu tỷ lệ/trạng thái sự kiện qua restart, hiệu năng hoặc cài mới trên từng nền. Sau reload/restart, kiểm tra lại sự kiện đang mở và tỷ lệ trước khi farm; đã ghi nhận trường hợp quay về Mâm ngũ quả. Update từ Beta3: 38 Lua; từ Beta4 consolidated cũ: 2 Lua; Client không đổi.
 - [Tải bản cập nhật](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.4)
 
 ## Beta cộng đồng 3 — v1.1.0-beta.3 · 27/11/2026
