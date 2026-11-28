@@ -1,5 +1,12 @@
 # Lịch sử phát hành
 
+## Beta cộng đồng 4.2 — v1.1.0-beta.4.2 · 28/11/2026
+
+- Giữ mặc định 2% / 5%; cố định một vật phẩm mỗi lượt trúng từ nguồn thường, bỏ chỉnh số lượng trong Lệnh bài. Tỷ lệ và trạng thái bật/tắt tùy chỉnh cũ được giữ; số lượng cũ không còn hiệu lực. Khôi phục mặc định về 2%/5%/1 và bật drop.
+- Tối ưu đọc tên bản đồ hiện tại theo yêu cầu; không đọc maplist khi farm, bỏ lần đọc lại Relay dư thừa sau khi trúng drop thường.
+- 7.702/7.702 mô phỏng đạt; chưa nghiệm thu native riêng bản 4.2. Update từ Beta 4.1 chỉ 2 Lua server, Client không đổi.
+- [Tải bản cập nhật](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.4.2)
+
 ## Beta cộng đồng 4.1 — v1.1.0-beta.4.1 · 28/11/2026
 
 Từ Beta 4, các bãi luyện công cấp cao được bổ sung, trong đó có Tu Luyện Cốc 90–180. Bản 4.1 chỉnh tỷ lệ mặc định xuống 2% ở nhóm thấp và 5% ở nhóm cao (90/110/119 theo file drop), mỗi lượt trúng rơi một món. Điều kiện riêng và các nguồn rơi đặc thù vẫn giữ nguyên.
