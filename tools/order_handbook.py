@@ -32,10 +32,10 @@ HINTS = {
     63: (2006, 12, 25, "Dịp 25/12/2006"),
 }
 NOTE = ('<p class="player-notice" id="chronology-note">Danh mục xếp theo mốc mở hoặc mốc tham chiếu lịch sử. '
-        'Số thứ tự (STT) chỉ dùng trong cẩm nang; ID # là mã cố định trong game. '
+        'Số thứ tự (STT) trong Lệnh bài khớp cẩm nang; ID # vẫn là mã kỹ thuật cố định. '
         'Nếu chưa rõ ngày mở, xếp theo dịp lễ hoặc cuối năm; thứ tự này không khẳng định ngày tổ chức chính thức.</p>')
 GUIDE_NOTE = ('<p id="chronology-note">Danh sách và dòng thời gian dùng STT theo mốc lịch sử. '
-              'ID # của sự kiện và đường dẫn bài viết không đổi; tìm trong game theo tên hoặc ID. '
+              'ID # của sự kiện và đường dẫn bài viết không đổi; tìm trong game theo STT hoặc tên. '
               'Các dịp lễ chưa có ngày mở xác minh chỉ là căn cứ xếp gần đúng.</p>')
 
 

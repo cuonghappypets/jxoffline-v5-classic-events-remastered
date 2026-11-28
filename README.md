@@ -4,11 +4,11 @@
 
 ![Hồi Ức Võ Lâm — JxOffline V5 Classic Events Remastered, banner minh họa của dự án](assets/readme/cover.jpg)
 
-**JxOffline V5 (by ACE) · Beta cộng đồng 4 — cập nhật ổn định** (phiên bản phát hành: v1.1.0-beta.4)
+**JxOffline V5 (by ACE) · Beta cộng đồng 5 — Item Quality of Life Update** (phiên bản phát hành: v1.1.0-beta.5)
 
 Thư mục gói addon: `cuonghappypets_cgpt`
 
-**Trạng thái dự án: bảo trì và tiếp nhận góp ý cộng đồng.** Beta 4 là mốc hiện tại; chưa mở đợt phát triển nội dung mới.
+**Trạng thái dự án: bảo trì và tiếp nhận góp ý cộng đồng.** Beta 5 là mốc hiện tại; chưa mở đợt phát triển nội dung mới.
 
 **Nền tảng JxOffline V5:** ACE và Mel.
 
@@ -22,9 +22,8 @@ Thư mục gói addon: `cuonghappypets_cgpt`
 
 **Addon là phần bổ sung sự kiện, không phải bộ game đầy đủ.** Anh em cần có JxOffline V5, V5.1 hoặc V5.2 chạy được trước khi cài.
 
-- **[Tải addon CGPT Beta — bản chép trực tiếp (Full.zip)](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.4/CGPT_1.1.0-beta.4_Full.zip)**: dành cho đa số anh em, chỉ cần giải nén và chép file.
-- [Đang chơi Beta 3? Tải bản cập nhật](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.4/CGPT_1.1.0-beta.4_Update_from_beta.3.zip): 38 file Lua server, không cần Client.
-- [Đã cài Beta 4 consolidated cũ? Tải hotfix ổn định](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.4/CGPT_1.1.0-beta.4_Update_from_beta.4_consolidated.zip): 2 file Lua server, không cần Client; chỉ dùng khi checksum PRE khớp.
+- [Bản chép trực tiếp — CGPT_1.1.0-beta.5_Full.zip](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.5/CGPT_1.1.0-beta.5_Full.zip): cho người mới, giải nén có thư mục cuonghappypets_cgpt.
+- [Đang chơi đúng Beta 4 ổn định? Tải bản cập nhật](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.5/CGPT_1.1.0-beta.5_Update_from_beta.4_stabilized.zip): 29 file (17 Server, 12 Client), kiểm PRE trước khi cài.
 - **[Hướng dẫn chi tiết cách cài đặt, cấu hình kết nối và cập nhật addon](INSTALL.md)**.
 - **[Hướng dẫn chép file từ Windows sang server bằng WinSCP](INSTALL.md#chép-file-từ-windows-sang-server-bằng-winscp-sftp)**.
 - [Mở cẩm nang 62 sự kiện](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/) · [Gửi góp ý](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/issues).
@@ -47,9 +46,11 @@ Các sự kiện được chia thành những nhóm lễ hội để anh em dễ
 
 **Từ Beta2:** NPC Thượng Sứ Lễ Hội tập trung các tuyến đổi thưởng tại Tương Dương, giữa cổng Nha Môn dưới bậc thang. Các NPC và tuyến đặc thù vẫn giữ riêng. Hệ thống đổi theo số lượng bổ sung thông báo riêng về vật phẩm thực tế đã sử dụng và nhận được khi đọc được dữ liệu giao dịch.
 
-**Mới trong Beta 4:** Beta 4 bổ sung các bãi luyện công cấp cao, trong đó có Tu Luyện Cốc 90–180, và chỉnh tỷ lệ mặc định xuống 2% ở nhóm thấp và 5% ở nhóm cao (90/110/119 theo file drop), mỗi lượt trúng rơi một món. Điều kiện riêng và các nguồn rơi đặc thù vẫn giữ nguyên.
+**Mới trong Beta 5:** Beta 5 — Item Quality of Life Update: sửa 12 vật phẩm thiếu hình ảnh, chuẩn hóa xếp chồng 25 ID và biên tập 115 mô tả. STT trong Lệnh bài trùng với cẩm nang online; ID kỹ thuật không đổi.
 
-Anh em có thể tự chỉnh trong game: Hồi Ức Võ Lâm Lệnh → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ). Chỉnh tỷ lệ 0–100% cho từng nhóm, 0% là tắt nhóm đó; bỏ công tắc bật/tắt riêng và chỉnh số lượng. Cấu hình OFF cũ giữ 0/0; Khôi phục mặc định đưa về 2%/5%, một vật phẩm mỗi lượt trúng. Nếu Relay chưa có module, khởi tạo và đợi xác nhận trước khi chỉnh; không gửi lặp khi chưa xác nhận. Danh sách và thông tin map xét sự kiện đang mở, không đọc maplist trong lúc farm. Thiết lập áp dụng chung cho server offline; danh sách map vẫn nằm trong config.lua.
+**Từ Beta 4:** Beta 4 bổ sung các bãi luyện công cấp cao, trong đó có Tu Luyện Cốc 90–180, và chỉnh tỷ lệ mặc định xuống 2% ở nhóm thấp và 5% ở nhóm cao (90/110/119 theo file drop), mỗi lượt trúng rơi một món. Điều kiện riêng và các nguồn rơi đặc thù vẫn giữ nguyên.
+
+Anh em có thể tự chỉnh trong game: Hồi Ức Võ Lâm Lệnh → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ). Chỉnh tỷ lệ 0–100% cho từng nhóm, 0% là tắt nhóm đó; bỏ công tắc bật/tắt riêng và chỉnh số lượng. Cấu hình OFF cũ giữ 0/0; Khôi phục mặc định đưa về 2%/5%, một vật phẩm mỗi lượt trúng. Nếu Relay chưa có module, khởi tạo và đợi xác nhận trước khi chỉnh; không gửi lặp khi chưa xác nhận. Danh sách và thông tin map xét sự kiện đang mở, không đọc maplist trong lúc farm. Thiết lập áp dụng chung cho server offline; danh sách map vẫn nằm trong config.lua. Tỷ lệ 0–100% chỉ áp dụng nguồn rơi thường. Đào Vạn Thọ (STT 09, ID #15) và các sự kiện đặc thù giữ cơ chế riêng.
 
 **Từ Beta3:** Lễ hội chiến công (30/4/2007), Ghép người tuyết (Giáng sinh 2006), nhánh Tân Bản Cổ của Sinh nhật 2009; bổ sung nhánh đổi lệnh bài và đèn kéo quân đặc biệt của Trung thu 2006, cân bằng vật liệu #35/#36/#40/#41 và ẩn #02 khỏi danh mục. Các ngày 30/4 và 25/12 là mốc tham chiếu dịp lễ, chưa xác minh lịch mở chính thức.
 
@@ -79,7 +80,7 @@ Phần quan trọng nhất mình muốn chia sẻ là addon này mới được 
 
 Có sự kiện còn tương đối đầy đủ dữ liệu, nhưng cũng có sự kiện chỉ còn vài đoạn script, vài vật phẩm hoặc một bài viết cũ. Những cơ chế bị thất lạc phải được suy luận, tái tạo và chế cháo thêm để có thể hoạt động. Cái gì tìm được căn cứ thì cố gắng giữ đúng; phần chưa đủ tư liệu vẫn có thể khác với nguyên bản.
 
-Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là mọi sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta được giữ để anh em chơi thử và góp ý. Nhóm sẽ tập trung tiếp nhận phản hồi trước khi mở lại đợt phát triển. Addon hướng đến JxOffline V5, V5.1 và V5.2 của ACE và Mel. Bản Beta 4 có 63 ID kỹ thuật, 62 sự kiện trong danh mục và 61 có thể mở. Trung thu PGaming (#02) được lưu trữ, giữ ghi nhận tác giả; Thép Tinh Luyện (#52) vẫn tạm khóa để kiểm tra rủi ro nhận thưởng.
+Những sự kiện quen thuộc như **Trung Thu Lồng Đèn** và **Mâm Ngũ Quả** hiện đã tương đối ổn. Tuy nhiên, điều đó không có nghĩa là mọi sự kiện đã được kiểm thử gameplay đầy đủ hay phục dựng chính xác như ngày xưa. Bản beta được giữ để anh em chơi thử và góp ý. Nhóm sẽ tập trung tiếp nhận phản hồi trước khi mở lại đợt phát triển. Addon hướng đến JxOffline V5, V5.1 và V5.2 của ACE và Mel. Bản Beta 5 có 63 ID kỹ thuật, 62 sự kiện trong danh mục và 61 có thể mở. Trung thu PGaming (#02) được lưu trữ, giữ ghi nhận tác giả; Thép Tinh Luyện (#52) vẫn tạm khóa để kiểm tra rủi ro nhận thưởng.
 
 Mình muốn giữ ổn định số lượng sự kiện hiện tại, tập trung sửa lỗi và điều chỉnh dựa trên trải nghiệm thực tế thay vì tiếp tục mở rộng sang những sự kiện sau năm 2010. Nếu thu xếp được thời gian, mình có thể thử khả năng tương thích với bản Võ Lâm Offline 1-click cho anh em máy yếu hơn. **Bản 1-click chưa được xác nhận tương thích**, chưa có lịch phát hành riêng.
 
@@ -100,9 +101,9 @@ Kiểm tra game gốc hoạt động bình thường trước khi cài addon CGP
 
 ## Cài đặt và đồng bộ addon
 
-**[Tải CGPT Community Beta 4 — bản chép trực tiếp](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.4/CGPT_1.1.0-beta.4_Full.zip)** — tải file `CGPT_1.1.0-beta.4_Full.zip`, không phải Source code (zip).
+**[Tải CGPT Community Beta 5 — bản chép trực tiếp](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.5/CGPT_1.1.0-beta.5_Full.zip)** — tải file `CGPT_1.1.0-beta.5_Full.zip`, không phải Source code (zip).
 
-Người mới chọn Full.zip; anh em đã cài đúng Beta3 cộng đồng chọn gói Update ở đầu trang. Chỉ cần một gói phù hợp, không cần cài lại Client khi cập nhật. Nếu đang ở phiên bản cũ hơn, xem [các bản phát hành trước](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases). Nếu game có mod riêng, kiểm tra checksum trước khi ghi đè.
+Người mới chọn Full.zip; anh em đã cài đúng Beta 4 ổn định chọn gói Update ở đầu trang. Chỉ cần một gói phù hợp; cả hai cần cập nhật Server và Client. Nếu đang ở phiên bản cũ hơn, xem [các bản phát hành trước](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases). Nếu game có mod riêng, kiểm tra checksum trước khi ghi đè.
 
 > **[Hướng dẫn chi tiết cách cài đặt, cấu hình kết nối và cập nhật addon](INSTALL.md)** — có hướng dẫn sao lưu, chép đúng thư mục, đồng bộ Client và khôi phục khi gặp lỗi.
 >
@@ -112,7 +113,7 @@ Người mới chọn Full.zip; anh em đã cài đúng Beta3 cộng đồng ch�
 
 1. Có bộ **JxOffline V5, V5.1 hoặc V5.2 của ACE và Mel**, chơi được bình thường. Không bắt buộc nâng cấp lên V5.2. Các bản mod khác cần đối chiếu xung đột trước khi cài.
 2. Thoát game, dừng GameServer và sao lưu server, Client và dữ liệu nhân vật. Nếu sao chép cả file đĩa máy ảo, tắt hẳn môi trường Linux trước khi sao chép. Nên thử trên bản sao trước.
-3. Tải bản `CGPT_1.1.0-beta.4_Full.zip` từ Releases và giải nén vào thư mục riêng. Thư mục `cuonghappypets_cgpt` đã có sẵn. Nếu đang dùng đúng Beta3, xem mục cập nhật bên dưới.
+3. Tải bản `CGPT_1.1.0-beta.5_Full.zip` từ Releases và giải nén vào thư mục riêng. Thư mục `cuonghappypets_cgpt` đã có sẵn. Nếu đang dùng đúng Beta 4 ổn định, xem mục cập nhật bên dưới.
 
 ### Bước 2 — Chép file vào server và Client
 
@@ -148,7 +149,7 @@ Chỉ mở một sự kiện tại một thời điểm. [Xem hướng dẫn chu
 
 ### Cập nhật bản mới hoặc gỡ addon
 
-Từ đúng Beta3 cộng đồng lên Beta4, chọn gói Update và kiểm tra PRE/POST.sha256. Chỉ chép server1, không cần cập nhật Client.
+Từ đúng Beta 4 ổn định lên Beta 5, chọn gói Update, kiểm tra PRE/POST.sha256 và chép cả Server lẫn Client. Không hạ cấp bảng stack khi còn chồng vật phẩm mới chưa được xử lý an toàn; khôi phục file không hoàn tác dữ liệu nhân vật.
 
 - Với bản cập nhật nhỏ, sao lưu các file sẽ thay, dừng GameServer, chép đúng các file cập nhật server/client được cung cấp cho phiên bản đang dùng rồi khởi động lại. Không lấy gói cập nhật của bản khác ghép vào.
 - Nếu lỗi, dừng game và GameServer và dùng gói khôi phục đúng phiên bản hoặc bản sao lưu. Khôi phục file không hoàn tác vật phẩm, EXP hoặc tiến độ đã phát sinh; nếu cần khôi phục cả dữ liệu, dùng bản sao lưu đầy đủ.
@@ -158,7 +159,7 @@ Từ đúng Beta3 cộng đồng lên Beta4, chọn gói Update và kiểm tra P
 
 ### Trạng thái bộ cài
 
-Đã kiểm tra native đại diện Trung thu 2006 tại Tần Lăng: 100%, ba lần tạo một vật phẩm và có nhặt item. Bản sạch qua 618/618 ca hồi quy giả lập và 33.693 đối chiếu map/sự kiện. Chưa kiểm thử native toàn bộ bản sạch, lưu tỷ lệ/trạng thái sự kiện qua restart, hiệu năng hoặc cài mới trên từng nền. Sau reload/restart, kiểm tra lại sự kiện đang mở và tỷ lệ trước khi farm; đã ghi nhận trường hợp quay về Mâm ngũ quả. #02 lưu trữ, #52 vẫn tạm khóa.
+Đã chơi thử đại diện: Hồng Bảo Rương hiển thị và gom được chồng 72 chiếc. Bản tích hợp qua 618/618 ca hồi quy drop/menu, 100/100 ca chọn vật phẩm Tết 2009, 5/5 ca callback rương, 25/25 ca callback nhóm stacking và 200 lượt kiểm tra xác suất Đào Vạn Thọ trong Lua giả lập. Đã đối chiếu 458 ID ứng viên đang hoạt động qua 6 profile và 2 biến thể (5.496 lượt); không còn đường dẫn sprite thiếu trong tập kiểm tra. Chưa xác nhận mọi sprite render, tự gom khi nhặt, tiêu hao một đơn vị, lưu qua restart hoặc cài mới trên mọi nền tảng. Sau reload/restart, kiểm tra lại sự kiện và tỷ lệ; đã ghi nhận trường hợp về Mâm ngũ quả. #02 lưu trữ, #52 vẫn tạm khóa.
 
 ## Cẩm nang và góp ý
 

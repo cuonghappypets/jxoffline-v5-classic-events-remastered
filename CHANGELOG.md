@@ -1,5 +1,17 @@
 # Lịch sử phát hành
 
+## Beta cộng đồng 5 — v1.1.0-beta.5 · 28/11/2026
+
+- **Hình ảnh:** 12 vật phẩm từng thiếu sprite (9 Tết 2009, 3 Đào Vạn Thọ) được trỏ về tài nguyên có sẵn trong Client. Hai bánh đào dùng hình thay thế, không khẳng định đúng hình gốc.
+- **Xếp chồng:** chuẩn hóa 25 ID trong 437 ID magic/quest đã rà soát. Giữ nguyên 255 ID có giới hạn dương và 157 ID còn lại do rủi ro/thiếu căn cứ. Không bật đồng loạt cho vật phẩm riêng trạng thái, hạn dùng hay cơ chế tiêu hao đặc biệt.
+- **Mô tả:** 115 vật phẩm được biên tập tiếng Việt có dấu theo công dụng trong Lua; giữ tên và ID để tránh ảnh hưởng bộ lọc Auto.
+- **Tra cứu:** STT 01–62 trong Hồi Ức Võ Lâm Lệnh khớp [cẩm nang online](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/). Ví dụ 09 là Đào Vạn Thọ (ID15), 42 là Tết 2009 (ID21). ID kỹ thuật, thể lệ, phần thưởng và số sự kiện giữ nguyên.
+- **Drop:** giữ cải tiến Beta 4 (2%/5% mặc định, 0–100% tùy chỉnh, một món mỗi lượt trúng với drop thường). Tỷ lệ 0–100% chỉ áp dụng nguồn rơi thường. Đào Vạn Thọ (STT 09, ID #15) và các sự kiện đặc thù giữ cơ chế riêng. Đào Vạn Thọ cấp 80+, bốn map Tứ Đại Phong Cảnh, tỷ lệ 25% riêng. Tết 2009 rơi trực tiếp vật phẩm gốc, không cần hộp trung gian.
+
+
+- Full 286 file; Update từ Beta 4 ổn định 29 file, cần cả Server và Client. Đã chơi thử đại diện: Hồng Bảo Rương hiển thị và gom được chồng 72 chiếc. Bản tích hợp qua 618/618 ca hồi quy drop/menu, 100/100 ca chọn vật phẩm Tết 2009, 5/5 ca callback rương, 25/25 ca callback nhóm stacking và 200 lượt kiểm tra xác suất Đào Vạn Thọ trong Lua giả lập. Đã đối chiếu 458 ID ứng viên đang hoạt động qua 6 profile và 2 biến thể (5.496 lượt); không còn đường dẫn sprite thiếu trong tập kiểm tra. Chưa xác nhận mọi sprite render, tự gom khi nhặt, tiêu hao một đơn vị, lưu qua restart hoặc cài mới trên mọi nền tảng. Sau reload/restart, kiểm tra lại sự kiện và tỷ lệ; đã ghi nhận trường hợp về Mâm ngũ quả.
+- [Tải bản Beta 5](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.5)
+
 ## Beta cộng đồng 4 — v1.1.0-beta.4 · 28/11/2026
 
 Bản cập nhật theo phản hồi người chơi, gom toàn bộ cải tiến ngày 28/11 vào một bản duy nhất.

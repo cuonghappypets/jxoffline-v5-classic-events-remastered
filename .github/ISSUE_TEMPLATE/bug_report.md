@@ -11,7 +11,7 @@ assignees: ""
 Anh em không cần biết lập trình. Chỉ cần kể mình đang chơi sự kiện nào, làm gì và gặp chuyện gì là đã rất hữu ích rồi.
 
 - Phiên bản addon, bản game V5/V5.1/V5.2:
-- Tên sự kiện:
+- STT theo cẩm nang và tên sự kiện (ID kỹ thuật nếu biết):
 - Cấp nhân vật, NPC hoặc địa điểm:
 - Sự kiện đang mở, tạm dừng hay đã đóng:
 - Anh em đã làm gì?
