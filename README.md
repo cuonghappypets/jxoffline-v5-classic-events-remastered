@@ -52,6 +52,8 @@ Các sự kiện được chia thành những nhóm lễ hội để anh em dễ
 
 Anh em có thể tự chỉnh trong game: Hồi Ức Võ Lâm Lệnh → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ). Chỉnh tỷ lệ 0–100% cho từng nhóm, 0% là tắt nhóm đó; bỏ công tắc bật/tắt riêng và chỉnh số lượng. Cấu hình OFF cũ giữ 0/0; Khôi phục mặc định đưa về 2%/5%, một vật phẩm mỗi lượt trúng. Nếu Relay chưa có module, khởi tạo và đợi xác nhận trước khi chỉnh; không gửi lặp khi chưa xác nhận. Danh sách và thông tin map xét sự kiện đang mở, không đọc maplist trong lúc farm. Thiết lập áp dụng chung cho server offline; danh sách map vẫn nằm trong config.lua. Tỷ lệ 0–100% chỉ áp dụng nguồn rơi thường. Đào Vạn Thọ (STT 09, ID #15) và các sự kiện đặc thù giữ cơ chế riêng.
 
+**Khuyến nghị:** Để có trải nghiệm game tốt nhất, anh em nên giữ tỷ lệ rơi vật phẩm sự kiện thông thường ở mức 2–5% (2% cho nhóm map cấp thấp, 5% cho nhóm map cấp cao). Mức này giúp giữ giá trị của nguyên liệu và niềm vui săn đồ, đổi thưởng. Mức 100% chủ yếu dành cho kiểm thử, không khuyến nghị chơi lâu dài. Các sự kiện có cơ chế rơi riêng vẫn giữ tỷ lệ của chúng.
+
 **Từ Beta3:** Lễ hội chiến công (30/4/2007), Ghép người tuyết (Giáng sinh 2006), nhánh Tân Bản Cổ của Sinh nhật 2009; bổ sung nhánh đổi lệnh bài và đèn kéo quân đặc biệt của Trung thu 2006, cân bằng vật liệu #35/#36/#40/#41 và ẩn #02 khỏi danh mục. Các ngày 30/4 và 25/12 là mốc tham chiếu dịp lễ, chưa xác minh lịch mở chính thức.
 
 Đợt nâng cấp này đã đối chiếu 30 sự kiện từ tư liệu của Tiểu Âu: giữ nguyên 17, nâng cấp 6, phục dựng thêm 2 và tạm gác 5. JxCER tiếp thu có chọn lọc, giữ bản sắc từng lễ hội và điều chỉnh khi cần cho trải nghiệm offline, LAN nhỏ.
