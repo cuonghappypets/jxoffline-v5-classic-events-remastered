@@ -1,12 +1,12 @@
 # Anh em cùng chơi thử
 
-## Beta 4.2 — kiểm thử theo phản hồi
+## Beta 4 — kiểm thử theo phản hồi
 
-Từ Beta 4, các bãi luyện công cấp cao được bổ sung, trong đó có Tu Luyện Cốc 90–180. Bản 4.2 chỉnh tỷ lệ mặc định xuống 2% ở nhóm thấp và 5% ở nhóm cao (90/110/119 theo file drop), mỗi lượt trúng rơi một món. Điều kiện riêng và các nguồn rơi đặc thù vẫn giữ nguyên.
+Beta 4 bổ sung các bãi luyện công cấp cao, trong đó có Tu Luyện Cốc 90–180, và chỉnh tỷ lệ mặc định xuống 2% ở nhóm thấp và 5% ở nhóm cao (90/110/119 theo file drop), mỗi lượt trúng rơi một món. Điều kiện riêng và các nguồn rơi đặc thù vẫn giữ nguyên.
 
 Anh em có thể tự chỉnh trong game: Hồi Ức Võ Lâm Lệnh → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ). Xem tên bản đồ, chỉnh tỷ lệ 0–100%, bật/tắt nguồn rơi thường hoặc khôi phục mặc định. Mỗi lượt trúng rơi đúng một vật phẩm; không còn chỉnh số lượng. Tỷ lệ tùy chỉnh và trạng thái bật/tắt cũ vẫn giữ, số lượng tùy chỉnh cũ bị bỏ qua. Chọn Khôi phục mặc định để về 2%/5%/1 món và bật drop. Chỉ đọc tên map khi mở chức năng xem bản đồ, không đọc maplist trong lúc farm. Thiết lập áp dụng chung cho server offline; danh sách map vẫn nằm trong config.lua.
 
-RC01 và RC02 đã có lượt chơi thử đại diện ngày 28/11/2026 theo nhật ký phát hành trước. Thay đổi Beta 4.2 đã qua 7.702/7.702 ca mô phỏng; chưa kiểm thử native riêng bản 4.2, đo hiệu năng GameServer, lưu qua restart hoặc cài mới độc lập trên từng nền tảng.
+RC01 và RC02 đã có lượt chơi thử đại diện ngày 28/11/2026 theo nhật ký phát hành trước. Thay đổi Beta 4 đã qua 7.702/7.702 ca mô phỏng; chưa kiểm thử native riêng bản 4, đo hiệu năng GameServer, lưu qua restart hoặc cài mới độc lập trên từng nền tảng.
 
 Ưu tiên Tu Luyện Cốc 80/90/120/180 và map cao; thử menu với 100%/1 món, 0%, bật/tắt, reset và restart. Ghi nhận kết quả thực tế và phiên bản đang dùng.
 

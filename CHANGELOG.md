@@ -1,32 +1,18 @@
 # Lịch sử phát hành
 
-## Beta cộng đồng 4.2 — v1.1.0-beta.4.2 · 28/11/2026
-
-- Giữ mặc định 2% / 5%; cố định một vật phẩm mỗi lượt trúng từ nguồn thường, bỏ chỉnh số lượng trong Lệnh bài. Tỷ lệ và trạng thái bật/tắt tùy chỉnh cũ được giữ; số lượng cũ không còn hiệu lực. Khôi phục mặc định về 2%/5%/1 và bật drop.
-- Tối ưu đọc tên bản đồ hiện tại theo yêu cầu; không đọc maplist khi farm, bỏ lần đọc lại Relay dư thừa sau khi trúng drop thường.
-- 7.702/7.702 mô phỏng đạt; chưa nghiệm thu native riêng bản 4.2. Update từ Beta 4.1 chỉ 2 Lua server, Client không đổi.
-- [Tải bản cập nhật](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.4.2)
-
-## Beta cộng đồng 4.1 — v1.1.0-beta.4.1 · 28/11/2026
-
-Từ Beta 4, các bãi luyện công cấp cao được bổ sung, trong đó có Tu Luyện Cốc 90–180. Bản 4.1 chỉnh tỷ lệ mặc định xuống 2% ở nhóm thấp và 5% ở nhóm cao (90/110/119 theo file drop), mỗi lượt trúng rơi một món. Điều kiện riêng và các nguồn rơi đặc thù vẫn giữ nguyên.
-
-Anh em có thể tự chỉnh trong game: Hồi Ức Võ Lâm Lệnh → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ). Xem tên bản đồ, chỉnh tỷ lệ 0–100%, số lượng 1–10, bật/tắt nguồn rơi thường hoặc khôi phục mặc định. Thiết lập áp dụng chung cho server; danh sách map vẫn nằm trong config.lua. Nếu đã chỉnh tỷ lệ trước đó, thiết lập cũ được giữ lại; chọn Khôi phục mặc định để về 2%/5%/1 món và bật drop.
-
-RC01 và RC02 đã được người làm addon chơi thử trong game ngày 28/11/2026. Chưa có kết quả riêng về lưu qua restart, kiểm thử hết các map/sự kiện hoặc cài mới độc lập trên từng nền tảng. Mức mặc định mới đã qua kiểm thử mô phỏng, chưa có xác nhận chơi thử riêng.
-
-- RC02 tích hợp vào Full và Update; không thêm sự kiện, không thay Client.
-- 8.701/8.701 mô phỏng RC02; 7.496/7.496 mô phỏng RC02 với mức mặc định mới.
-- [Tải và ghi chú phát hành](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.4.1)
-
 ## Beta cộng đồng 4 — v1.1.0-beta.4 · 28/11/2026
 
-Beta 4 bổ sung 19 ID map cấp cao, gồm Tu Luyện Cốc 90–180. Mặc định 10% nhóm thấp, 20% nhóm cao (90/110/119 theo file drop), một vật phẩm mỗi lượt trúng; giữ nguồn đặc thù và điều kiện riêng. Owner xác nhận farm tại Tu Luyện Cốc ngày 28/11/2026, chưa nghiệm thu mọi map/nền tảng.
+Bản cập nhật theo phản hồi người chơi, gom toàn bộ cải tiến ngày 28/11 vào một bản duy nhất.
 
-RC02 là gói thử nghiệm tùy chọn sau Beta 4 chính: Lệnh bài → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ), xem tên map, chỉnh tỷ lệ/số lượng, bật/tắt và reset. Chưa nghiệm thu native Relay, giao diện và lưu qua restart; chỉ thử trên bản sao offline.
+- Bổ sung 19 ID map cấp cao, gồm Tu Luyện Cốc 90–180 và các bãi luyện công trên cấp 100.
+- Tỷ lệ rơi thường mặc định: 2% nhóm thấp, 5% nhóm cao (90/110/119 theo file drop), mỗi lượt trúng đúng một vật phẩm. Giữ điều kiện riêng và nguồn đặc thù.
+- Hồi Ức Võ Lâm Lệnh → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ): chỉnh tỷ lệ 0–100%, bật/tắt nguồn rơi thường, xem danh sách và tên bản đồ hiện tại, khôi phục mặc định 2%/5%/1 và bật drop. Không chỉnh số lượng.
+- Danh sách map quản lý trong config.lua; chỉ đọc maplist khi xem thông tin, không đọc khi farm. Thiết lập áp dụng chung server offline. Nếu Relay chưa xác nhận, mở lại kiểm tra, không gửi lặp.
+- Giữ nguyên 62 mục/61 sự kiện có thể mở, #02 lưu trữ, #52 tạm khóa.
 
-- 8.455/8.455 ca mô phỏng RC01; 8.701/8.701 ca mô phỏng RC02. Full và Update chính là RC01; RC02 tùy chọn.
-- [Tải và ghi chú phát hành](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.4)
+
+- 7.702/7.702 ca mô phỏng cho thay đổi cuối; chưa nghiệm thu native riêng gói tổng hợp. Update từ Beta3: 38 Lua server, Client không đổi.
+- [Tải bản cập nhật](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.4)
 
 ## Beta cộng đồng 3 — v1.1.0-beta.3 · 27/11/2026
 
