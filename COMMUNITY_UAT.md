@@ -1,5 +1,14 @@
 # Anh em cùng chơi thử
 
+## Beta4 — kiểm thử theo phản hồi
+
+Beta 4 bổ sung 19 ID map cấp cao, gồm Tu Luyện Cốc 90–180. Mặc định 10% nhóm thấp, 20% nhóm cao (90/110/119 theo file drop), một vật phẩm mỗi lượt trúng; giữ nguồn đặc thù và điều kiện riêng. Owner xác nhận farm tại Tu Luyện Cốc ngày 28/11/2026, chưa nghiệm thu mọi map/nền tảng.
+
+RC02 là gói thử nghiệm tùy chọn sau Beta 4 chính: Lệnh bài → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ), xem tên map, chỉnh tỷ lệ/số lượng, bật/tắt và reset. Chưa nghiệm thu native Relay, giao diện và lưu qua restart; chỉ thử trên bản sao offline.
+
+Ưu tiên Tu Luyện Cốc 80/90/120/180 và map cao; thử RC02 với 100%/2 món, 0%, bật/tắt, reset và restart. Ghi nhận kết quả thực tế và phiên bản đang dùng.
+
+
 Chọn 1–3 sự kiện mình từng chơi, dùng bản sao game để trải nghiệm. Không cần chơi hết 61 sự kiện có thể mở. Cùng kiểm tra cách mở sự kiện, tìm NPC, săn nguyên liệu, chế tạo/đổi thưởng, số lượt và tiến độ sau khi đăng nhập lại.
 
 Ưu tiên báo lỗi mất đồ, nhận thưởng lặp, sai kinh nghiệm, sai phần thưởng hoặc game bị treo. Nếu chỉ chơi thử một phần, cứ kể lại đúng phần đó. Không cần kết luận cả sự kiện hoạt động tốt nếu chưa thử hết.

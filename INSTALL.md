@@ -1,23 +1,24 @@
 # Hướng dẫn cài đặt, cấu hình kết nối và cập nhật Hồi Ức Võ Lâm
 
-Bản beta cộng đồng hiện tại của **JxCER — JXOffline Classic Events Remastered (Dự án Phục dựng các sự kiện/lễ hội Võ Lâm Truyền Kỳ xưa)** mang mã phiên bản **v1.1.0-beta.3**. Đây là addon (phần bổ sung sự kiện), không phải bộ game hoàn chỉnh. Nếu chưa có game gốc chạy được, xem [cách cài JxV5 bằng bộ cài WSL2 của VDK](README.md#cài-jxv5-bằng-bộ-cài-wsl2-của-vdk) trước.
+Bản beta cộng đồng hiện tại của **JxCER — JXOffline Classic Events Remastered (Dự án Phục dựng các sự kiện/lễ hội Võ Lâm Truyền Kỳ xưa)** mang mã phiên bản **v1.1.0-beta.4**. Đây là addon (phần bổ sung sự kiện), không phải bộ game hoàn chỉnh. Nếu chưa có game gốc chạy được, xem [cách cài JxV5 bằng bộ cài WSL2 của VDK](README.md#cài-jxv5-bằng-bộ-cài-wsl2-của-vdk) trước.
 
 ## 1. Chuẩn bị
 
-- JxOffline V5, V5.1 hoặc V5.2 của ACE và Mel đã chạy được bình thường. Đây là phạm vi nền tảng hướng đến; chưa nghiệm thu độc lập việc cài mới Beta3 trên từng bản. Bản 1-click chưa được xác nhận tương thích.
+- JxOffline V5, V5.1 hoặc V5.2 của ACE và Mel đã chạy được bình thường. Đây là phạm vi nền tảng hướng đến; chưa nghiệm thu độc lập việc cài mới Beta4 trên từng bản. Bản 1-click chưa được xác nhận tương thích.
 - Nên dùng một bản sao để chơi thử. Nếu đã cài thêm mod, cần kiểm tra những file có thể bị chép đè.
 - Thoát game, dừng GameServer và sao lưu server, Client, máy ảo và dữ liệu nhân vật trước khi cài. Nếu sao chép cả file đĩa máy ảo, tắt hẳn môi trường Linux trước khi sao chép. Đừng bỏ qua bước này!
 
 ## 2. Tải đúng gói
 
-- [Bản chép trực tiếp — CGPT_1.1.0-beta.3_Full.zip](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.3/CGPT_1.1.0-beta.3_Full.zip): cho người mới, giải nén là có thư mục `cuonghappypets_cgpt`.
-- [Bản cập nhật — CGPT_1.1.0-beta.3_Update_from_beta.2.zip](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.3/CGPT_1.1.0-beta.3_Update_from_beta.2.zip): chỉ dành cho bản cộng đồng beta.2 đã cài đầy đủ, không sửa các file cần cập nhật. Có 43 file cập nhật (19 Lua, 24 bảng vật phẩm/stack), gồm cả server và Client; 36 file rollback và danh sách 7 đường dẫn mới.
+- [Bản chép trực tiếp — CGPT_1.1.0-beta.4_Full.zip](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.4/CGPT_1.1.0-beta.4_Full.zip): cho người mới, giải nén là có thư mục `cuonghappypets_cgpt`.
+- [Bản cập nhật — CGPT_1.1.0-beta.4_Update_from_beta.3.zip](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.4/CGPT_1.1.0-beta.4_Update_from_beta.3.zip): từ đúng Beta3 cộng đồng; 14 file Lua server, 14 file rollback; không cần Client.
+- [RC02 tùy chọn](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.4/CGPT_1.1.0-beta.4_Optional_RC02_from_beta.4.zip): chỉ sau Beta4 chính, thử trên bản sao offline. 34 Lua server, 33 thay thế và một file mới; chưa nghiệm thu native.
 
-Chỉ cần một gói phù hợp. Không tải mục **Source code (zip)** của GitHub để cài addon. Giải nén vào thư mục riêng, không giải nén đè trực tiếp vào game. Nếu dùng gói Update, đọc README.md trong gói, sao lưu và đối chiếu PRE.sha256 trước khi chép. Nếu không chắc bản hiện tại là beta.2 hoặc đã có mod riêng, dừng để đối chiếu.
+Chỉ cần một gói phù hợp. Không tải mục **Source code (zip)** của GitHub để cài addon. Giải nén vào thư mục riêng, không giải nén đè trực tiếp vào game. Nếu dùng gói Update, đọc README.md trong gói, sao lưu và đối chiếu PRE.sha256 trước khi chép. Nếu không chắc bản hiện tại là beta.3 hoặc đã có mod riêng, dừng để đối chiếu.
 
 ## 3. Chép addon vào game
 
-Cả Full.zip và Update từ beta.2 đều cần chép phần server và Client. Không đổi tên thư mục game; thư mục `cuonghappypets_cgpt` chỉ là thư mục chứa file addon đã giải nén.
+Full.zip cần đồng bộ server và Client; Update từ Beta3 và RC02 chỉ cần server. Không đổi tên thư mục game; thư mục `cuonghappypets_cgpt` chỉ là thư mục chứa file addon đã giải nén.
 
 Server là phần game chạy trên Linux; Client là thư mục game trên Windows có file `Game.exe`.
 
@@ -48,7 +49,7 @@ Nếu không dùng tab **Quản lý file**, anh em có thể dùng [WinSCP](http
 2. Bấm **Login**. Khi kết nối lần đầu, kiểm tra máy chủ và khóa SSH đúng với máy Linux cục bộ trước khi xác nhận.
 3. Khung bên trái là file Windows; khung bên phải là file trên server Linux. Mở thư mục addon đã giải nén ở bên trái và đúng thư mục `server1` đang sử dụng ở bên phải (ví dụ `/home/jxser/server1` hoặc `/home/jxser_new/server1`).
 4. Chọn hai thư mục `script` và `settings` trong `cuonghappypets_cgpt/server1/`, chép sang thư mục `server1` trên Linux. Chọn chế độ truyền **Binary** để giữ nguyên mã chữ TCVN3 và nội dung file. Chép gộp các thư mục, chỉ xác nhận ghi đè file cần cập nhật sau khi đã sao lưu; không xóa file khác trên server.
-5. Chép riêng nội dung `cuonghappypets_cgpt/Client/settings/` vào `settings/` của Client trên Windows, như bảng ở trên. Kiểm tra đường dẫn và file đã chép xong, đóng WinSCP rồi khởi động lại GameServer.
+5. Với Full (hoặc gói có Client), chép riêng nội dung `cuonghappypets_cgpt/Client/settings/` vào `settings/` của Client trên Windows, như bảng ở trên. Kiểm tra đường dẫn và file đã chép xong, đóng WinSCP rồi khởi động lại GameServer.
 
 Nếu không kết nối được, kiểm tra Linux đã chạy, dịch vụ SSH và cổng 22 của bộ cài có hoạt động hay không; không mở cổng ra Internet chỉ để chép file cục bộ. Mật khẩu trên chỉ dành cho cấu hình mặc định được nêu ở đây; nếu đã đổi, dùng mật khẩu hiện tại. Không dùng mật khẩu mặc định cho máy chủ mở ra mạng, không lưu hoặc chia sẻ mật khẩu cá nhân.
 
@@ -56,11 +57,13 @@ Nếu không kết nối được, kiểm tra Linux đã chạy, dịch vụ SSH
 
 Khởi động GameServer, mở game, vào **Cẩm Nang Đồng Hành → Nhận Lệnh bài Hồi Ức → Hồi Ức Võ Lâm Lệnh**. Chọn Quản lý sự kiện, mùa và sự kiện muốn chơi. Chỉ mở một sự kiện tại một thời điểm; xem [hướng dẫn chung](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/guide.html).
 
-Bản Beta3 có 63 ID kỹ thuật, 62 bài trong danh mục, 61 sự kiện có thể mở. Trung thu PGaming (#02) được lưu trữ; người chơi có thể xem bài lưu trữ nhưng không mở sự kiện này trong Beta3. Gặp Thượng Sứ Lễ Hội ở Tương Dương, ngay giữa cổng Nha Môn dưới bậc thang. Khi có sự kiện đang mở, vào Quản lý sự kiện hiện tại để tạm dừng hoặc đóng; muốn đóng hẳn sự kiện đã tạm dừng, chọn sự kiện trong nhóm mùa. Thép Tinh Luyện đang tạm khóa. Owner đã chấp nhận lượt chơi thử nhanh trên bản private tương ứng. Chưa kiểm chứng độc lập việc cài mới bản cộng đồng trên từng nền tảng và chơi hết các tuyến sự kiện.
+Bản Beta4 có 63 ID kỹ thuật, 62 bài trong danh mục, 61 sự kiện có thể mở. Trung thu PGaming (#02) được lưu trữ; người chơi có thể xem bài lưu trữ nhưng không mở sự kiện này trong Beta4. Gặp Thượng Sứ Lễ Hội ở Tương Dương, ngay giữa cổng Nha Môn dưới bậc thang. Khi có sự kiện đang mở, vào Quản lý sự kiện hiện tại để tạm dừng hoặc đóng; muốn đóng hẳn sự kiện đã tạm dừng, chọn sự kiện trong nhóm mùa. Thép Tinh Luyện đang tạm khóa. Owner đã chấp nhận lượt chơi thử nhanh trên bản private tương ứng. Chưa kiểm chứng độc lập việc cài mới bản cộng đồng trên từng nền tảng và chơi hết các tuyến sự kiện.
 
 ## 5. Cập nhật addon
 
-Khi có bản cập nhật mới, không cần cài lại game gốc nếu game đang hoạt động bình thường. Từ đúng beta.2 cộng đồng lên beta.3, dùng gói Update ở mục 2. Nếu #02 đang mở hoặc tạm dừng, hoàn tất đổi thưởng mong muốn và đóng trước khi nâng cấp. Đối chiếu 36 file theo PRE.sha256 và xác nhận 7 đường dẫn NEW_PATHS.txt chưa có; nếu lệch, dừng. Chép gộp cả server1 và Client theo mục 3; không chép thư mục rollback trừ khi cần phục hồi. Kiểm tra POST.sha256 trước khi chạy lại game.
+Từ đúng Beta3 cộng đồng lên Beta4, dừng GameServer, sao lưu và đối chiếu 14 file PRE.sha256; nếu lệch thì dừng. Chép gộp server1, không chép rollback và không cần Client. Kiểm tra POST.sha256 rồi khởi động. Beta 4 bổ sung 19 ID map cấp cao, gồm Tu Luyện Cốc 90–180. Mặc định 10% nhóm thấp, 20% nhóm cao (90/110/119 theo file drop), một vật phẩm mỗi lượt trúng; giữ nguồn đặc thù và điều kiện riêng. Owner xác nhận farm tại Tu Luyện Cốc ngày 28/11/2026, chưa nghiệm thu mọi map/nền tảng.
+
+RC02 là gói thử nghiệm tùy chọn sau Beta 4 chính: Lệnh bài → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ), xem tên map, chỉnh tỷ lệ/số lượng, bật/tắt và reset. Chưa nghiệm thu native Relay, giao diện và lưu qua restart; chỉ thử trên bản sao offline.
 
 1. Tải đúng gói cập nhật dành cho phiên bản addon và bộ game anh em đang dùng. Đọc hướng dẫn đi kèm gói; không lấy file cập nhật của phiên bản khác ghép vào.
 2. Thoát game, dừng GameServer và sao lưu các file sắp thay cùng dữ liệu nhân vật.
@@ -70,8 +73,8 @@ Khi có bản cập nhật mới, không cần cài lại game gốc nếu game 
 
 ## 6. Nếu gặp lỗi hoặc muốn gỡ addon
 
-Dừng game/server, dùng bản sao lưu đúng phiên bản để khôi phục. Với Update từ beta.2, chép lại rollback/server1 và rollback/Client vào đúng thư mục game, chỉ xóa 7 file mới liệt kê trong NEW_PATHS.txt sau khi xác minh chúng là file do bản cập nhật thêm. Đối chiếu PRE.sha256; không xóa file khác. Khôi phục file không tự hoàn lại vật phẩm, kinh nghiệm hoặc tiến độ đã phát sinh; khi cần phải khôi phục cả dữ liệu nhân vật. Nếu mất đồ hoặc phát sinh thưởng bất thường, đừng thực hiện lại liên tục. [Gửi góp ý](REPORT_BUG.md).
+Dừng game/server, dùng bản sao lưu đúng phiên bản. Update từ Beta3: chép rollback/server1 và xác minh PRE.sha256. RC02: trước khi dừng, reset về mặc định và xác nhận readback để tránh override cũ hoạt động lại khi cài lần sau. Sau khi dừng, xác minh POST, khôi phục rollback/server1 và chỉ xóa file mới trong NEW_PATHS.txt nếu đúng checksum. Không sửa DB thủ công. Khôi phục file không hoàn tác tiến độ nhân vật. [Gửi góp ý](REPORT_BUG.md).
 
 ## Kiểm tra file tải (không bắt buộc)
 
-Đối chiếu mã SHA256 từ trang [Releases](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.3) với file tải về. Trên Windows có thể mở PowerShell tại thư mục chứa ZIP và chạy `Get-FileHash -Algorithm SHA256 .\CGPT_1.1.0-beta.3_Full.zip` (đổi tên file nếu dùng gói Update).
+Đối chiếu mã SHA256 từ trang [Releases](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.4) với file tải về. Trên Windows có thể mở PowerShell tại thư mục chứa ZIP và chạy `Get-FileHash -Algorithm SHA256 .\CGPT_1.1.0-beta.4_Full.zip` (đổi tên file nếu dùng gói Update).

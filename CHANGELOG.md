@@ -1,5 +1,14 @@
 # Lịch sử phát hành
 
+## Beta cộng đồng 4 — v1.1.0-beta.4 · 28/11/2026
+
+Beta 4 bổ sung 19 ID map cấp cao, gồm Tu Luyện Cốc 90–180. Mặc định 10% nhóm thấp, 20% nhóm cao (90/110/119 theo file drop), một vật phẩm mỗi lượt trúng; giữ nguồn đặc thù và điều kiện riêng. Owner xác nhận farm tại Tu Luyện Cốc ngày 28/11/2026, chưa nghiệm thu mọi map/nền tảng.
+
+RC02 là gói thử nghiệm tùy chọn sau Beta 4 chính: Lệnh bài → Quản lý sự kiện → Quản lý vật phẩm sự kiện (sau Kỳ duyên giang hồ), xem tên map, chỉnh tỷ lệ/số lượng, bật/tắt và reset. Chưa nghiệm thu native Relay, giao diện và lưu qua restart; chỉ thử trên bản sao offline.
+
+- 8.455/8.455 ca mô phỏng RC01; 8.701/8.701 ca mô phỏng RC02. Full và Update chính là RC01; RC02 tùy chọn.
+- [Tải và ghi chú phát hành](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.4)
+
 ## Beta cộng đồng 3 — v1.1.0-beta.3 · 27/11/2026
 
 - Bổ sung ID62 Lễ hội chiến công: đổi điểm Tống Kim tích lũy thật, mua Công trạng lệnh, ghép Túi quà may mắn và đổi hoa lấy EXP. Không thêm điểm Tống Kim giả hoặc nguồn rơi từ quái.
