@@ -15,15 +15,6 @@ Bản beta cộng đồng hiện tại của **JxCER — JXOffline Classic Event
 
 Chỉ cần một gói phù hợp. Không tải mục **Source code (zip)** của GitHub để cài addon. Giải nén vào thư mục riêng, không giải nén đè trực tiếp vào game. Nếu dùng gói Update, đọc README.md trong gói, sao lưu và đối chiếu PRE.sha256 trước khi chép. Nếu không chắc đang dùng đúng Beta3 cộng đồng hoặc đã có mod riêng, dừng để đối chiếu.
 
-### Bản thử nghiệm Beta 5 RC1 (tùy chọn)
-
-- [Full.zip để thử trên bản sao](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.5-rc1/JxCER_1.1.0-beta.5-rc1_Full.zip)
-- [Update từ chính xác Beta 4 cộng đồng](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.5-rc1/JxCER_1.1.0-beta.5-rc1_Update_from_beta.4.zip)
-
-Bản này có **19 thay đổi, trong đó có bảng vật phẩm ở cả Client và server**, nên phải đồng bộ cả hai phía. Bỏ nút Drop thường dư thừa; tỷ lệ drop chỉ phụ thuộc cài đặt map và trạng thái mở/tạm dừng/đóng sự kiện. Reset tỷ lệ chỉ về 2%/5%, không đổi Fix Bug Auto. Fix Bug Auto chỉ thử nghiệm cho #01/#27/#21, mặc định tắt. Nếu Relay chưa xác nhận, đọc lại và chọn Thử lưu lại; không coi yêu cầu đã gửi là đã lưu.
-
-**Chưa có UAT native, từng có báo cáo treo đăng nhập một nhân vật ở thử nghiệm Beta 5.** Chỉ thử trên bản sao game, backup dữ liệu nhân vật. Không áp dụng trên server đang chơi hay save duy nhất nếu chưa xác minh. Muốn quay về Beta 4 phải xử lý vật phẩm Auto thử nghiệm còn lại và dùng đúng rollback trong gói.
-
 ## 3. Chép addon vào game
 
 Full.zip cần đồng bộ server và Client; các gói Update 4 chỉ cần server. Không đổi tên thư mục game; thư mục `cuonghappypets_cgpt` chỉ là thư mục chứa file addon đã giải nén.

@@ -4,7 +4,7 @@
 
 ![Hồi Ức Võ Lâm — JxOffline V5 Classic Events Remastered, banner minh họa của dự án](assets/readme/cover.jpg)
 
-**JxOffline V5 (by ACE) · Beta cộng đồng 4** (phiên bản phát hành: v1.1.0-beta.4)
+**JxOffline V5 (by ACE) · Beta cộng đồng 4.1** (phiên bản phát hành: v1.1.0-beta.4)
 
 Thư mục gói addon: `cuonghappypets_cgpt`
 
@@ -27,8 +27,6 @@ Thư mục gói addon: `cuonghappypets_cgpt`
 - **[Hướng dẫn chi tiết cách cài đặt, cấu hình kết nối và cập nhật addon](INSTALL.md)**.
 - **[Hướng dẫn chép file từ Windows sang server bằng WinSCP](INSTALL.md#chép-file-từ-windows-sang-server-bằng-winscp-sftp)**.
 - [Mở cẩm nang 62 sự kiện](https://cuonghappypets.github.io/jxoffline-v5-classic-events-remastered/) · [Gửi góp ý](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/issues).
-
-**Bản thử nghiệm Beta 5 RC1 (chưa thay thế Beta 4):** [Full.zip](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.5-rc1/JxCER_1.1.0-beta.5-rc1_Full.zip) · [Update từ đúng Beta 4](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/download/v1.1.0-beta.5-rc1/JxCER_1.1.0-beta.5-rc1_Update_from_beta.4.zip). Bỏ công tắc Drop thường, chỉnh tỷ lệ thấp/cao trực tiếp, reset chỉ đặt lại 2%/5% (không đổi Fix Bug Auto). Tùy chọn Fix Bug Auto cho ba sự kiện đang thử nghiệm, mặc định tắt. Đã qua 120/120 ca giả lập; **chưa nghiệm thu engine/MelAuto/Relay native**. Đã có báo cáo treo đăng nhập một nhân vật trong đợt thử Beta 5 trước, chưa rõ nguyên nhân: **chỉ cài trên bản sao sau khi backup, không dùng trên save duy nhất.** Beta 4 vẫn là bản khuyến nghị để chơi ổn định.
 
 Chưa có game? Xem mục [Cài JxV5 bằng bộ cài WSL2 của VDK](#cài-jxv5-bằng-bộ-cài-wsl2-của-vdk). Đã chơi được game gốc? Chuyển thẳng đến mục [Cài đặt và đồng bộ addon](#cài-đặt-và-đồng-bộ-addon).
 
