@@ -1,5 +1,13 @@
 # Anh em cùng chơi thử
 
+## Beta 5 RC1 — thử nghiệm trên bản sao
+
+Bản thử nghiệm riêng, không thay thế Beta 4. Giữ một bản sao dữ liệu nhân vật, Client và server1; dừng GameServer trước khi thử. Nếu từng bị treo nhân vật trên Beta 5, **không thử bằng save nhân vật chính**.
+
+Khi một sự kiện đang mở, vào Hồi Ức Võ Lâm Lệnh → Quản lý sự kiện → Quản lý vật phẩm. Kiểm tra hai hàng tỷ lệ 2%/5%, đặt 0% và 100%, xác nhận và mở lại kiểm tra giá trị lưu. Dùng map đã xác minh đủ điều kiện, đánh quái bằng tay; tránh kết luận từ Auto hoặc map không nằm trong nhóm. Tạm dừng/đóng sự kiện phải chặn drop ngay cả ở 100%. Khôi phục tỷ lệ không được thay đổi Fix Bug Auto. Với Fix Bug Auto, thử tắt trước rồi chỉ bật trên #01/#27/#21 khi có bản sao UAT; kiểm tra nhặt 1 vật phẩm thực, túi đầy và đăng nhập lại. Nếu Relay chưa xác nhận, thử lưu lại từ menu; ghi nhận trạng thái thực tế, không nhấn liên tục.
+
+Đã kiểm tra mô phỏng 120/120 và checksum, chưa kiểm thử native. Báo lỗi bằng map, tên sự kiện, trạng thái mở/đóng, tỷ lệ nhập/hiển thị lại, phiên bản và hành vi quái chết; không dùng kết quả giả lập thay thế kiểm chứng trong game.
+
 ## Beta 4 — kiểm thử theo phản hồi
 
 Beta 4 bổ sung các bãi luyện công cấp cao, trong đó có Tu Luyện Cốc 90–180, và chỉnh tỷ lệ mặc định xuống 2% ở nhóm thấp và 5% ở nhóm cao (90/110/119 theo file drop), mỗi lượt trúng rơi một món. Điều kiện riêng và các nguồn rơi đặc thù vẫn giữ nguyên.

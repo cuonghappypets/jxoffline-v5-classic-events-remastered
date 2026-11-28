@@ -1,5 +1,14 @@
 # Lịch sử phát hành
 
+## Beta 5 RC1 — thử nghiệm · 28/11/2026
+
+- Vá menu Hồi Ức Võ Lâm Lệnh: nhãn tỷ lệ 2%/5% rõ ràng, bỏ công tắc Drop thường, giữ cơ chế dừng/đóng sự kiện hiện có. Reset chỉ trả tỷ lệ về mặc định, không thay đổi Fix Bug Auto.
+- Khi Relay chưa xác nhận lệnh lưu, hỗ trợ thử ghi lại thay vì thông báo thành công không có readback; chưa có xác minh nguyên nhân native của phản hồi người dùng về mức 0%/100% không áp dụng.
+- Thử nghiệm Fix Bug Auto mặc định TẮT với Tết 2006, Trung thu 2006 và Tết 2009; đồng bộ Client/server. Không thay đổi các nhánh thưởng và sự kiện khác.
+- 120/120 ca mô phỏng Lua 5.1 PASS, so sánh checksum/rollback độc lập PASS; engine, Relay sau restart, MelAuto, an toàn save và việc đăng nhập nhân vật **chưa được nghiệm thu**. Báo cáo treo nhân vật từ đợt Beta5 trước vẫn mở.
+- [Bản thử nghiệm có cảnh báo](https://github.com/cuonghappypets/jxoffline-v5-classic-events-remastered/releases/tag/v1.1.0-beta.5-rc1). Beta 4 vẫn là bản phát hành chính.
+
+
 ## Beta cộng đồng 4 — v1.1.0-beta.4 · 28/11/2026
 
 Bản cập nhật theo phản hồi người chơi, gom toàn bộ cải tiến ngày 28/11 vào một bản duy nhất.
